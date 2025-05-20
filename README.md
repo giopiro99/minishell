@@ -25,4 +25,4 @@ The project is organized into distinct modules that handle parsing, execution, v
 ## How to Compile
 
 ```bash
-make
+make vall for track fds, leaks, ecc...
