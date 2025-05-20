@@ -1,17 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 17:42:17 by gpirozzi          #+#    #+#             */
-/*   Updated: 2024/11/19 17:42:20 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:15:11 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
-//#include <stdio.h>
+
+/**
+ * @brief Returns the length of a null-terminated string.
+ *
+ * Counts the number of characters in 'str' until the null terminator.
+ *
+ * @param str The input null-terminated string.
+ * @return size_t The length of the string excluding the null terminator.
+ */
 static	size_t	len(const char *str)
 {
 	size_t	j;
@@ -22,6 +30,21 @@ static	size_t	len(const char *str)
 	return (j);
 }
 
+/**
+ * @brief Concatenates 'src' to the end of 'dst' with size limit.
+ *
+ * Appends string 'src' to the end of 'dst', ensuring the total length
+ * does not exceed 'size' (including null terminator).
+ * Returns the total length of the string it tried to create,
+ * i.e., initial length of 'dst' plus length of 'src'.
+ * If 'size' is less than or equal to initial length of 'dst',
+ * returns 'size' plus length of 'src' without concatenation.
+ *
+ * @param dst Destination buffer containing a null-terminated string.
+ * @param src Source string to append.
+ * @param size Total size of the destination buffer.
+ * @return size_t The length of the string it tried to create.
+ */
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	i;

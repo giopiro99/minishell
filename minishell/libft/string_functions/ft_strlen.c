@@ -6,12 +6,22 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 14:56:35 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/11 14:53:56 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:15:55 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Calculates the length of a null-terminated string.
+ *
+ * Iterates through the string until the null terminator is found,
+ * counting the number of characters.
+ * Returns 0 if the input string pointer is NULL.
+ *
+ * @param str Pointer to the null-terminated string.
+ * @return size_t Number of characters in the string excluding the null terminator.
+ */
 size_t	ft_strlen(const char *str)
 {
 	size_t	i;

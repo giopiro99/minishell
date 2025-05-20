@@ -6,12 +6,24 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 15:13:55 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/14 18:26:28 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:54:22 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Prints an unsigned integer in hexadecimal format.
+ *
+ * Recursively converts the given unsigned integer to a hexadecimal string
+ * and writes it to the specified file descriptor. Supports lowercase ('x')
+ * and uppercase ('X') output depending on the format specifier.
+ *
+ * @param n The unsigned integer to print.
+ * @param c Format specifier, 'x' for lowercase, 'X' for uppercase.
+ * @param fd File descriptor to write the output to.
+ * @return The number of characters written.
+ */
 int	ft_hexadecimal(unsigned int n, const char c, int fd)
 {
 	int		count;

@@ -6,12 +6,20 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 16:43:05 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:57:16 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:02:01 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Returns the last node of a linked list.
+ *
+ * Traverses the list until reaching the last node, then returns it.
+ *
+ * @param lst Pointer to the first node of the list.
+ * @return t_list* Pointer to the last node of the list, or NULL if the list is empty.
+ */
 t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)

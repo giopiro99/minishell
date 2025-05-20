@@ -6,24 +6,24 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 14:38:37 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 12:09:21 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:02:47 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
 /**
- * @brief Esegue un comando all'interno di una pipeline.
+ * @brief Executes a command within a pipeline.
  *
- * Se il comando è un built-in, lo esegue direttamente. Altrimenti,
- * invoca l'esecuzione di un comando di sistema.
- * Dopo l'esecuzione libera la memoria della pipeline.
+ * If the command is a built-in, executes it directly.
+ * Otherwise, runs it as an external system command.
+ * After execution, frees the memory associated with the pipeline.
  *
- * @param current Nodo corrente della pipeline
- * @param env Ambiente della shell
- * @param token Token associato al comando
- * @param head Inizio della pipeline (usato per la liberazione)
+ * @param current Current node in the pipeline
+ * @param env Shell environment
+ * @param token Token associated with the command
+ * @param head Head of the pipeline list (used for freeing memory)
  */
-void	ft_exe_pipe_cmd(t_pipe *current, t_env *env,
+ void	ft_exe_pipe_cmd(t_pipe *current, t_env *env,
 	t_token *token, t_pipe *head)
 {
 	if (!ft_strcmp(current->cmd->cmd, "echo"))
@@ -49,15 +49,15 @@ void	ft_exe_pipe_cmd(t_pipe *current, t_env *env,
 }
 
 /**
- * @brief Esegue una lista di comandi non pipati.
+ * @brief Executes a list of non-pipelined commands.
  *
- * Per ogni comando nella lista, identifica se è un built-in
- * ed esegue la funzione corrispondente. Altrimenti, esegue
- * il comando come processo esterno.
+ * For each command in the list, checks if it is a built-in command
+ * and executes the corresponding function. Otherwise, executes
+ * it as an external system command.
  *
- * @param cmd_list Lista dei comandi da eseguire
- * @param env Ambiente della shell
- * @param token Token associati ai comandi
+ * @param cmd_list List of commands to execute
+ * @param env Shell environment
+ * @param token Tokens associated with the commands
  */
 void	ft_exe_cmd(t_cmd *cmd_list, t_env *env, t_token *token)
 {

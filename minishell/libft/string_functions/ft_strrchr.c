@@ -3,15 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 19:17:07 by gpirozzi          #+#    #+#             */
-/*   Updated: 2024/11/19 19:17:09 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:17:25 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
-//#include <stdio.h>
+
+/**
+ * @brief Finds the last occurrence of the character `c` in the string `s`.
+ *
+ * Searches the string `s` from the end to the beginning for the character `c`.
+ * If found, returns a pointer to the last occurrence of `c` in `s`. If `c` is
+ * the null terminator, returns a pointer to the end of the string. Returns NULL
+**/
 char	*ft_strrchr(const char *s, int c)
 {
 	int		i;

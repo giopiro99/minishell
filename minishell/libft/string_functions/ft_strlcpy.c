@@ -3,15 +3,30 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 17:48:52 by gpirozzi          #+#    #+#             */
-/*   Updated: 2024/11/18 17:48:55 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:15:33 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
-//#include <stdio.h>
+
+/**
+ * @brief Copies up to size - 1 characters from the string src to dst,
+ *        null-terminating the result.
+ *
+ * Copies characters from 'src' to 'dst' until either 'size - 1' characters
+ * are copied or the null terminator of 'src' is reached.
+ * The destination string is always null-terminated if 'size' is greater than 0.
+ * Returns the total length of 'src'; this allows detection of truncation
+ * by comparing the return value with 'size'.
+ *
+ * @param dst Destination buffer where the string is copied.
+ * @param src Source null-terminated string to copy from.
+ * @param size Total size of the destination buffer.
+ * @return size_t Length of the source string 'src'.
+ */
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	i;

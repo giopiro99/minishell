@@ -3,15 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 17:58:16 by gpirozzi          #+#    #+#             */
-/*   Updated: 2024/11/22 17:58:18 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:11:00 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-//#include <stdio.h>
+
+/**
+ * @brief Calculates the number of characters needed to represent an integer as a string.
+ *
+ * Accounts for a possible negative sign and returns 1 if the number is 0.
+ *
+ * @param n The integer to evaluate.
+ * @return int The number of characters required to represent 'n' as a string.
+ */
 static int	get_len(int n)
 {
 	int	len;
@@ -32,6 +40,15 @@ static int	get_len(int n)
 	return (len);
 }
 
+/**
+ * @brief Copies a null-terminated string into another buffer.
+ *
+ * Assumes 'str' has enough space to hold 's2'. Appends a null terminator.
+ *
+ * @param str Destination buffer.
+ * @param s2 Source null-terminated string.
+ * @return char* Pointer to the destination buffer 'str'.
+ */
 static char	*fstrcpy(char *str, char *s2)
 {
 	int	i;
@@ -46,6 +63,16 @@ static char	*fstrcpy(char *str, char *s2)
 	return (str);
 }
 
+/**
+ * @brief Returns a string representation of the minimum integer value.
+ *
+ * Handles the edge case of INT_MIN (-2147483648) which cannot be
+ * negated in a 32-bit integer range. The returned string is allocated
+ * dynamically and must be freed by the caller.
+ *
+ * @return char* A newly allocated string containing "-2147483648",
+ * or NULL if memory allocation fails.
+ */
 static char	*int_min(void)
 {
 	char	*str;
@@ -57,6 +84,18 @@ static char	*int_min(void)
 	return (str);
 }
 
+/**
+ * @brief Fills a string buffer with the digits of an integer.
+ *
+ * Assumes the buffer 'str' has enough space for the digits and handles
+ * negative numbers by prepending a minus sign. The digits are filled
+ * from the end of the string toward the beginning.
+ *
+ * @param str Pointer to the destination buffer.
+ * @param i Index from which to start inserting digits (from the end).
+ * @param n The integer to convert.
+ * @return char* Pointer to the filled string buffer 'str'.
+ */
 static char	*fget_itoa(char *str, int i, int n)
 {
 	if (n == 0)
@@ -78,6 +117,17 @@ static char	*fget_itoa(char *str, int i, int n)
 	return (str);
 }
 
+/**
+ * @brief Converts an integer to a null-terminated string.
+ *
+ * Handles negative numbers, including the special case of INT_MIN (-2147483648),
+ * which cannot be directly negated. Allocates sufficient memory to store the
+ * resulting string, including the null terminator.
+ *
+ * @param n The integer to convert.
+ * @return char* A pointer to the newly allocated string representing the integer,
+ * or NULL if memory allocation fails.
+ */
 char	*ft_itoa(int n)
 {
 	int		len;

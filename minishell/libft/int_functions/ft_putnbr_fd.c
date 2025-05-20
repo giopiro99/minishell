@@ -6,12 +6,22 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 12:41:12 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/14 18:29:41 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:54:46 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Writes an integer to a given file descriptor.
+ *
+ * Handles negative numbers, including the minimum integer value,
+ * and writes the number as a string to the specified file descriptor.
+ *
+ * @param n The integer to write.
+ * @param fd The file descriptor where the output is written.
+ * @return The number of characters written.
+ */
 int	ft_putnbr_fd(int n, int fd)
 {
 	int	count;

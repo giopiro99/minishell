@@ -6,22 +6,22 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 11:05:25 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 12:05:37 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:11:01 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "system_commands.h"
 
 /**
- * @brief Cerca il percorso eseguibile di un comando.
+ * @brief Searches for the executable path of a command.
  *
- * Se il comando è un percorso relativo o assoluto, verifica i permessi di esecuzione.
- * Altrimenti, cerca il comando in tutte le directory indicate nella variabile PATH.
- * Restituisce una stringa allocata con il percorso completo o NULL se non trovato.
+ * If the command is a relative or absolute path, checks for execution permissions.
+ * Otherwise, searches the command in all directories listed in the PATH environment variable.
+ * Returns a newly allocated string with the full path or NULL if not found.
  *
- * @param env Lista delle variabili d’ambiente
- * @param cmd Struttura del comando contenente nome e argomenti
- * @return char* Percorso completo del comando o NULL se non trovato
+ * @param env List of environment variables
+ * @param cmd Command structure containing the name and arguments
+ * @return char* Full path to the command executable or NULL if not found
  */
 char	*ft_path_finder(t_env *env, t_cmd *cmd)
 {
@@ -53,13 +53,13 @@ char	*ft_path_finder(t_env *env, t_cmd *cmd)
 }
 
 /**
- * @brief Crea una matrice di argomenti per l’esecuzione di un comando.
+ * @brief Creates an argument matrix for command execution.
  *
- * Prepara una matrice di stringhe con il comando e i suoi argomenti, terminata da NULL,
- * adatta per la chiamata execve.
+ * Prepares a null-terminated array of strings containing the command and its arguments,
+ * suitable for passing to execve.
  *
- * @param cmd Struttura del comando contenente nome e argomenti
- * @return char** Matrice di stringhe per execve o NULL in caso di errore di allocazione
+ * @param cmd Command structure containing name and arguments
+ * @return char** Null-terminated array of strings for execve or NULL on allocation failure
  */
 char	**ft_mtx_cmd(t_cmd *cmd)
 {
@@ -84,14 +84,14 @@ char	**ft_mtx_cmd(t_cmd *cmd)
 }
 
 /**
- * @brief Esegue un comando esterno con `execve`, reindirizzando stdout se necessario.
+ * @brief Executes an external command with execve, redirecting stdout if needed.
  *
- * Se `dir` è valido, chiama `execve` con la matrice di argomenti e l’ambiente passato.
- * In caso di errore stampa il messaggio e imposta `exit_status` a 126.
+ * If dir is valid, calls execve with the argument matrix and the environment.
+ * On error, prints the error message and sets exit_status to 126.
  *
- * @param dir Percorso assoluto del binario da eseguire
- * @param matrix_exe Matrice di argomenti per execve
- * @param env Ambiente della shell
+ * @param dir Absolute path to the executable binary
+ * @param matrix_exe Argument matrix for execve
+ * @param env Shell environment
  */
 void	ft_execution(char **dir, char **matrix_exe, t_env *env)
 {
@@ -103,18 +103,18 @@ void	ft_execution(char **dir, char **matrix_exe, t_env *env)
 		env->exit_status = 126;
 	}
 }
-
 /**
- * @brief Funzione eseguita dal processo figlio per eseguire un comando.
+ * @brief Function executed by the child process to run a command.
  *
- * Prepara gli argomenti, gestisce i file descriptor di output,
- * imposta i segnali di default per SIGINT e SIGQUIT, e chiama ft_execution.
- * Restituisce -1 in caso di errore o 0 altrimenti.
+ * Prepares arguments, manages output file descriptors,
+ * sets default signal handlers for SIGINT and SIGQUIT,
+ * and calls ft_execution.
+ * Returns -1 on error, 0 otherwise.
  *
- * @param cmd Struttura del comando
- * @param env Ambiente della shell
- * @param dir Puntatore al percorso del comando
- * @return int 0 se successo, -1 se errore
+ * @param cmd Command structure
+ * @param env Shell environment
+ * @param dir Pointer to the command path string
+ * @return int 0 on success, -1 on error
  */
 int	ft_child(t_cmd *cmd, t_env *env, char **dir)
 {
@@ -144,15 +144,15 @@ int	ft_child(t_cmd *cmd, t_env *env, char **dir)
 }
 
 /**
- * @brief Esegue un comando di sistema creando un processo figlio.
+ * @brief Executes a system command by creating a child process.
  *
- * Cerca il percorso del comando, crea un processo figlio,
- * esegue il comando tramite ft_child, e attende la terminazione.
- * Aggiorna lo stato di uscita della shell.
+ * Searches the command path, forks a child process,
+ * runs the command via ft_child, and waits for its termination.
+ * Updates the shell exit status accordingly.
  *
- * @param env Ambiente della shell
- * @param cmd Struttura del comando
- * @return int 0 se successo, -1 o codice errore altrimenti
+ * @param env Shell environment
+ * @param cmd Command structure
+ * @return int 0 on success, -1 or error code otherwise
  */
 int	ft_exe_syscmd(t_env *env, t_cmd *cmd)
 {

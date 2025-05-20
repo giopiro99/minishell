@@ -6,12 +6,20 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 16:44:33 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:58:51 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:04:35 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Sets the first 'n' bytes of the memory area pointed to by 's' to zero.
+ *
+ * This function writes zero bytes to the memory area to clear it.
+ *
+ * @param s Pointer to the memory area to be zeroed.
+ * @param n Number of bytes to set to zero.
+ */
 void	ft_bzero(void *s, size_t n)
 {
 	size_t			i;

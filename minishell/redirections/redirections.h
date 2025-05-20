@@ -6,7 +6,7 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 22:47:39 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 11:35:14 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:09:31 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,69 +16,69 @@
 # include "../common_utils/common_utils.h"
 
 /**
- * @brief Gestisce una redirezione all'interno di un comando.
+ * @brief Handles a redirection inside a command.
  *
- * A seconda del tipo di redirezione (>, >>, <, <<),
- * esegue l'operazione appropriata modificando eventualmente
- * i file descriptor del comando.
+ * Depending on the redirection type (>, >>, <, <<),
+ * performs the appropriate operation possibly modifying
+ * the command's file descriptors.
  *
- * @param cmd Struttura del comando corrente
- * @param type Tipo di redirezione da gestire
- * @param tokens Lista dei token associati alla redirezione
- * @param env Struttura dell'ambiente della shell
- * @return Il tipo di redirezione gestito o ERROR in caso di fallimento
+ * @param cmd Current command structure
+ * @param type Redirection type to handle
+ * @param tokens List of tokens associated with the redirection
+ * @param env Shell environment structure
+ * @return The handled redirection type or ERROR on failure
  */
-t_type	handle_redirection(t_cmd *cmd, t_type type,
-			t_token *tokens, t_env *env);
+ t_type	handle_redirection(t_cmd *cmd, t_type type,
+	t_token *tokens, t_env *env);
 
 /**
- * @brief Gestisce una redirezione anche in assenza di comando associato.
- *
- * È utile per casi come un here-document standalone, ad esempio `<< DELIM`.
- *
- * @param type Tipo di redirezione
- * @param tokens Lista dei token associati alla redirezione
- * @param env Ambiente della shell
- * @return 0 in caso di successo, -1 in caso di errore
- */
+* @brief Handles a redirection even without an associated command.
+*
+* Useful for cases like a standalone here-document, e.g. `<< DELIM`.
+*
+* @param type Redirection type
+* @param tokens List of tokens associated with the redirection
+* @param env Shell environment
+* @return 0 on success, -1 on error
+*/
 int		handle_redirection_without_command(t_type type,
-			t_token *tokens, t_env *env);
+	t_token *tokens, t_env *env);
 
 /**
- * @brief Gestisce l'intero processo di input per un here-document.
- *
- * Apre un file temporaneo e lo popola leggendo da stdin fino al
- * raggiungimento del delimitatore. Supporta anche l'interruzione
- * con segnali come SIGINT.
- *
- * @param tokens Lista dei token del comando corrente
- * @param env Puntatore alla struttura dell’ambiente della shell
- * @return 0 in caso di successo, -1 in caso di errore
- */
+* @brief Handles the full input process for a here-document.
+*
+* Opens a temporary file and fills it by reading from stdin until
+* the delimiter is reached. Supports interruption via signals like SIGINT.
+*
+* @param tokens List of tokens of the current command
+* @param env Pointer to the shell environment structure
+* @return 0 on success, -1 on error
+*/
 int		handle_heredoc(t_token *tokens, t_env *env);
 
 /**
- * @brief Restituisce il valore del token usato come delimitatore del here-document.
- *
- * Cerca nella lista di token il primo token di tipo DELIMITER e ne restituisce il valore.
- *
- * @param tokens Lista dei token da analizzare
- * @return Il valore del delimitatore o NULL se non trovato
- */
+* @brief Returns the value of the token used as here-document delimiter.
+*
+* Searches the token list for the first token of type DELIMITER and returns its value.
+*
+* @param tokens List of tokens to analyze
+* @return The delimiter value or NULL if not found
+*/
 char	*ft_found_delimiter(t_token *tokens);
 
 /**
- * @brief Esegue un singolo ciclo di lettura e scrittura del here-document.
- *
- * Legge una riga da stdin, verifica se è il delimitatore, e in caso contrario
- * la scrive su file. Gestisce anche le variabili d’ambiente e l’interruzione
- * tramite segnali.
- *
- * @param tokens Lista dei token, contenente il delimitatore e altre info
- * @param env Ambiente della shell
- * @param fd File descriptor del file temporaneo
- * @return true se l’heredoc deve essere interrotto, false altrimenti
- */
+* @brief Executes a single read-write cycle of the here-document.
+*
+* Reads a line from stdin, checks if it is the delimiter, otherwise
+* writes it to the file. Also handles environment variables and interruption
+* via signals.
+*
+* @param tokens List of tokens containing the delimiter and other info
+* @param env Shell environment
+* @param fd File descriptor of the temporary file
+* @return true if the heredoc should be interrupted, false otherwise
+*/
 bool	ft_exe_heredoc(t_token *tokens, t_env *env, int *fd);
 
 #endif
+

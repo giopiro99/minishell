@@ -6,7 +6,7 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:55:56 by lemarino          #+#    #+#             */
-/*   Updated: 2025/05/15 17:34:23 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:18:30 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,17 @@ static char	*tft_strchr(const char *s, int c)
 		return (NULL);
 }
 
+/**
+ * @brief Trims characters from the start and end of a string.
+ *
+ * Removes all characters found in `set` from the beginning and the end of the string `s1`.
+ * Returns a newly allocated string without the trimmed characters. If `s1` or `set` is NULL,
+ * returns NULL.
+ *
+ * @param s1 The original string to trim.
+ * @param set A string containing characters to be trimmed from `s1`.
+ * @return char* Newly allocated trimmed string, or NULL on allocation failure or invalid input.
+ */
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*str;

@@ -6,11 +6,45 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 15:21:43 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 16:17:14 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:20:32 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
+/*
+ * get_next_line - reads a line from a file descriptor (fd).
+ *
+ * Main function: get_next_line(int fd)
+ * - Returns the next complete line (ending with '\n' or EOF) read from the file descriptor `fd`.
+ * - Internally keeps track of leftover data (using the static variable `rest`) to handle partial reads,
+ *   allowing it to read files of any size line by line.
+ *
+ * Helper functions:
+ *
+ * ft_putline:
+ * - Reads from `fd` in chunks of size BUFFER_SIZE.
+ * - Accumulates the read data in `*result`, concatenating buffers.
+ * - Stops reading once a newline '\n' is found or EOF is reached.
+ * - On read error, frees `*result` and returns NULL.
+ *
+ * ft_getrest:
+ * - After getting a full line, extracts the leftover data after the first '\n'.
+ * - Returns this leftover string to be used on the next call to get_next_line.
+ * - Truncates the current line at the newline so only one line is returned.
+ * - Returns NULL if no leftover exists.
+ *
+ * get_next_line:
+ * - Allocates a buffer for reading.
+ * - Checks validity of `fd` and BUFFER_SIZE.
+ * - Uses ft_putline to read and accumulate data from `fd`.
+ * - Updates static `rest` with leftover data after the current line.
+ * - Returns the line read or NULL on error or EOF.
+ *
+ * Notes:
+ * - BUFFER_SIZE is set to 1 (reading one byte at a time).
+ * - This implementation handles files of any size, returning one line per call without data loss.
+ * - Memory allocated for lines and leftover data must be managed properly by the caller.
+ */
 
 #define BUFFER_SIZE	1
 

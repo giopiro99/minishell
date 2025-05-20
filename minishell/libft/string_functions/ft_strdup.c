@@ -6,12 +6,22 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 15:32:38 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/16 15:25:46 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:13:47 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-//#include <stdio.h>
+
+/**
+ * @brief Duplicates a null-terminated string by allocating memory.
+ *
+ * Allocates sufficient memory for a copy of the string 's',
+ * copies the content of 's' into the newly allocated memory,
+ * and returns a pointer to it.
+ *
+ * @param s The null-terminated string to duplicate.
+ * @return char* Pointer to the duplicated string, or NULL if allocation fails.
+ */
 char	*ft_strdup(const char *s)
 {
 	char	*ptr;

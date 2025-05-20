@@ -6,12 +6,21 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 12:41:12 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:56:53 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:55:07 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Writes an integer to the standard output (stdout).
+ *
+ * Handles negative numbers, including the minimum integer value,
+ * and writes the number as a string to stdout.
+ *
+ * @param n The integer to write.
+ * @return The number of characters written.
+ */
 int	ft_putnbr(int n)
 {
 	int	i;

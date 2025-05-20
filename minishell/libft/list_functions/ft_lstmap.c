@@ -6,12 +6,24 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 17:14:54 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:57:19 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:01:18 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Creates a new list by applying a function to each element of an existing list.
+ *
+ * Applies the function 'f' to the content of each node in the list 'lst' and
+ * creates a new list with the results. If node creation fails at any point,
+ * frees the entire new list created so far using the 'del' function.
+ *
+ * @param lst Pointer to the first node of the original list.
+ * @param f Function to apply to the content of each node.
+ * @param del Function used to free the content of a node in case of failure.
+ * @return t_list* Pointer to the newly created list, or NULL on failure.
+ */
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_lst;

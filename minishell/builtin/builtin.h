@@ -6,7 +6,7 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 22:22:18 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 12:01:19 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 17:45:29 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,114 +18,115 @@
 # include "../redirections/redirections.h"
 
 /**
- * @brief Funzione builtin per il comando cd (change directory).
+ * @brief Builtin function for the cd (change directory) command.
  *
- * @param cmd  Puntatore alla struttura comando corrente
- * @param env  Puntatore alla struttura ambiente shell
- * @param head Puntatore alla lista pipe (per gestione memoria)
- * @return int 0 se successo, -1 in caso di errore
+ * @param cmd  Pointer to the current command structure
+ * @param env  Pointer to the shell environment structure
+ * @param head Pointer to the pipe list (for memory management)
+ * @return int 0 on success, -1 on error
  */
 int		ft_cd(t_cmd *cmd, t_env *env, t_pipe *head);
 
  /**
-  * @brief Cerca una variabile da esportare nell'ambiente.
+  * @brief Searches for a variable to export in the environment.
   *
-  * @param env  Puntatore alla struttura ambiente shell
-  * @param args Stringa variabile ambiente da cercare
-  * @return int  indice della variabile trovata oppure -1 se non trovata
+  * @param env  Pointer to the shell environment structure
+  * @param args Environment variable string to search for
+  * @return int  index of the found variable or -1 if not found
   */
 int		ft_find_export_var(t_env *env, char *args);
 
  /**
-  * @brief Funzione builtin per il comando echo.
+  * @brief Builtin function for the echo command.
   *
-  * Stampa gli argomenti passati su stdout o file descriptor specificato.
+  * Prints the passed arguments to stdout or specified file descriptor.
   *
-  * @param cmd Puntatore alla struttura comando
-  * @param token Puntatore ai token della linea di comando
-  * @param env Puntatore alla struttura ambiente shell
-  * @param head Puntatore alla lista pipe
+  * @param cmd Pointer to the command structure
+  * @param token Pointer to the command line tokens
+  * @param env Pointer to the shell environment structure
+  * @param head Pointer to the pipe list
   */
 void	ft_echo(t_cmd *cmd, t_token *token, t_env *env, t_pipe *head);
 
  /**
-  * @brief Funzione builtin per il comando pwd (print working directory).
+  * @brief Builtin function for the pwd (print working directory) command.
   *
-  * Stampa la directory di lavoro corrente.
+  * Prints the current working directory.
   *
-  * @param cmd Puntatore alla struttura comando
-  * @param env Puntatore alla struttura ambiente shell
-  * @param head Puntatore alla lista pipe
+  * @param cmd Pointer to the command structure
+  * @param env Pointer to the shell environment structure
+  * @param head Pointer to the pipe list
   */
 void	ft_pwd(t_cmd *cmd, t_env *env, t_pipe *head);
 
  /**
-  * @brief Funzione builtin per il comando unset.
+  * @brief Builtin function for the unset command.
   *
-  * Rimuove variabili dall'ambiente.
+  * Removes variables from the environment.
   *
-  * @param cmd Puntatore alla struttura comando
-  * @param env Puntatore alla struttura ambiente shell
-  * @param head Puntatore alla lista pipe
+  * @param cmd Pointer to the command structure
+  * @param env Pointer to the shell environment structure
+  * @param head Pointer to the pipe list
   */
 void	ft_unset(t_cmd *cmd, t_env *env, t_pipe *head);
 
  /**
-  * @brief Funzione builtin per il comando exit.
+  * @brief Builtin function for the exit command.
   *
-  * Termina la shell con il codice di uscita specificato.
+  * Terminates the shell with the specified exit code.
   *
-  * @param cmd Puntatore alla struttura comando
-  * @param env Puntatore alla struttura ambiente shell
-  * @param head Puntatore alla lista pipe
+  * @param cmd Pointer to the command structure
+  * @param env Pointer to the shell environment structure
+  * @param head Pointer to the pipe list
   */
 void	ft_exit(t_cmd *cmd, t_env *env, t_pipe *head);
 
  /**
-  * @brief Funzione builtin per il comando env.
+  * @brief Builtin function for the env command.
   *
-  * Stampa o modifica le variabili d'ambiente.
+  * Prints or modifies environment variables.
   *
-  * @param cmd Puntatore alla struttura comando
-  * @param env Puntatore alla struttura ambiente shell
-  * @param head Puntatore alla lista pipe
+  * @param cmd Pointer to the command structure
+  * @param env Pointer to the shell environment structure
+  * @param head Pointer to the pipe list
   */
 void	ft_env(t_cmd *cmd, t_env *env, t_pipe *head);
 
  /**
-  * @brief Funzione builtin per il comando export.
+  * @brief Builtin function for the export command.
   *
-  * Aggiunge o modifica variabili nell'ambiente export.
+  * Adds or modifies variables in the export environment.
   *
-  * @param cmd Puntatore alla struttura comando
-  * @param env Puntatore alla struttura ambiente shell
-  * @param head Puntatore alla lista pipe
+  * @param cmd Pointer to the command structure
+  * @param env Pointer to the shell environment structure
+  * @param head Pointer to the pipe list
   */
 void	ft_export(t_cmd *cmd, t_env *env, t_pipe *head);
 
  /**
-  * @brief Libera tutte le risorse allocate associate alla lista comandi e ambiente.
+  * @brief Frees all allocated resources associated with the command list and environment.
   *
-  * @param cmd_list Puntatore alla lista comandi
-  * @param env Puntatore alla struttura ambiente shell
+  * @param cmd_list Pointer to the command list
+  * @param env Pointer to the shell environment structure
   */
 void	free_all(t_cmd *cmd_list, t_env *env);
 
  /**
-  * @brief Setta o aggiorna una variabile d'ambiente.
+  * @brief Sets or updates an environment variable.
   *
-  * @param key Nome della variabile
-  * @param var Valore da assegnare
-  * @param env Puntatore alla struttura ambiente shell
+  * @param key Variable name
+  * @param var Value to assign
+  * @param env Pointer to the shell environment structure
   */
 void	ft_setenv(const char *key, const char *var, t_env *env);
 
  /**
-  * @brief Controlla se una stringa è un identificatore valido per variabili d'ambiente.
+  * @brief Checks if a string is a valid identifier for environment variables.
   *
-  * @param str Stringa da verificare
-  * @return true se valido, false altrimenti
+  * @param str String to check
+  * @return true if valid, false otherwise
   */
 bool	is_valid_identifier(char *str);
 
 #endif
+

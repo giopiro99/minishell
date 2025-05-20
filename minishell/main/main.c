@@ -6,44 +6,44 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 14:39:26 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 10:16:08 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:03:49 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @brief Funzione principale della minishell.
+ * @brief Main function of the minishell.
  *
- * Inizializza l'ambiente, imposta i segnali e gestisce il ciclo principale
- * che riceve l'input da utente, lo processa e lo esegue.
+ * Initializes the environment, sets up signal handlers, and manages the main loop
+ * that receives user input, processes it, and executes it.
  *
- * @param ac Numero di argomenti passati da linea di comando (ignorato)
- * @param av Lista di argomenti da linea di comando (ignorato)
- * @param envp Lista delle variabili di ambiente fornite dal sistema
- * @return int Exit status (non viene mai raggiunto in condizioni normali)
+ * @param ac Number of command-line arguments (ignored)
+ * @param av List of command-line arguments (ignored)
+ * @param envp List of environment variables provided by the system
+ * @return int Exit status (never normally reached)
  */
-#include "minishell.h"
+ #include "minishell.h"
 
-int	main(int ac, char **av, char **envp)
-{
-	t_env	*env;
-	char	*input;
+ int	main(int ac, char **av, char **envp)
+ {
+	 t_env	*env;
+	 char	*input;
 
-	input = NULL;
-	env = malloc(sizeof(t_env));
-	if (!env)
-		return (-1);
-	(void)ac;
-	(void)av;
-	env->env_copy = NULL;
-	env->env_copy = ft_dup_matrix(envp, env->env_copy);
-	env->exit_status = 0;
-	while (1)
-	{
-		signal(SIGINT, handle_sigint);
-		signal(SIGQUIT, SIG_IGN);
-		ft_main_flow(&input, &env);
-		unlink("temp_file.txt");
-	}
-	free(input);
-	return (0);
-}
+	 input = NULL;
+	 env = malloc(sizeof(t_env));
+	 if (!env)
+		 return (-1);
+	 (void)ac;
+	 (void)av;
+	 env->env_copy = NULL;
+	 env->env_copy = ft_dup_matrix(envp, env->env_copy);
+	 env->exit_status = 0;
+	 while (1)
+	 {
+		 signal(SIGINT, handle_sigint);
+		 signal(SIGQUIT, SIG_IGN);
+		 ft_main_flow(&input, &env);
+		 unlink("temp_file.txt");
+	 }
+	 free(input);
+	 return (0);
+ }

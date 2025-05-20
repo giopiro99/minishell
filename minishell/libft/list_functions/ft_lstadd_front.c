@@ -6,12 +6,21 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 16:23:21 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:57:02 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:56:19 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Adds a new node at the beginning of a linked list.
+ *
+ * If the list is empty, the new node becomes the first element.
+ * Otherwise, the new node is inserted before the current first node.
+ *
+ * @param lst Pointer to the pointer of the first node in the list.
+ * @param new The new node to add at the front of the list.
+ */
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	if (!new)

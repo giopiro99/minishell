@@ -6,7 +6,7 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/17 15:19:24 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 12:18:33 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 18:57:33 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,16 @@
 int	g_signal_flag = 0;
 
 /**
- * @brief Handler per il segnale SIGINT (Ctrl-C).
+ * @brief Signal handler for SIGINT (Ctrl-C).
  *
- * Quando si riceve SIGINT, questa funzione:
- * - Stampa una nuova linea per andare a capo
- * - Dice a readline di andare a una nuova linea con rl_on_new_line()
- * - Sostituisce la linea corrente vuota (cancella il prompt corrente)
- * - Ridisegna la linea prompt con rl_redisplay()
- * - Imposta la variabile globale g_signal_flag a 130 (codice di uscita standard per SIGINT)
+ * When SIGINT is received, this function:
+ * - Prints a newline to move to the next line
+ * - Tells readline to move to a new line with rl_on_new_line()
+ * - Replaces the current input line with an empty string (clears current prompt)
+ * - Redisplays the prompt line with rl_redisplay()
+ * - Sets the global variable g_signal_flag to 130 (standard exit code for SIGINT)
  *
- * @param sig il numero del segnale ricevuto
+ * @param sig the signal number received
  */
 void	handle_sigint(int sig)
 {
@@ -39,19 +39,19 @@ void	handle_sigint(int sig)
 }
 
 /**
- * @brief Aggiorna lo stato di uscita del processo figlio nel struct env.
+ * @brief Updates the child process exit status in the env struct.
  *
- * Prende lo status restituito da waitpid e aggiorna env->exit_status in base a:
- * - Processo terminato normalmente con exit code -> exit_status = codice di uscita
- * - Processo terminato da segnale -> exit_status = 128 + numero segnale
- *   Inoltre se il segnale è SIGQUIT o SIGINT, stampa un messaggio sul terminale.
+ * Takes the status returned by waitpid and updates env->exit_status based on:
+ * - Process exited normally with exit code -> exit_status = exit code
+ * - Process terminated by signal -> exit_status = 128 + signal number
+ *   Also prints a message on the terminal if signal is SIGQUIT or SIGINT.
  *
- * Dopo, imposta i signal handler:
- * - SIGQUIT viene ignorato (SIG_IGN)
- * - SIGINT viene gestito da handle_sigint
+ * Afterwards, sets signal handlers:
+ * - SIGQUIT is ignored (SIG_IGN)
+ * - SIGINT is handled by handle_sigint
  *
- * @param status valore di stato restituito da waitpid
- * @param env struttura dell'ambiente per memorizzare exit_status
+ * @param status status value returned by waitpid
+ * @param env environment struct to store exit_status
  */
 void	get_exit_status(int status, t_env *env)
 {
@@ -72,3 +72,4 @@ void	get_exit_status(int status, t_env *env)
 	signal(SIGQUIT, SIG_IGN);
 	signal(SIGINT, handle_sigint);
 }
+

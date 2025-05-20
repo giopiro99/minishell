@@ -6,27 +6,23 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 14:56:18 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:59:01 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:05:10 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-static void	*memsets(void *s, int c, size_t n)
-{
-	size_t			i;
-	unsigned char	*p;
-
-	p = (unsigned char *)s;
-	i = 0;
-	while (i < n)
-	{
-		p[i] = (unsigned char)c;
-		i++;
-	}
-	return (s);
-}
-
+/**
+ * @brief Allocates memory for an array and initializes it to zero.
+ *
+ * Allocates memory for an array of 'nmemb' elements of 'size' bytes each.
+ * If both 'nmemb' and 'size' are zero, allocates 1 byte to avoid undefined behavior.
+ * The allocated memory is initialized to zero.
+ *
+ * @param nmemb Number of elements to allocate.
+ * @param size Size of each element in bytes.
+ * @return void* Pointer to the allocated and zero-initialized memory, or NULL on failure.
+ */
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*ptr;
@@ -40,7 +36,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	if (ptr == NULL)
 		return (NULL);
 	else
-		return (memsets(ptr, 0, nmemb * size));
+		return (ft_memset(ptr, 0, nmemb * size));
 }
 /*int main()
 {

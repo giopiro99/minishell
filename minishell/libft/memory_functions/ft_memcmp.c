@@ -6,12 +6,25 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 11:08:20 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:59:08 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 15:05:42 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Compares the first 'n' bytes of two memory areas.
+ *
+ * Compares byte by byte the memory areas pointed to by 's1' and 's2' for 'n' bytes.
+ * Returns the difference between the first pair of differing bytes interpreted
+ * as unsigned char values. If all bytes are equal, returns 0.
+ *
+ * @param s1 Pointer to the first memory area.
+ * @param s2 Pointer to the second memory area.
+ * @param n Number of bytes to compare.
+ * @return int Zero if equal, a positive or negative value based on the difference
+ *             between the first differing bytes.
+ */
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*ss1;

@@ -6,12 +6,20 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 17:01:43 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:57:09 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:57:12 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Deletes and frees a single node of a linked list.
+ *
+ * Applies the function 'del' to the content of the node before freeing the node itself.
+ *
+ * @param lst Pointer to the node to be deleted.
+ * @param del Function pointer to delete the content of the node.
+ */
 void	ft_lstdelone(t_list *lst, void (*del)(void*))
 {
 	if (del && lst)

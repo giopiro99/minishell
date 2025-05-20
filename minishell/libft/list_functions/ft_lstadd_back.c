@@ -6,12 +6,21 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 16:51:07 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/09 15:56:34 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:55:56 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Adds a new node at the end of a linked list.
+ *
+ * If the list is empty, the new node becomes the first element.
+ * Otherwise, it appends the new node to the last node of the list.
+ *
+ * @param lst Pointer to the pointer of the first node in the list.
+ * @param new The new node to add at the end of the list.
+ */
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	if (!new)

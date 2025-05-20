@@ -6,7 +6,7 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 22:33:43 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 12:05:27 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:15:11 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,97 +16,108 @@
 # include "../common_utils/common_utils.h"
 
 /*
-* Tokenizza la stringa di input, trasformandola in una lista collegata di token.
-* Restituisce il puntatore alla testa della lista di token.
-*/
-t_token	*tokenize(char *input);
-
-/*
-* Determina il tipo di token in base al valore, alla presenza di virgolette
-* e se il token è parte di un comando.
-*/
-t_type	get_token_type(char *value, int q_flag, int is_command);
-
-/*
-* Aggiunge un nuovo token alla lista collegata di token.
-*/
-void	add_token(t_token **head, t_token *new_token);
-
-/*
-* Assegna i tipi appropriati ai token (es. COMMAND, ARGUMENT, FILE_, ecc.)
-* sulla base del contesto e della sequenza.
-*/
-void	assign_token_types(t_token *tokens);
-
-/*
-* Marca correttamente i token di tipo SPACES in relazione ai token adiacenti.
-*/
-void	mark_sign_spaces(t_token *tokens);
-
-/*
-* Unisce token ARGUMENT consecutivi nella lista di token per il comando 'export'.
-*/
-void	ft_merge_tokens_export(t_token **tokens);
-
-/*
-* Unisce opzioni '-n' multiple nei token ARGUMENT per il comando 'echo'.
-*/
-void	ft_merge_tokens_echo(t_token **tokens);
-
-/*
- * Controlla la sintassi della lista di token e segnala eventuali errori.
- * Restituisce true se è presente un errore sintattico, false altrimenti.
+ * Tokenizes the input string into a linked list of tokens.
+ * Returns a pointer to the head of the token list.
  */
-bool	check_sintax(t_token *tokens);
+ t_token	*tokenize(char *input);
 
-/*
-* Verifica se la lista di token è composta solo da spazi o token inutili (GARBAGE).
-* Restituisce true se è così, false altrimenti.
-*/
-bool	check_only_spaces(t_token *tokens);
+ /*
+  * Determines the token type based on its value, presence of quotes,
+  * and whether the token is part of a command.
+  */
+ t_type	get_token_type(char *value, int q_flag, int is_command);
 
-/*
-* Gestisce l'estrazione di stringhe racchiuse tra virgolette, copiandole in buffer.
-* Aggiorna gli indici di input e buffer, e restituisce un flag di tipo.
- */
-int		ft_for_quotes(char *input, int *i, int *j, char *buffer);
+ /*
+  * Adds a new token to the linked list of tokens.
+  */
+ void	add_token(t_token **head, t_token *new_token);
 
-/* Funzioni di gestione specifica dei token in fase di parsing */
+ /*
+  * Assigns appropriate types to tokens (e.g., COMMAND, ARGUMENT, FILE_, etc.)
+  * based on the context and token sequence.
+  */
+ void	assign_token_types(t_token *tokens);
 
-/*
- * Gestisce il parsing di stringhe racchiuse tra virgolette.
- * Restituisce true se il parsing ha successo, false in caso di errore.
- */
-bool	handle_quotes(char *input, int *i, char *buffer, t_token **tokens);
+ /*
+  * Correctly marks SPACES tokens relative to adjacent tokens.
+  */
+ void	mark_sign_spaces(t_token *tokens);
 
-/*
- * Gestisce i caratteri speciali come pipe e redirezioni durante la tokenizzazione.
- * Restituisce true se il parsing ha successo, false in caso di errore.
- */
-bool	handle_special_chars(char *input, int *i, char *buffer, t_token **tokens);
+ /*
+  * Merges consecutive ARGUMENT tokens in the token list for the 'export' command.
+  */
+ void	ft_merge_tokens_export(t_token **tokens);
 
-/*
- * Gestisce la tokenizzazione delle parole normali (non speciali, non virgolette).
- * Restituisce true se il parsing ha successo, false in caso di errore.
- */
-bool	handle_word(char *input, int *i, char *buffer, t_token **tokens);
+ /*
+  * Merges multiple '-n' option tokens in ARGUMENT tokens for the 'echo' command.
+  */
+ void	ft_merge_tokens_echo(t_token **tokens);
 
-/* Funzioni di controllo sintattico specifiche per tipi di token */
+ /*
+  * Checks the syntax of the token list and reports errors.
+  * Returns true if a syntax error is present, false otherwise.
+  */
+ bool	check_sintax(t_token *tokens);
 
-/* Controlla la correttezza sintattica delle redirezioni */
-bool	check_redir(t_token *tmp);
+ /*
+  * Checks if the token list consists only of spaces or useless tokens (GARBAGE).
+  * Returns true if so, false otherwise.
+  */
+ bool	check_only_spaces(t_token *tokens);
 
-/* Controlla la correttezza sintattica dell'heredoc */
-bool	check_heredoc(t_token *tmp);
+ /*
+  * Extracts strings enclosed in quotes, copying them into a buffer.
+  * Updates input and buffer indices, returning a type flag.
+  */
+ int		ft_for_quotes(char *input, int *i, int *j, char *buffer);
 
-/* Controlla la correttezza sintattica della pipe */
-bool	check_pipe(t_token *tmp);
+ /* Specific token handling functions used during parsing */
 
-/* Controlla la correttezza sintattica di un comando */
-bool	check_command(t_token *tmp);
+ /*
+  * Parses strings enclosed in quotes.
+  * Returns true if parsing is successful, false on error.
+  */
+ bool	handle_quotes(char *input, int *i, char *buffer, t_token **tokens);
 
-/* Verifica che i token siano solo spazi o token inutili */
-bool	check_only_spaces(t_token *tokens);
+ /*
+  * Handles special characters like pipes and redirections during tokenization.
+  * Returns true if parsing is successful, false on error.
+  */
+ bool	handle_special_chars(char *input, int *i, char *buffer, t_token **tokens);
+
+ /*
+  * Handles tokenization of normal words (non-special, non-quoted).
+  * Returns true if parsing is successful, false on error.
+  */
+ bool	handle_word(char *input, int *i, char *buffer, t_token **tokens);
+
+ /* Syntax checking functions specific to token types */
+
+ /*
+  * Checks the syntax correctness of redirection tokens.
+  */
+ bool	check_redir(t_token *tmp);
+
+ /*
+  * Checks the syntax correctness of heredoc tokens.
+  */
+ bool	check_heredoc(t_token *tmp);
+
+ /*
+  * Checks the syntax correctness of pipe tokens.
+  */
+ bool	check_pipe(t_token *tmp);
+
+ /*
+  * Checks the syntax correctness of command tokens.
+  */
+ bool	check_command(t_token *tmp);
+
+ /*
+  * Checks if tokens are only spaces or useless tokens.
+  */
+ bool	check_only_spaces(t_token *tokens);
+
 
 #endif
 

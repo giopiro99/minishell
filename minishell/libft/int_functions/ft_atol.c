@@ -6,36 +6,23 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 16:11:26 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/12 18:01:03 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:52:08 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
-/* int	ft_atoi(const char *nptr)
-{
-	int	i;
-	int	result;
-	int	sign;
 
-	i = 0;
-	result = 0;
-	sign = 1;
-	while ((nptr[i] >= 9 && nptr[i] <= 13) || (nptr[i] == 32))
-		i++;
-	if (nptr[i] == '-')
-	{
-		sign = -sign;
-		i++;
-	}
-	else if (nptr[i] == '+')
-		i++;
-	while (nptr[i] >= '0' && nptr[i] <= '9')
-	{
-		result = (result * 10) + (nptr[i] - 48);
-		i++;
-	}
-	return (result * sign);
-} */
+/**
+ * @brief Converts a string to an long integer.
+ *
+ * Parses the string `str`, skipping any leading whitespace, then reads
+ * an optional sign (+ or -), followed by numerical digits, converting
+ * them into an integer value.
+ *
+ * @param str Pointer to the null-terminated string to convert.
+ * @return The converted integer value. If the string does not contain
+ *         any valid integer, returns 0.
+ */
 long	ft_atol(char *str)
 {
 	int		i;

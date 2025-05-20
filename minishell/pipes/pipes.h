@@ -6,7 +6,7 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 17:54:55 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 12:07:25 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:05:40 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,68 +21,67 @@
 # include "../system_commands/system_commands.h"
 
 /**
- * @brief Crea un singolo nodo pipe a partire da un comando.
+ * @brief Creates a single pipe node from a command.
  *
- * @param cmd Comando da eseguire
- * @param head_tokens Token associati al comando
- * @return Nodo pipe creato
+ * @param cmd Command to execute
+ * @param head_tokens Tokens associated with the command
+ * @return Created pipe node
  */
 t_pipe	*create_pipe_node(t_cmd *cmd, t_token *head_tokens);
 
 /**
- * @brief Crea una lista concatenata di pipe a partire dalla lista di comandi.
+ * @brief Creates a linked list of pipes from the command list.
  *
- * @param cmd Lista dei comandi
- * @param head_tokens Lista dei token
- * @return Testa della lista pipe
+ * @param cmd List of commands
+ * @param head_tokens List of tokens
+ * @return Head of the pipe list
  */
 t_pipe	*create_pipe_list(t_cmd *cmd, t_token *head_tokens);
 
 /**
- * @brief Esegue un comando esterno tramite execve, reindirizzando stdout se necessario.
+ * @brief Executes an external command using execve, redirecting stdout if necessary.
  *
- * @param fd File descriptor per l'output
- * @param dir Percorso eseguibile
- * @param matrix_exe Matrice degli argomenti
- * @param env Ambiente shell
+ * @param fd File descriptor for output
+ * @param dir Executable path
+ * @param matrix_exe Argument matrix
+ * @param env Shell environment
  */
 void	ft_execution_execve(int *fd, char *dir, char **matrix_exe, t_env *env);
 
 /**
- * @brief Esegue un comando specifico in una pipeline.
+ * @brief Executes a specific command in a pipeline.
  *
- * @param current Nodo corrente della pipe
- * @param env Ambiente della shell
- * @param token Token del comando
- * @param head Testa della lista pipe
+ * @param current Current pipe node
+ * @param env Shell environment
+ * @param token Command tokens
+ * @param head Head of the pipe list
  */
 void	ft_exe_pipe_cmd(t_pipe *current, t_env *env,
 			t_token *token, t_pipe *head);
 
 /**
- * @brief Esegue un comando di sistema all'interno di una pipeline.
+ * @brief Executes a system command inside a pipeline.
  *
- * @param env Ambiente della shell
- * @param cmd Comando da eseguire
- * @return Exit status del comando
+ * @param env Shell environment
+ * @param cmd Command to execute
+ * @return Exit status of the command
  */
 int		ft_exe_syscmd_in_pipe(t_env *env, t_cmd *cmd);
 
 /**
- * @brief Esegue l'intera pipeline di comandi.
+ * @brief Executes the entire pipeline of commands.
  *
- * @param head_pipe Testa della lista pipe
- * @param env Ambiente della shell
+ * @param head_pipe Head of the pipe list
+ * @param env Shell environment
  */
 void	execute_pipe(t_pipe *head_pipe, t_env *env);
 
 /**
- * @brief Aggiunge un nodo alla lista delle pipe.
+ * @brief Adds a node to the pipe list.
  *
- * @param head Testa della lista pipe
- * @param new_token Nuovo nodo da aggiungere
+ * @param head Head of the pipe list
+ * @param new_token New node to add
  */
 void	add_pipe(t_pipe **head, t_pipe *new_token);
 
 #endif
-

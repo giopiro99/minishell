@@ -6,12 +6,22 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 16:03:17 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/04/14 18:31:28 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 14:53:59 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
+/**
+ * @brief Recursively prints a memory address in hexadecimal format.
+ *
+ * Helper function that converts an unsigned long long value to a
+ * hexadecimal string and writes it to the given file descriptor.
+ *
+ * @param pointer Memory address to print.
+ * @param fd File descriptor to write the output to.
+ * @return Number of characters written.
+ */
 static int	ft_ricorsive_pointer(unsigned long long pointer, int fd)
 {
 	int		count;
@@ -28,6 +38,16 @@ static int	ft_ricorsive_pointer(unsigned long long pointer, int fd)
 	return (count);
 }
 
+/**
+ * @brief Prints a pointer in hexadecimal format prefixed with "0x".
+ *
+ * If the pointer is NULL, prints "(nil)". Otherwise, prints the
+ * address in hexadecimal to the specified file descriptor.
+ *
+ * @param pointer Pointer to print.
+ * @param fd File descriptor to write the output to.
+ * @return Number of characters written.
+ */
 int	ft_forpointer(void *pointer, int fd)
 {
 	int					count;
