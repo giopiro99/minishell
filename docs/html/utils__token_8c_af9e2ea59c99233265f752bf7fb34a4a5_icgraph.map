@@ -1,0 +1,22 @@
+<map id="remove_token_node" name="remove_token_node">
+<area shape="rect" id="Node000001" title="Removes a specific token node from the linked list." alt="" coords="1231,32,1385,57"/>
+<area shape="rect" id="Node000002" href="$for__merge__echo_8c.html#a1e7a6d749fc26b1a0848360c666ea945" title="Merges two tokens by concatenating their values." alt="" coords="1026,7,1171,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1216,36,1171,31,1172,25,1217,31"/>
+<area shape="rect" id="Node000009" href="$for__merge__export_8c.html#ae1468c1b7b66228b739b08940a389e42" title="Merges consecutive ARGUMENT tokens into a single token, used for the export command." alt="" coords="1015,56,1183,81"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1217,58,1183,62,1183,56,1216,52"/>
+<area shape="rect" id="Node000003" href="$for__merge__echo_8c.html#a9a9e603a3cf06f996da02d8b076da2c7" title="Finds and merges all consecutive tokens like &#45;n, &#45;nn, etc. after the initial valid &#45;n token." alt="" coords="789,5,967,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1012,21,967,21,967,16,1012,16"/>
+<area shape="rect" id="Node000004" href="$for__merge__echo_8c.html#a5326da08ceca8e15b2ceca38c9930e08" title="Handles merging multiple &#45;n, &#45;nn, etc. tokens for the echo command." alt="" coords="568,7,736,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="776,21,736,22,736,16,775,16"/>
+<area shape="rect" id="Node000005" href="$tokenize__input_8c.html#a040acaabf04da0b8d7ce5da9c1d210d8" title="Assigns types to tokens and applies command&#45;specific rules." alt="" coords="387,32,515,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="555,34,515,39,514,34,554,29"/>
+<area shape="rect" id="Node000006" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="261,32,339,57"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="373,47,339,47,339,42,373,42"/>
+<area shape="rect" id="Node000007" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,32,213,57"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="248,47,214,47,214,42,248,42"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,32,60,57"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="94,47,60,47,60,42,94,42"/>
+<area shape="rect" id="Node000010" href="$for__merge__export_8c.html#a94cce59efbc71ee79944cf7e061d8104" title="Checks if the current command is export and, if so, merges the following ARGUMENT tokens." alt="" coords="563,56,741,81"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1001,71,742,71,742,66,1001,66"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="549,59,515,55,515,50,549,54"/>
+</map>

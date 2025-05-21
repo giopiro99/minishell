@@ -1,0 +1,132 @@
+<map id="ft_putchar_fd" name="ft_putchar_fd">
+<area shape="rect" id="Node000001" title="Writes a single character to the specified file descriptor." alt="" coords="2364,479,2471,504"/>
+<area shape="rect" id="Node000002" href="$ft__printf_8c.html#a80c1c206dcd33d07c265581878aaa300" title="Processes a single format specifier and prints the corresponding argument." alt="" coords="2205,454,2316,479"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2350,484,2316,478,2317,473,2351,478"/>
+<area shape="rect" id="Node000003" href="$ft__printf_8c.html#a091532b7f37af84bdecc84dccf4eedb1" title="A simplified printf function that outputs formatted data to a given file descriptor." alt="" coords="2084,479,2157,504"/>
+<area shape="poly" id="edge80_Node000001_Node000003" title=" " alt="" coords="2350,494,2158,494,2158,489,2350,489"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2192,482,2158,488,2157,483,2191,476"/>
+<area shape="rect" id="Node000004" href="$check__sintax__utils_8c.html#ad8979b4383535e8fa301630e112254bf" title="Checks the syntax related to a command." alt="" coords="1680,755,1812,780"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="2119,518,2108,584,2092,666,2068,742,2054,771,2038,790,2020,798,1996,803,1935,802,1867,794,1805,783,1806,778,1868,789,1935,797,1995,797,2018,793,2034,786,2049,768,2063,740,2086,665,2103,583,2113,517"/>
+<area shape="rect" id="Node000010" href="$write__errors_8c.html#a0c76a459d59d98c5e92eb1333d6d9858" title="Prints an error message to standard error." alt="" coords="1920,880,1996,906"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="2122,519,2118,580,2106,664,2081,755,2062,799,2038,840,2014,865,1988,882,1985,878,2011,861,2034,837,2057,796,2076,753,2100,662,2112,580,2116,518"/>
+<area shape="rect" id="Node000017" href="$unset_8c.html#aabf1b9c17103a2c429513f9b4c84bccd" title="Executes the unset operation on a single argument." alt="" coords="1489,503,1577,528"/>
+<area shape="poly" id="edge21_Node000003_Node000017" title=" " alt="" coords="2094,515,2067,531,2037,544,1973,557,1907,563,1842,565,1777,561,1662,547,1576,529,1577,524,1663,541,1778,556,1842,559,1907,558,1972,552,2035,539,2065,526,2091,510"/>
+<area shape="rect" id="Node000025" href="$utils__export__unset_8c.html#a816ee6b26fbb9862373621ed0f57245f" title="Adds a new variable to the environment (env&#45;&gt;env_copy)." alt="" coords="1913,604,2003,630"/>
+<area shape="poly" id="edge31_Node000003_Node000025" title=" " alt="" coords="2105,518,2076,553,2038,587,2001,607,1998,602,2034,583,2072,549,2101,514"/>
+<area shape="rect" id="Node000026" href="$export_8c.html#aa1462300aee0c9091833b58ece6c6506" title="Executes export on a single argument." alt="" coords="1691,604,1801,630"/>
+<area shape="poly" id="edge51_Node000003_Node000026" title=" " alt="" coords="2116,519,2106,549,2091,585,2068,618,2037,645,2019,652,1994,655,1932,653,1863,643,1801,632,1802,627,1864,638,1932,647,1993,649,2017,646,2035,640,2064,615,2086,582,2101,548,2111,517"/>
+<area shape="rect" id="Node000029" href="$env_8c.html#a11f0af3bef460228933bef7dcb4a0a5e" title="Handles errors for invalid arguments passed to the env command." alt="" coords="1908,254,2008,279"/>
+<area shape="poly" id="edge37_Node000003_Node000029" title=" " alt="" coords="2113,466,2105,427,2090,381,2067,333,2034,292,2007,277,2009,272,2038,288,2072,330,2095,379,2110,426,2118,465"/>
+<area shape="rect" id="Node000031" href="$main__utils_8c.html#a5aeae9d23b7c4e831229866f395977e7" title="Handles printing of a single environment variable." alt="" coords="721,264,845,290"/>
+<area shape="poly" id="edge41_Node000003_Node000031" title=" " alt="" coords="2115,466,2108,376,2094,256,2083,196,2070,142,2053,98,2034,68,2001,40,1969,22,1938,12,1906,9,1835,12,1747,17,1134,17,1103,19,1073,26,1016,48,962,82,915,122,873,164,839,205,795,266,790,263,834,202,869,160,911,118,959,78,1013,44,1072,20,1102,14,1134,12,1747,12,1834,7,1906,3,1939,7,1971,17,2004,36,2038,65,2058,95,2075,140,2088,195,2099,255,2114,375,2121,465"/>
+<area shape="rect" id="Node000032" href="$exit_8c.html#a81b8a91253c822b248934172be9eee03" title="Handles errors related to non&#45;numeric or null exit arguments." alt="" coords="1907,352,2009,378"/>
+<area shape="poly" id="edge43_Node000003_Node000032" title=" " alt="" coords="2101,470,2072,434,2034,399,1998,380,2001,375,2038,395,2076,430,2105,466"/>
+<area shape="rect" id="Node000033" href="$exit_8c.html#af0d4948984577b715a89f18d5864cfa2" title="Builtin function for the exit command." alt="" coords="1715,427,1777,452"/>
+<area shape="poly" id="edge61_Node000003_Node000033" title=" " alt="" coords="2092,473,2065,456,2035,444,1964,431,1893,428,1828,431,1778,437,1777,432,1827,426,1893,423,1965,425,2037,439,2068,452,2095,468"/>
+<area shape="rect" id="Node000034" href="$ft__cd_8c.html#ac060a52395a8362da6298c5c36871f32" title="Processes the arguments passed to the cd command to determine the path." alt="" coords="1491,52,1574,78"/>
+<area shape="poly" id="edge47_Node000003_Node000034" title=" " alt="" coords="2115,465,2107,382,2092,274,2082,220,2068,171,2053,132,2034,107,2000,88,1950,75,1888,66,1820,62,1682,61,1574,65,1574,60,1682,55,1820,56,1888,61,1951,70,2002,83,2038,103,2057,130,2074,169,2087,218,2098,273,2113,382,2120,465"/>
+<area shape="rect" id="Node000036" href="$handle__heredoc_8c.html#ac5ba13b1edbd22e4a7e0a50fc91f80db" title="Executes a single read&#45;write cycle of the here&#45;document." alt="" coords="1898,1003,2018,1028"/>
+<area shape="poly" id="edge52_Node000003_Node000036" title=" " alt="" coords="2121,518,2116,590,2103,692,2078,807,2061,864,2038,920,2007,968,1975,1004,1971,1001,2003,965,2034,917,2056,863,2073,805,2098,691,2111,590,2116,518"/>
+<area shape="rect" id="Node000043" href="$system__commands_8c.html#a6d8647dce4277e848c613bd0cc3df5bb" title="Executes a system command by creating a child process." alt="" coords="1473,603,1592,628"/>
+<area shape="poly" id="edge57_Node000003_Node000043" title=" " alt="" coords="2120,519,2114,560,2100,609,2075,658,2058,679,2037,697,1976,703,1858,705,1734,702,1659,694,1626,682,1595,664,1547,631,1551,626,1598,660,1628,677,1661,689,1735,696,1858,700,1976,698,2035,692,2055,675,2071,655,2095,607,2108,559,2115,518"/>
+<area shape="rect" id="Node000044" href="$pipes_8c.html#ac1cb08fe66e7823c939af4fab981e93c" title="Executes a system command inside a pipe." alt="" coords="1660,103,1832,128"/>
+<area shape="poly" id="edge59_Node000003_Node000044" title=" " alt="" coords="2114,465,2105,391,2089,295,2065,206,2051,172,2034,150,2011,133,1985,120,1928,105,1869,102,1816,106,1816,100,1869,97,1928,100,1987,115,2013,128,2038,146,2055,169,2070,204,2094,294,2110,390,2119,465"/>
+<area shape="rect" id="Node000045" href="$exit_8c.html#a7bda6b30cde0b18718f60d2a30efb2f6" title="Handles the case when exit is called without arguments or with &quot;0&quot;." alt="" coords="1880,454,2036,479"/>
+<area shape="poly" id="edge62_Node000003_Node000045" title=" " alt="" coords="2070,487,2036,481,2036,476,2071,481"/>
+<area shape="rect" id="Node000046" href="$exit_8c.html#a31166fb7eed428449a3e6183d4fa1642" title="Checks if there are too many arguments for the exit command." alt="" coords="1895,503,2021,528"/>
+<area shape="poly" id="edge64_Node000003_Node000046" title=" " alt="" coords="2071,502,2022,509,2021,504,2070,496"/>
+<area shape="rect" id="Node000047" href="$main__utils_8c.html#a3812c8049017ce008d5e9f7fdde1b9e6" title="Handles EOF event (Ctrl+D) by properly closing the shell." alt="" coords="895,1091,1014,1116"/>
+<area shape="poly" id="edge66_Node000003_Node000047" title=" " alt="" coords="2122,518,2118,631,2106,787,2095,867,2081,941,2062,1001,2051,1025,2038,1043,2005,1075,1974,1098,1942,1112,1909,1120,1836,1124,1747,1122,1329,1122,1157,1118,1014,1110,1014,1105,1157,1113,1329,1117,1747,1117,1836,1119,1908,1115,1940,1107,1971,1093,2002,1071,2034,1039,2046,1022,2057,999,2076,939,2090,867,2101,787,2113,630,2116,518"/>
+<area shape="rect" id="Node000048" href="$system__commands_8c.html#ad7151ee21a852e1430f0616b06cf56d4" title="Creates an argument matrix for command execution." alt="" coords="1909,204,2007,230"/>
+<area shape="poly" id="edge68_Node000003_Node000048" title=" " alt="" coords="2116,465,2110,418,2097,358,2073,296,2055,268,2034,243,2022,234,2007,227,2009,222,2024,229,2038,239,2060,265,2077,294,2102,356,2115,417,2121,465"/>
+<area shape="rect" id="Node000050" href="$pwd_8c.html#a445dbcbb87f52cdbb07a078f21b198c4" title="Builtin function for the pwd (print working directory) command." alt="" coords="1297,250,1363,275"/>
+<area shape="poly" id="edge72_Node000003_Node000050" title=" " alt="" coords="2113,466,2103,399,2087,317,2063,240,2050,212,2034,194,2011,181,1981,172,1903,165,1808,169,1705,182,1602,201,1505,221,1363,256,1362,251,1504,216,1601,196,1705,177,1808,164,1903,160,1982,167,2013,176,2038,190,2054,209,2068,238,2092,315,2109,399,2119,465"/>
+<area shape="rect" id="Node000051" href="$signal__flag_8c.html#a8d44a858d92b832ce42bf419c783f2f9" title="Updates the child process exit status in the env struct." alt="" coords="1685,654,1807,679"/>
+<area shape="poly" id="edge75_Node000003_Node000051" title=" " alt="" coords="2117,519,2108,552,2093,591,2070,629,2038,659,2008,674,1977,684,1913,693,1850,690,1797,682,1798,677,1851,685,1912,688,1976,679,2006,669,2034,655,2066,626,2088,589,2103,551,2112,517"/>
+<area shape="rect" id="Node000052" href="$env_8c.html#ab82a0a51cb0f680a21ea1e0429cde368" title="Prints valid environment variables to the specified file descriptor." alt="" coords="1915,303,2001,328"/>
+<area shape="poly" id="edge78_Node000003_Node000052" title=" " alt="" coords="2110,467,2083,404,2061,371,2034,342,2018,332,2001,325,2003,320,2021,327,2038,338,2066,367,2088,402,2114,465"/>
+<area shape="rect" id="Node000005" href="$check__sintax_8c.html#a3dadca8fc2261c0e335299829d01f84b" title="Checks for syntax errors on a single token." alt="" coords="1471,830,1594,855"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1688,787,1661,796,1565,832,1563,827,1659,791,1686,782"/>
+<area shape="rect" id="Node000006" href="$check__sintax_8c.html#a8ed15b7dba2bb1e02a43dae2f00459af" title="Checks the syntax of the entire token list." alt="" coords="1277,830,1383,855"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1458,845,1384,845,1384,840,1458,840"/>
+<area shape="rect" id="Node000007" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,554,369,579"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1263,831,1122,807,1039,798,956,794,618,794,565,787,515,768,469,739,428,705,392,669,362,634,323,581,327,578,366,631,396,666,431,701,472,735,517,763,566,782,618,789,956,789,1040,793,1123,802,1264,825"/>
+<area shape="rect" id="Node000008" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,992,213,1018"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="307,593,169,993,164,991,302,592"/>
+<area shape="rect" id="Node000009" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,992,60,1018"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="94,1008,60,1008,60,1002,94,1002"/>
+<area shape="poly" id="edge16_Node000010_Node000006" title=" " alt="" coords="1920,914,1879,931,1832,944,1763,951,1692,949,1622,940,1555,926,1438,890,1358,858,1360,853,1440,885,1557,921,1623,935,1693,944,1763,946,1832,938,1877,926,1918,909"/>
+<area shape="rect" id="Node000011" href="$check__sintax__utils_8c.html#ad4c2c747cfe6cf3d23dff0a99937f136" title="Checks the syntactic correctness of a here&#45;document." alt="" coords="1687,854,1805,879"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1906,889,1805,876,1806,871,1907,884"/>
+<area shape="rect" id="Node000012" href="$check__sintax__utils_8c.html#a2ce60b5e74342ed1a7442aed0a3a72ab" title="Checks the syntactic correctness of a pipe." alt="" coords="1699,903,1793,928"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="1906,901,1794,913,1793,908,1906,896"/>
+<area shape="rect" id="Node000013" href="$check__sintax__utils_8c.html#a614b2be0786f20e6e20f0d0238446eeb" title="Checks the syntactic correctness of a redirection." alt="" coords="1697,804,1795,830"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="1914,878,1831,845,1792,832,1794,827,1833,840,1916,873"/>
+<area shape="rect" id="Node000014" href="$handle__tokens_8c.html#aa2c36964d13c3cd524d41408f386eed9" title="Handles tokens enclosed in quotes and adds them to the list." alt="" coords="1687,1004,1805,1030"/>
+<area shape="poly" id="edge17_Node000010_Node000014" title=" " alt="" coords="1933,917,1888,952,1833,987,1789,1007,1787,1002,1831,983,1885,948,1930,913"/>
+<area shape="poly" id="edge11_Node000011_Node000005" title=" " alt="" coords="1673,861,1594,852,1594,847,1673,856"/>
+<area shape="poly" id="edge13_Node000012_Node000005" title=" " alt="" coords="1684,902,1659,894,1563,858,1565,853,1661,889,1686,897"/>
+<area shape="poly" id="edge15_Node000013_Node000005" title=" " alt="" coords="1684,827,1594,838,1594,833,1683,822"/>
+<area shape="rect" id="Node000015" href="$tokenize__input_8c.html#a4ec55df7b6b0c546095f50475f610fb1" title="Extracts and builds a single token from the user input." alt="" coords="1478,1004,1587,1030"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="1674,1020,1588,1020,1588,1014,1674,1014"/>
+<area shape="rect" id="Node000016" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="581,992,658,1018"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="1464,1016,1314,1011,1137,1008,953,1008,658,1008,658,1002,953,1002,1137,1002,1314,1005,1464,1011"/>
+<area shape="poly" id="edge20_Node000016_Node000008" title=" " alt="" coords="567,1008,213,1008,213,1002,567,1002"/>
+<area shape="rect" id="Node000018" href="$unset_8c.html#afc37f76bba8f618bcf9eaafa7ee23618" title="Builtin function for the unset command." alt="" coords="1293,503,1367,528"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="1475,518,1367,518,1367,513,1475,513"/>
+<area shape="rect" id="Node000019" href="$cmd__execution_8c.html#a5ce7231f800cbacea6350cc1a32a59bd" title="Executes a list of non&#45;pipelined commands." alt="" coords="1087,478,1183,503"/>
+<area shape="poly" id="edge23_Node000018_Node000019" title=" " alt="" coords="1279,512,1183,499,1184,494,1280,507"/>
+<area shape="rect" id="Node000020" href="$cmd__execution_8c.html#a50e59fa2e4621831a415d4038f697c56" title="Executes a command within a pipeline." alt="" coords="1070,327,1201,352"/>
+<area shape="poly" id="edge25_Node000018_Node000020" title=" " alt="" coords="1303,495,1149,355,1153,351,1306,492"/>
+<area shape="poly" id="edge24_Node000019_Node000007" title=" " alt="" coords="1087,510,1027,529,952,548,869,563,785,569,618,569,369,569,369,564,618,564,785,564,869,558,951,543,1026,524,1086,505"/>
+<area shape="rect" id="Node000021" href="$pipes_8c.html#a36a2d91a0566ad253efe3833b05e69d1" title="Routine executed by the child process for each command in the pipe." alt="" coords="893,380,1016,406"/>
+<area shape="poly" id="edge26_Node000020_Node000021" title=" " alt="" coords="1079,359,999,383,998,378,1078,354"/>
+<area shape="rect" id="Node000022" href="$pipes_8c.html#aa17e847997e7266a0a111ab3572756bb" title="Manages pipe creation and fork to execute the current command." alt="" coords="724,408,843,434"/>
+<area shape="poly" id="edge27_Node000021_Node000022" title=" " alt="" coords="880,408,843,414,843,409,879,403"/>
+<area shape="rect" id="Node000023" href="$pipes_8c.html#a7a3b0de1a88a243da741f748881e14f0" title="Executes a list of commands connected via pipes." alt="" coords="565,503,673,528"/>
+<area shape="poly" id="edge28_Node000022_Node000023" title=" " alt="" coords="750,443,644,505,641,501,747,438"/>
+<area shape="rect" id="Node000024" href="$main__utils_8c.html#ad0183732909ae6e7c52e7b086c2e5642" title="Manages the execution flow of commands with pipes." alt="" coords="417,503,517,528"/>
+<area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="551,518,518,518,518,513,551,513"/>
+<area shape="poly" id="edge30_Node000024_Node000007" title=" " alt="" coords="416,535,355,556,353,551,415,530"/>
+<area shape="poly" id="edge32_Node000025_Node000026" title=" " alt="" coords="1899,620,1802,620,1802,614,1899,614"/>
+<area shape="rect" id="Node000027" href="$export_8c.html#a962491ce27455342a86cefa998c352fd" title="Handles the export command with arguments." alt="" coords="1457,552,1608,578"/>
+<area shape="poly" id="edge33_Node000026_Node000027" title=" " alt="" coords="1679,604,1585,580,1586,575,1681,599"/>
+<area shape="rect" id="Node000028" href="$export_8c.html#a2b0f2ba2e9188c7b4f6ca5a44c1d0c8e" title="Builtin function for the export command." alt="" coords="1290,552,1370,578"/>
+<area shape="poly" id="edge34_Node000027_Node000028" title=" " alt="" coords="1443,568,1371,568,1371,562,1443,562"/>
+<area shape="poly" id="edge35_Node000028_Node000019" title=" " alt="" coords="1276,551,1254,544,1163,506,1166,501,1256,539,1277,546"/>
+<area shape="poly" id="edge36_Node000028_Node000020" title=" " alt="" coords="1276,556,1253,543,1203,462,1141,354,1146,351,1207,459,1257,539,1279,551"/>
+<area shape="rect" id="Node000030" href="$env_8c.html#a6a15443c9c0b34afef3d21f19e385995" title="Builtin function for the env command." alt="" coords="1501,303,1564,328"/>
+<area shape="poly" id="edge38_Node000029_Node000030" title=" " alt="" coords="1895,275,1660,300,1565,313,1564,308,1660,294,1894,269"/>
+<area shape="poly" id="edge39_Node000030_Node000019" title=" " alt="" coords="1491,337,1167,480,1165,475,1489,332"/>
+<area shape="poly" id="edge40_Node000030_Node000020" title=" " alt="" coords="1488,321,1201,339,1201,333,1487,316"/>
+<area shape="poly" id="edge42_Node000031_Node000007" title=" " alt="" coords="748,299,603,381,419,494,334,556,331,552,416,490,600,376,745,294"/>
+<area shape="poly" id="edge44_Node000032_Node000033" title=" " alt="" coords="1909,385,1778,432,1777,427,1907,380"/>
+<area shape="poly" id="edge45_Node000033_Node000019" title=" " alt="" coords="1701,446,1184,489,1184,484,1701,441"/>
+<area shape="poly" id="edge46_Node000033_Node000020" title=" " alt="" coords="1701,435,1201,353,1201,348,1702,430"/>
+<area shape="rect" id="Node000035" href="$ft__cd_8c.html#af438919e376d2d0df3830120118ea526" title="Builtin function for the cd (change directory) command." alt="" coords="1303,52,1357,78"/>
+<area shape="poly" id="edge48_Node000034_Node000035" title=" " alt="" coords="1477,68,1357,68,1357,62,1477,62"/>
+<area shape="poly" id="edge49_Node000035_Node000019" title=" " alt="" coords="1320,92,1257,238,1234,302,1209,365,1176,429,1147,479,1142,476,1171,427,1204,363,1229,300,1252,236,1315,89"/>
+<area shape="poly" id="edge50_Node000035_Node000020" title=" " alt="" coords="1292,78,1273,87,1256,99,1232,127,1210,158,1176,224,1154,285,1142,328,1137,326,1149,283,1171,222,1205,155,1227,123,1253,95,1270,82,1289,73"/>
+<area shape="rect" id="Node000037" href="$handle__heredoc_8c.html#a922eae1c49290306f7cf811bf65d9ed1" title="Handles the entire input process for a here&#45;document." alt="" coords="1683,1054,1809,1079"/>
+<area shape="poly" id="edge53_Node000036_Node000037" title=" " alt="" coords="1891,1034,1800,1056,1799,1051,1890,1029"/>
+<area shape="rect" id="Node000038" href="$handle__redirections_8c.html#a2834314002a1f4ef4af82f95159b0a34" title="Handles input redirection from file or heredoc." alt="" coords="1453,1054,1612,1079"/>
+<area shape="poly" id="edge54_Node000037_Node000038" title=" " alt="" coords="1670,1069,1612,1069,1612,1064,1670,1064"/>
+<area shape="rect" id="Node000039" href="$handle__redirections_8c.html#aa4509a43f47ed881eb2d81fb81458466" title="Handles redirections without an associated command." alt="" coords="1255,1042,1405,1082"/>
+<area shape="poly" id="edge55_Node000038_Node000039" title=" " alt="" coords="1439,1067,1406,1067,1406,1061,1439,1062"/>
+<area shape="rect" id="Node000040" href="$handle__redirections_8c.html#ab2c37fefb1291d3f8d0dc91e8c096334" title="Handles redirection associated with a command." alt="" coords="1064,1050,1207,1075"/>
+<area shape="poly" id="edge56_Node000039_Node000040" title=" " alt="" coords="1241,1065,1207,1065,1207,1060,1241,1060"/>
+<area shape="poly" id="edge58_Node000043_Node000019" title=" " alt="" coords="1460,623,1413,623,1360,619,1306,610,1254,593,1219,574,1189,550,1145,505,1149,501,1192,546,1222,569,1256,588,1307,604,1361,614,1413,618,1460,618"/>
+<area shape="poly" id="edge60_Node000044_Node000020" title=" " alt="" coords="1647,122,1552,131,1454,150,1395,168,1351,185,1308,207,1256,239,1195,286,1151,329,1147,325,1192,282,1253,235,1306,202,1348,180,1393,163,1453,145,1552,126,1646,116"/>
+<area shape="poly" id="edge63_Node000045_Node000033" title=" " alt="" coords="1866,458,1777,446,1778,441,1867,452"/>
+<area shape="poly" id="edge65_Node000046_Node000033" title=" " alt="" coords="1901,502,1879,494,1777,455,1779,450,1881,489,1902,496"/>
+<area shape="poly" id="edge67_Node000047_Node000008" title=" " alt="" coords="882,1096,760,1081,621,1074,466,1074,389,1069,314,1055,247,1037,196,1020,197,1015,249,1032,315,1049,390,1063,466,1069,621,1069,760,1076,882,1090"/>
+<area shape="poly" id="edge71_Node000048_Node000044" title=" " alt="" coords="1917,201,1772,131,1775,126,1919,196"/>
+<area shape="rect" id="Node000049" href="$system__commands_8c.html#a6dfb68d4eb4b73539a6d36f36d23d093" title="Function executed by the child process to run a command." alt="" coords="1711,204,1781,230"/>
+<area shape="poly" id="edge69_Node000048_Node000049" title=" " alt="" coords="1895,220,1781,220,1781,214,1895,214"/>
+<area shape="poly" id="edge70_Node000049_Node000043" title=" " alt="" coords="1735,243,1700,319,1663,415,1652,466,1650,509,1642,550,1631,571,1614,592,1594,606,1591,602,1610,588,1627,568,1637,548,1644,509,1646,466,1657,414,1696,317,1730,241"/>
+<area shape="poly" id="edge73_Node000050_Node000019" title=" " alt="" coords="1310,287,1257,347,1149,479,1145,476,1253,343,1306,284"/>
+<area shape="poly" id="edge74_Node000050_Node000020" title=" " alt="" coords="1286,283,1169,329,1167,324,1284,278"/>
+<area shape="poly" id="edge76_Node000051_Node000023" title=" " alt="" coords="1671,669,1331,669,953,669,903,665,853,653,805,635,761,614,685,568,635,531,638,526,688,563,763,609,807,630,855,647,904,659,953,664,1331,664,1671,664"/>
+<area shape="poly" id="edge77_Node000051_Node000043" title=" " alt="" coords="1678,653,1586,631,1587,626,1679,648"/>
+<area shape="poly" id="edge79_Node000052_Node000030" title=" " alt="" coords="1901,318,1564,318,1564,313,1901,313"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="system_commands/system_commands.h" name="system_commands/system_commands.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="305,5,506,45"/>
+<area shape="rect" id="Node000002" href="$minishell_8h.html" title=" " alt="" coords="184,181,315,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="378,57,341,95,262,183,258,179,337,92,374,53"/>
+<area shape="rect" id="Node000006" href="$pipes_8h.html" title=" " alt="" coords="351,101,459,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="408,59,408,100,403,100,403,59"/>
+<area shape="rect" id="Node000009" href="$system__commands_8c.html" title=" " alt="" coords="483,93,685,133"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="458,49,546,91,544,96,456,54"/>
+<area shape="rect" id="Node000003" href="$cmd__execution_8c.html" title=" " alt="" coords="5,255,173,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,215,117,257,114,252,210,210"/>
+<area shape="rect" id="Node000004" href="$main_8c.html" title=" " alt="" coords="198,255,301,280"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="252,220,252,255,247,255,247,220"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html" title=" " alt="" coords="325,255,464,280"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="286,210,372,252,370,257,284,215"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="372,134,273,184,271,179,369,130"/>
+<area shape="rect" id="Node000007" href="$create__pipe__list_8c.html" title=" " alt="" coords="339,181,514,207"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="415,139,426,180,421,182,410,140"/>
+<area shape="rect" id="Node000008" href="$pipes_8c.html" title=" " alt="" coords="539,181,645,207"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="446,129,566,179,564,184,444,134"/>
+</map>

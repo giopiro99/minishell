@@ -1,0 +1,29 @@
+<map id="error_ex" name="error_ex">
+<area shape="rect" id="Node000001" title="Prints an error message to standard error." alt="" coords="909,104,985,129"/>
+<area shape="rect" id="Node000002" href="$check__sintax__utils_8c.html#ad4c2c747cfe6cf3d23dff0a99937f136" title="Checks the syntactic correctness of a here&#45;document." alt="" coords="743,5,861,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="923,96,894,69,860,44,838,33,840,28,863,40,897,65,926,92"/>
+<area shape="rect" id="Node000004" href="$check__sintax_8c.html#a8ed15b7dba2bb1e02a43dae2f00459af" title="Checks the syntax of the entire token list." alt="" coords="417,155,524,180"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="898,136,862,145,769,158,676,165,524,170,524,165,676,160,769,152,861,139,897,131"/>
+<area shape="rect" id="Node000008" href="$check__sintax__utils_8c.html#a2ce60b5e74342ed1a7442aed0a3a72ab" title="Checks the syntactic correctness of a pipe." alt="" coords="755,55,849,80"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="895,102,840,83,841,78,897,97"/>
+<area shape="rect" id="Node000009" href="$check__sintax__utils_8c.html#a614b2be0786f20e6e20f0d0238446eeb" title="Checks the syntactic correctness of a redirection." alt="" coords="753,104,851,129"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="896,119,851,119,851,114,896,114"/>
+<area shape="rect" id="Node000010" href="$handle__tokens_8c.html#aa2c36964d13c3cd524d41408f386eed9" title="Handles tokens enclosed in quotes and adds them to the list." alt="" coords="743,205,861,231"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="923,141,863,188,830,208,827,203,860,184,920,137"/>
+<area shape="rect" id="Node000003" href="$check__sintax_8c.html#a3dadca8fc2261c0e335299829d01f84b" title="Checks for syntax errors on a single token." alt="" coords="572,80,695,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="758,38,744,44,662,82,660,77,742,40,756,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="593,114,500,157,498,152,591,109"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,156,369,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="404,171,370,171,370,166,404,165"/>
+<area shape="rect" id="Node000006" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,181,213,207"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="248,182,214,188,213,183,248,177"/>
+<area shape="rect" id="Node000007" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,181,60,207"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,197,60,197,60,191,94,191"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="741,79,695,86,695,81,741,74"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="740,111,694,104,695,99,740,105"/>
+<area shape="rect" id="Node000011" href="$tokenize__input_8c.html#a4ec55df7b6b0c546095f50475f610fb1" title="Extracts and builds a single token from the user input." alt="" coords="579,205,688,231"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="729,221,688,221,688,215,729,215"/>
+<area shape="rect" id="Node000012" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="277,205,354,231"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="565,221,354,221,354,215,565,215"/>
+<area shape="poly" id="edge15_Node000012_Node000006" title=" " alt="" coords="263,213,213,205,214,199,263,207"/>
+</map>

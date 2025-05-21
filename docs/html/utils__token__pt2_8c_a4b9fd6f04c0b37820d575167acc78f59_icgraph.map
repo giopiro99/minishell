@@ -1,0 +1,15 @@
+<map id="is_n_sequence" name="is_n_sequence">
+<area shape="rect" id="Node000001" title="Checks if a string is a valid sequence of &#39;&#45;n&#39; for the echo command." alt="" coords="933,5,1051,31"/>
+<area shape="rect" id="Node000002" href="$utils__token__pt2_8c.html#a3604e297db5e07dd328d7bea99faca19" title="Assigns the token type for space tokens based on surrounding context." alt="" coords="753,5,885,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="920,21,886,21,886,15,920,15"/>
+<area shape="rect" id="Node000003" href="$assign__token__type_8c.html#a4e34d5621dc56a530a077b6fd2770a66" title="Marks and manages SPACES tokens in relation to ARGUMENT, COMMAND, QUOTE, ENV_VAR, and PIPE tokens." alt="" coords="563,5,705,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="740,21,706,21,706,15,740,15"/>
+<area shape="rect" id="Node000004" href="$tokenize__input_8c.html#a040acaabf04da0b8d7ce5da9c1d210d8" title="Assigns types to tokens and applies command&#45;specific rules." alt="" coords="387,5,515,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="549,21,515,21,515,15,549,15"/>
+<area shape="rect" id="Node000005" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="261,5,339,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="373,21,339,21,339,15,373,15"/>
+<area shape="rect" id="Node000006" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,5,213,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="248,21,214,21,214,15,248,15"/>
+<area shape="rect" id="Node000007" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

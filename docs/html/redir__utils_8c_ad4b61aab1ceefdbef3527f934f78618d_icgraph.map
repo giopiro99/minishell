@@ -1,0 +1,20 @@
+<map id="ft_get_outfile_name" name="ft_get_outfile_name">
+<area shape="rect" id="Node000001" title="Assigns the output file name and append flag based on redirection type." alt="" coords="939,31,1089,56"/>
+<area shape="rect" id="Node000002" href="$redir__utils_8c.html#a9cc0cbe67ea65ccbbc4a191a0b76e863" title="Gets the filename from a token based on redirection type and assigns it to the command." alt="" coords="754,5,885,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="925,34,884,29,885,24,925,29"/>
+<area shape="rect" id="Node000008" href="$handle__redirections_8c.html#ab2c37fefb1291d3f8d0dc91e8c096334" title="Handles redirection associated with a command." alt="" coords="748,55,891,80"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="925,57,891,61,891,56,925,52"/>
+<area shape="rect" id="Node000003" href="$utils__cmd__list_8c.html#ad6de7454925bb78cc9488c934183e8f2" title="Processes a command token and handles any associated redirections." alt="" coords="556,5,700,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="740,21,701,21,701,15,740,15"/>
+<area shape="rect" id="Node000004" href="$create__command__list_8c.html#ad16d74756b107a98677124008c71d23b" title="Creates a command list from tokens." alt="" coords="417,31,508,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="543,34,509,39,508,34,542,28"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,31,369,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="404,46,370,46,370,41,404,41"/>
+<area shape="rect" id="Node000006" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,31,213,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="248,46,214,46,214,41,248,41"/>
+<area shape="rect" id="Node000007" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="rect" id="Node000009" href="$create__command__list_8c.html#ae2006bf82a70d4753ffdca65847316ca" title="Executes a redirection for the current command." alt="" coords="579,55,677,80"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="734,70,678,70,678,65,734,65"/>
+<area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="564,61,508,52,508,47,565,56"/>
+</map>

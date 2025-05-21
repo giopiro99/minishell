@@ -1,0 +1,37 @@
+<map id="new_token" name="new_token">
+<area shape="rect" id="Node000001" title="Creates a new token node." alt="" coords="1124,132,1216,157"/>
+<area shape="rect" id="Node000002" href="$utils__cmd__list_8c.html#a8f03e9f309a1fd0b2f003f070e82b1bb" title="Adds a command node to the list." alt="" coords="957,5,1076,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1148,123,1115,88,1074,52,1044,33,1046,29,1078,48,1119,84,1151,120"/>
+<area shape="rect" id="Node000009" href="$utils__token_8c.html#a44faf9bdbfed1c7003733fff20cd6930" title="Adds a token to the end of the linked list of tokens." alt="" coords="972,208,1061,233"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1132,166,1045,210,1042,206,1130,161"/>
+<area shape="rect" id="Node000010" href="$tokenize__input_8c.html#a4ec55df7b6b0c546095f50475f610fb1" title="Extracts and builds a single token from the user input." alt="" coords="573,145,683,171"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="1119,130,1046,110,953,93,903,87,851,86,799,89,749,98,720,108,692,121,648,148,645,143,690,116,718,103,747,93,798,84,851,80,903,82,954,87,1047,105,1120,125"/>
+<area shape="rect" id="Node000012" href="$handle__tokens_8c.html#aa2c36964d13c3cd524d41408f386eed9" title="Handles tokens enclosed in quotes and adds them to the list." alt="" coords="770,108,887,133"/>
+<area shape="poly" id="edge19_Node000001_Node000012" title=" " alt="" coords="1110,143,887,127,888,122,1110,138"/>
+<area shape="rect" id="Node000013" href="$handle__tokens_8c.html#a0d1a76ff74d96055e21dbd045c471793" title="Handles shell special characters (|, &lt;, &gt;, &lt;&lt;, &gt;&gt;)." alt="" coords="748,157,909,183"/>
+<area shape="poly" id="edge20_Node000001_Node000013" title=" " alt="" coords="1110,152,910,167,909,161,1110,146"/>
+<area shape="rect" id="Node000014" href="$handle__tokens_8c.html#a4435ee7ff5bdf5ceb09137c12fd49ccd" title="Handles creation of a normal token (words, commands, arguments)." alt="" coords="776,259,881,284"/>
+<area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="1156,170,1124,212,1102,232,1077,248,1028,267,975,276,925,280,881,279,882,274,925,274,975,271,1026,262,1075,244,1099,228,1120,208,1152,167"/>
+<area shape="rect" id="Node000003" href="$utils__cmd__list_8c.html#a266a0961e603ebf86561da796a4a0cfd" title="Adds a new command node to the list and updates the current node." alt="" coords="778,5,879,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="943,21,880,21,880,15,943,15"/>
+<area shape="rect" id="Node000004" href="$utils__cmd__list_8c.html#ad6de7454925bb78cc9488c934183e8f2" title="Processes a command token and handles any associated redirections." alt="" coords="556,12,700,37"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="764,23,700,25,700,20,764,17"/>
+<area shape="rect" id="Node000005" href="$create__command__list_8c.html#ad16d74756b107a98677124008c71d23b" title="Creates a command list from tokens." alt="" coords="417,19,508,44"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="542,31,509,32,508,27,542,25"/>
+<area shape="rect" id="Node000006" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,45,369,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="404,45,370,51,369,46,403,39"/>
+<area shape="rect" id="Node000007" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,71,213,96"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="248,72,214,77,213,72,248,66"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,71,60,96"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="94,86,60,86,60,81,94,81"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="958,221,859,214,747,198,662,173,664,168,749,193,860,209,959,216"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="989,201,952,173,908,147,880,136,882,131,911,142,955,169,992,197"/>
+<area shape="poly" id="edge14_Node000009_Node000013" title=" " alt="" coords="958,208,876,185,877,180,960,203"/>
+<area shape="poly" id="edge16_Node000009_Node000014" title=" " alt="" coords="960,239,877,261,876,256,958,234"/>
+<area shape="rect" id="Node000011" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="277,95,354,120"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="559,150,354,116,355,111,560,144"/>
+<area shape="poly" id="edge11_Node000011_Node000007" title=" " alt="" coords="263,102,213,94,214,89,263,97"/>
+<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="757,137,683,151,682,145,756,131"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="734,167,683,164,683,159,735,162"/>
+<area shape="poly" id="edge17_Node000014_Node000010" title=" " alt="" coords="777,256,747,242,689,206,644,173,647,169,692,201,749,237,780,251"/>
+</map>

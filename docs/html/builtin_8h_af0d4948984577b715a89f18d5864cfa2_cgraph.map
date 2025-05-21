@@ -1,0 +1,68 @@
+<map id="ft_exit" name="ft_exit">
+<area shape="rect" id="Node000001" title="Builtin function for the exit command." alt="" coords="5,208,68,233"/>
+<area shape="rect" id="Node000002" href="$utils__fd_8c.html#ae6ad7aa33393749b9dc5eac6b61cdf74" title="Returns the correct file descriptor based on append flag and file." alt="" coords="133,5,255,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,207,46,176,61,133,83,88,114,48,133,35,136,39,118,52,87,91,65,135,51,177,43,208"/>
+<area shape="rect" id="Node000003" href="$utils__fd_8c.html#a9cf70d06db18597b04bb642db7abab4a" title="Checks if a file descriptor is valid." alt="" coords="325,31,421,56"/>
+<area shape="poly" id="edge15_Node000001_Node000003" title=" " alt="" coords="46,206,75,174,114,141,164,113,216,90,311,57,313,62,218,95,166,118,118,146,79,178,50,209"/>
+<area shape="rect" id="Node000004" href="$free__functions_8c.html#af29ea604c324eb3b9934ef9d6a34aa1d" title="Frees all allocated resources associated with the command list and environment." alt="" coords="338,133,409,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="53,205,81,187,115,171,170,157,226,148,324,143,325,148,227,154,171,162,117,177,84,192,56,210"/>
+<area shape="rect" id="Node000008" href="$free__functions_8c.html#a451c65e7c59e947c1880d1f75d866e3a" title="Frees all resources associated with a list of pipes and the environment." alt="" coords="320,208,427,233"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="67,206,116,193,194,185,272,193,319,202,318,207,272,198,194,191,116,198,69,211"/>
+<area shape="rect" id="Node000010" href="$ft__atol_8c.html#a25083028f2d84eb80f897cf3a4ca213b" title="Converts a string to an long integer." alt="" coords="163,408,225,433"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="43,233,51,264,66,305,88,348,118,387,133,398,151,407,149,412,130,403,114,391,83,351,61,307,46,265,38,234"/>
+<area shape="rect" id="Node000012" href="$exit_8c.html#a81b8a91253c822b248934172be9eee03" title="Handles errors related to non&#45;numeric or null exit arguments." alt="" coords="143,208,245,233"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="68,218,129,218,129,223,68,223"/>
+<area shape="rect" id="Node000013" href="$ft__printf_8c.html#a091532b7f37af84bdecc84dccf4eedb1" title="A simplified printf function that outputs formatted data to a given file descriptor." alt="" coords="337,308,410,333"/>
+<area shape="poly" id="edge41_Node000001_Node000013" title=" " alt="" coords="44,232,53,257,68,288,89,318,117,341,143,352,171,358,228,359,282,350,329,336,330,341,284,355,228,364,170,363,142,357,115,346,85,322,63,291,48,259,39,234"/>
+<area shape="rect" id="Node000023" href="$exit_8c.html#a7bda6b30cde0b18718f60d2a30efb2f6" title="Handles the case when exit is called without arguments or with &quot;0&quot;." alt="" coords="116,257,272,283"/>
+<area shape="poly" id="edge34_Node000001_Node000023" title=" " alt="" coords="69,228,141,251,139,256,67,233"/>
+<area shape="rect" id="Node000025" href="$exit_8c.html#a31166fb7eed428449a3e6183d4fa1642" title="Checks if there are too many arguments for the exit command." alt="" coords="131,307,257,332"/>
+<area shape="poly" id="edge38_Node000001_Node000025" title=" " alt="" coords="51,232,79,262,117,292,132,299,129,304,115,296,76,266,47,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="256,24,312,32,311,37,255,29"/>
+<area shape="rect" id="Node000005" href="$free__functions_8c.html#a32c72055f1119062342fcdf42527c05c" title="Frees a list of commands." alt="" coords="489,157,571,183"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="409,149,476,159,475,164,408,154"/>
+<area shape="rect" id="Node000006" href="$ft__free__matrix_8c.html#a1ea6d1f3b50d1c23d4f0faddd1a13448" title="Frees a NULL&#45;terminated matrix of strings." alt="" coords="649,87,764,112"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="392,131,429,110,474,93,515,86,557,83,635,86,635,92,557,88,516,91,475,98,431,115,394,136"/>
+<area shape="rect" id="Node000007" href="$free__functions_8c.html#a4f32f08947270b8aec54f43ddd8b02d4" title="Frees a list of tokens." alt="" coords="485,108,575,133"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="408,138,471,127,472,133,409,143"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="557,155,632,121,651,114,653,119,634,126,560,160"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="413,205,476,185,478,190,414,210"/>
+<area shape="poly" id="edge12_Node000008_Node000006" title=" " alt="" coords="427,223,464,223,505,219,546,209,584,192,600,176,608,159,615,140,632,121,640,116,643,120,635,125,620,143,613,161,604,179,587,196,548,214,506,224,464,228,427,228"/>
+<area shape="poly" id="edge11_Node000008_Node000007" title=" " alt="" coords="388,206,425,175,473,142,483,137,486,142,476,147,429,179,391,210"/>
+<area shape="rect" id="Node000009" href="$free__functions_8c.html#a87de2a27d0e0e99f3de0b477731181e0" title="Frees a list of pipes." alt="" coords="489,259,571,284"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="414,231,478,252,476,257,413,236"/>
+<area shape="rect" id="Node000011" href="$ft__isspace_8c.html#ac7978b309e3e11366ba16643e447528c" title="Checks whether a character is a whitespace character." alt="" coords="330,408,417,433"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="226,418,316,418,316,423,226,423"/>
+<area shape="poly" id="edge17_Node000012_Node000004" title=" " alt="" coords="225,205,328,162,331,166,227,210"/>
+<area shape="poly" id="edge18_Node000012_Node000008" title=" " alt="" coords="245,218,306,218,306,223,245,223"/>
+<area shape="poly" id="edge19_Node000012_Node000013" title=" " alt="" coords="246,230,273,242,289,255,299,267,308,279,322,292,333,299,330,304,318,296,304,283,294,270,285,258,271,247,244,235"/>
+<area shape="rect" id="Node000014" href="$ft__printf_8c.html#a80c1c206dcd33d07c265581878aaa300" title="Processes a single format specifier and prints the corresponding argument." alt="" coords="475,308,585,333"/>
+<area shape="poly" id="edge20_Node000013_Node000014" title=" " alt="" coords="410,318,461,318,461,323,410,323"/>
+<area shape="rect" id="Node000018" href="$ft__putchar__fd_8c.html#a03ef80b25dc4a521379fa92ad97bad21" title="Writes a single character to the specified file descriptor." alt="" coords="653,431,760,456"/>
+<area shape="poly" id="edge33_Node000013_Node000018" title=" " alt="" coords="408,331,634,417,654,424,652,429,632,422,406,336"/>
+<area shape="rect" id="Node000015" href="$ft__forpointer_8c.html#a8e02c77b80406af72327ebf71f537786" title="Prints a pointer in hexadecimal format prefixed with &quot;0x&quot;." alt="" coords="655,136,758,161"/>
+<area shape="poly" id="edge21_Node000014_Node000015" title=" " alt="" coords="567,306,583,293,595,278,601,263,606,233,611,202,618,186,631,171,642,163,645,167,635,175,623,189,616,204,611,234,606,265,599,281,587,297,570,310"/>
+<area shape="rect" id="Node000017" href="$ft__hexadecimal_8c.html#a39c845e0a4286d3ac1e04c1e64ac734b" title="Prints an unsigned integer in hexadecimal format." alt="" coords="645,209,768,235"/>
+<area shape="poly" id="edge24_Node000014_Node000017" title=" " alt="" coords="562,305,584,293,598,281,607,268,617,256,632,244,643,238,646,242,635,248,620,260,611,272,602,284,587,297,565,310"/>
+<area shape="poly" id="edge26_Node000014_Node000018" title=" " alt="" coords="546,331,635,417,646,423,643,428,632,421,542,335"/>
+<area shape="rect" id="Node000019" href="$ft__putnbr__fd_8c.html#a1554101ee350c316340c78e19faddaa8" title="Writes an integer to a given file descriptor." alt="" coords="657,283,757,308"/>
+<area shape="poly" id="edge27_Node000014_Node000019" title=" " alt="" coords="585,310,643,302,644,307,586,315"/>
+<area shape="rect" id="Node000020" href="$ft__putstr__fd_8c.html#a00b0638f31a75c7a30f77f33888bfb73" title="Writes a null&#45;terminated string to the specified file descriptor." alt="" coords="659,332,755,357"/>
+<area shape="poly" id="edge29_Node000014_Node000020" title=" " alt="" coords="586,325,645,334,644,339,585,331"/>
+<area shape="rect" id="Node000021" href="$ft__unsigned__putnbr_8c.html#af9a70f8607b40cf2a7706f9d3725b549" title="Writes an unsigned integer to the given file descriptor." alt="" coords="633,381,780,407"/>
+<area shape="poly" id="edge30_Node000014_Node000021" title=" " alt="" coords="558,331,634,366,655,374,653,379,632,371,555,336"/>
+<area shape="rect" id="Node000016" href="$ft__forpointer_8c.html#aded1bf735c8a10e47396170d27c5b6aa" title="Recursively prints a memory address in hexadecimal format." alt="" coords="828,136,975,161"/>
+<area shape="poly" id="edge22_Node000015_Node000016" title=" " alt="" coords="758,146,814,146,814,151,758,151"/>
+<area shape="poly" id="edge23_Node000016_Node000016" title=" " alt="" coords="869,137,862,128,866,118,879,112,901,109,928,113,939,122,936,126,926,118,901,115,881,117,870,121,868,127,873,134"/>
+<area shape="poly" id="edge25_Node000017_Node000017" title=" " alt="" coords="677,211,671,201,674,191,687,185,707,183,731,186,741,195,738,199,729,191,707,188,688,190,678,195,676,200,682,208"/>
+<area shape="poly" id="edge28_Node000019_Node000019" title=" " alt="" coords="677,284,671,274,674,265,687,258,707,256,731,260,741,268,738,272,729,264,707,261,688,263,678,268,676,274,682,281"/>
+<area shape="rect" id="Node000022" href="$ft__putnbr_8c.html#a2e51f80c9e46e52f4adf94617fb51ada" title="Writes an integer to the standard output (stdout)." alt="" coords="861,381,941,407"/>
+<area shape="poly" id="edge31_Node000021_Node000022" title=" " alt="" coords="780,391,847,391,847,397,780,397"/>
+<area shape="poly" id="edge32_Node000022_Node000022" title=" " alt="" coords="869,383,862,373,866,363,879,357,901,355,928,358,939,367,936,371,926,363,901,360,881,362,870,367,868,372,873,380"/>
+<area shape="poly" id="edge35_Node000023_Node000004" title=" " alt="" coords="244,255,271,242,296,220,318,194,347,166,350,170,322,197,299,224,273,247,247,260"/>
+<area shape="poly" id="edge36_Node000023_Node000013" title=" " alt="" coords="241,280,324,304,323,309,239,285"/>
+<area shape="rect" id="Node000024" href="$ft__strcmp_8c.html#a1f2ff2312e5994560c9537cd9173be94" title="Compares two null&#45;terminated strings lexicographically." alt="" coords="332,257,415,283"/>
+<area shape="poly" id="edge37_Node000023_Node000024" title=" " alt="" coords="272,267,318,267,318,273,272,273"/>
+<area shape="poly" id="edge39_Node000025_Node000008" title=" " alt="" coords="244,304,271,292,285,280,294,268,304,256,318,243,326,237,329,242,322,247,308,259,298,271,289,284,273,296,247,309"/>
+<area shape="poly" id="edge40_Node000025_Node000013" title=" " alt="" coords="258,317,323,318,323,323,258,322"/>
+</map>

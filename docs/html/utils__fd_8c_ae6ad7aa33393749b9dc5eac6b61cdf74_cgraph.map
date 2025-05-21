@@ -1,0 +1,5 @@
+<map id="check_value_fd" name="check_value_fd">
+<area shape="rect" id="Node000001" title="Returns the correct file descriptor based on append flag and file." alt="" coords="5,5,128,31"/>
+<area shape="rect" id="Node000002" href="$utils__fd_8c.html#a9cf70d06db18597b04bb642db7abab4a" title="Checks if a file descriptor is valid." alt="" coords="176,5,272,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,15,162,15,162,21,128,21"/>
+</map>

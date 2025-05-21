@@ -1,0 +1,63 @@
+<map id="add_args" name="add_args">
+<area shape="rect" id="Node000001" title="Adds a new argument to the argument array." alt="" coords="5,581,87,607"/>
+<area shape="rect" id="Node000002" href="$create__command__list_8c.html#a6823bdba32af9d583d3b6ad55969f4e7" title="Expands the exit status variable $? in a string." alt="" coords="139,257,269,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,580,188,294,193,296,56,582"/>
+<area shape="rect" id="Node000014" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="679,531,757,556"/>
+<area shape="poly" id="edge36_Node000001_Node000014" title=" " alt="" coords="87,604,154,622,242,640,341,649,392,648,441,642,508,626,573,604,678,560,680,564,575,609,509,631,442,647,392,653,341,654,241,645,153,628,85,609"/>
+<area shape="rect" id="Node000016" href="$utils__env_8c.html#a78e10627f49df6e904925e22ae6ee15f" title="Performs environment variable expansion in a string." alt="" coords="135,456,273,481"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="62,579,175,488,178,492,65,583"/>
+<area shape="rect" id="Node000023" href="$ft__matrix__len_8c.html#a8a061c92b4f7c01468c1907282d5a53d" title="Calculates the length of a NULL&#45;terminated matrix of strings." alt="" coords="150,708,258,733"/>
+<area shape="poly" id="edge32_Node000001_Node000023" title=" " alt="" coords="59,605,91,644,136,687,158,700,156,704,133,691,87,648,55,609"/>
+<area shape="rect" id="Node000024" href="$ft__realloc_8c.html#a9614b2d66dc188037d9d5144c4f63af5" title="Reallocates a NULL&#45;terminated matrix of strings to a new size." alt="" coords="147,581,261,607"/>
+<area shape="poly" id="edge33_Node000001_Node000024" title=" " alt="" coords="87,591,133,591,133,597,87,597"/>
+<area shape="rect" id="Node000003" href="$ft__itoa_8c.html#a8a6ea3765dfd826eabfc00d36e28ea38" title="Converts an integer to a null&#45;terminated string." alt="" coords="350,107,413,132"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,255,353,139,356,143,222,259"/>
+<area shape="rect" id="Node000009" href="$ft__strjoin__three_8c.html#a516b013da6ff6065d18005f321670a5b" title="Concatenates three strings into a newly allocated string." alt="" coords="321,308,441,333"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="250,280,324,302,322,307,249,285"/>
+<area shape="rect" id="Node000012" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="681,257,755,283"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="269,256,321,249,472,235,538,235,623,243,668,252,667,258,622,249,538,241,472,240,322,254,270,261"/>
+<area shape="rect" id="Node000013" href="$ft__substr_8c.html#a78c402cbf3d55b1374693c3b7d34f71d" title="Extracts a substring from a given string." alt="" coords="517,257,595,283"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="269,267,503,267,503,273,269,273"/>
+<area shape="rect" id="Node000004" href="$ft__itoa_8c.html#a163fba91673b8409055003e4be5530f4" title="Fills a string buffer with the digits of an integer." alt="" coords="516,156,596,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="414,125,503,151,502,156,412,131"/>
+<area shape="rect" id="Node000005" href="$ft__itoa_8c.html#ad01d7565914b3df7a4348fbeba72841b" title="Calculates the number of characters needed to represent an integer as a string." alt="" coords="521,107,591,132"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="413,117,507,117,507,122,413,122"/>
+<area shape="rect" id="Node000006" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="697,107,739,132"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="412,108,489,93,556,87,623,93,684,106,683,111,622,98,556,93,490,98,413,113"/>
+<area shape="rect" id="Node000007" href="$ft__itoa_8c.html#a4d5d7925588cf4c4d9fbd138580fd73e" title="Returns a string representation of the minimum integer value." alt="" coords="521,5,591,31"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="399,104,488,48,513,35,515,39,491,52,402,109"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="592,117,683,117,683,122,592,122"/>
+<area shape="rect" id="Node000008" href="$ft__itoa_8c.html#a8f08154d6a4e5a1ccc9771aced90ed0a" title="Copies a null&#45;terminated string into another buffer." alt="" coords="685,5,751,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="592,15,671,15,671,21,592,21"/>
+<area shape="rect" id="Node000010" href="$ft__strjoin_8c.html#a91e6e3e428bcc9f2291b700e1829b82b" title="Concatenates two strings into a newly allocated string." alt="" coords="517,307,595,332"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="441,318,503,317,503,322,441,323"/>
+<area shape="rect" id="Node000011" href="$ft__memcpy_8c.html#a41a6f05af30cf85ff63a08e383826322" title="Copies &#39;n&#39; bytes from memory area &#39;src&#39; to memory area &#39;dest&#39;." alt="" coords="671,307,765,332"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="595,317,656,317,656,322,595,322"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="595,305,667,283,668,288,596,310"/>
+<area shape="poly" id="edge18_Node000013_Node000006" title=" " alt="" coords="569,255,691,140,695,143,573,259"/>
+<area shape="poly" id="edge17_Node000013_Node000012" title=" " alt="" coords="595,267,667,267,667,273,595,273"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="597,276,625,294,643,327,667,389,711,517,706,518,662,391,638,330,621,297,594,281"/>
+<area shape="rect" id="Node000015" href="$ft__strlcpy_8c.html#aa053827b3a2ea3d0118783d6fb59d178" title="Copies up to size &#45; 1 characters from the string src to dst, null&#45;terminating the result." alt="" coords="677,208,759,233"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="595,256,662,235,664,240,596,261"/>
+<area shape="poly" id="edge31_Node000016_Node000014" title=" " alt="" coords="274,476,666,533,665,538,273,481"/>
+<area shape="rect" id="Node000017" href="$utils__env_8c.html#a4ea711c91d64ff7669bf6ac7e6b6b9dd" title="Expands an environment variable found in a string." alt="" coords="338,407,425,432"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="250,453,324,432,325,438,251,459"/>
+<area shape="rect" id="Node000022" href="$utils__env_8c.html#a3323d2c2586349772b23a3eaf1a241c3" title="Concatenates a literal part (non&#45;variable) of the string to the result." alt="" coords="329,357,433,383"/>
+<area shape="poly" id="edge28_Node000016_Node000022" title=" " alt="" coords="222,454,266,425,320,393,334,386,337,391,323,398,269,429,225,458"/>
+<area shape="poly" id="edge26_Node000017_Node000010" title=" " alt="" coords="419,404,440,393,454,381,463,368,473,356,488,342,503,334,506,339,491,347,477,359,467,371,458,384,443,398,422,409"/>
+<area shape="poly" id="edge27_Node000017_Node000013" title=" " alt="" coords="423,404,439,393,456,369,463,345,469,319,487,293,503,283,506,287,491,297,474,321,468,346,461,371,443,397,426,409"/>
+<area shape="rect" id="Node000018" href="$utils__env__pt2_8c.html#afac58c53fe53bc538ba19b53efec42e4" title="Finds the value of an environment variable given its name key." alt="" coords="489,356,623,381"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="424,404,498,383,499,388,425,409"/>
+<area shape="rect" id="Node000020" href="$ft__isalnum_8c.html#a9c2c3821ea43ebdf97de07b123503f8b" title="Checks whether a character is alphanumeric." alt="" coords="511,405,601,431"/>
+<area shape="poly" id="edge24_Node000017_Node000020" title=" " alt="" coords="425,416,497,416,497,421,425,422"/>
+<area shape="rect" id="Node000021" href="$ft__isdigit_8c.html#a2cf15b8a1a277d1e2ce3654101a2003d" title="Checks whether a character is a decimal digit." alt="" coords="517,455,595,480"/>
+<area shape="poly" id="edge25_Node000017_Node000021" title=" " alt="" coords="425,429,504,450,503,456,424,434"/>
+<area shape="poly" id="edge22_Node000018_Node000012" title=" " alt="" coords="599,354,621,342,636,331,645,319,669,293,677,288,680,292,672,297,649,322,639,334,624,347,602,358"/>
+<area shape="rect" id="Node000019" href="$ft__strncmp_8c.html#a9d2fe792187aa4ed08e5864fb2c4d6dc" title="Compares up to n characters of two strings." alt="" coords="673,356,763,381"/>
+<area shape="poly" id="edge23_Node000018_Node000019" title=" " alt="" coords="623,366,659,366,659,371,623,371"/>
+<area shape="poly" id="edge29_Node000022_Node000010" title=" " alt="" coords="425,355,503,332,504,337,427,360"/>
+<area shape="poly" id="edge30_Node000022_Node000013" title=" " alt="" coords="419,355,440,344,454,331,463,319,473,306,488,293,503,285,506,289,491,298,477,310,467,322,458,335,443,348,422,360"/>
+<area shape="poly" id="edge35_Node000024_Node000014" title=" " alt="" coords="261,586,665,546,665,551,262,591"/>
+<area shape="rect" id="Node000025" href="$ft__free__matrix_8c.html#a1ea6d1f3b50d1c23d4f0faddd1a13448" title="Frees a NULL&#45;terminated matrix of strings." alt="" coords="324,607,439,632"/>
+<area shape="poly" id="edge34_Node000024_Node000025" title=" " alt="" coords="262,600,311,607,310,612,261,605"/>
+</map>

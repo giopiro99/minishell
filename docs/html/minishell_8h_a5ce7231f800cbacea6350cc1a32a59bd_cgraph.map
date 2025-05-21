@@ -1,0 +1,152 @@
+<map id="ft_exe_cmd" name="ft_exe_cmd">
+<area shape="rect" id="Node000001" title="Executes the commands (built&#45;in or system) present in the list." alt="" coords="5,984,101,1010"/>
+<area shape="rect" id="Node000002" href="$ft__cd_8c.html#af438919e376d2d0df3830120118ea526" title="Builtin function for the cd (change directory) command." alt="" coords="367,650,421,675"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,982,160,868,234,789,314,714,359,680,362,685,318,718,238,793,164,871,67,986"/>
+<area shape="rect" id="Node000033" href="$ft__echo_8c.html#a177f72f5eedf5cdf35c113ae47966c4b" title="Builtin function for the echo command." alt="" coords="359,350,429,375"/>
+<area shape="poly" id="edge25_Node000001_Node000033" title=" " alt="" coords="55,984,77,892,97,822,125,743,160,657,203,571,254,488,314,412,355,380,358,384,318,416,258,491,208,573,165,660,130,745,103,824,82,894,60,985"/>
+<area shape="rect" id="Node000037" href="$env_8c.html#a6a15443c9c0b34afef3d21f19e385995" title="Builtin function for the env command." alt="" coords="363,906,425,931"/>
+<area shape="poly" id="edge33_Node000001_Node000037" title=" " alt="" coords="101,982,149,970,349,925,350,930,150,976,102,987"/>
+<area shape="rect" id="Node000041" href="$system__commands_8c.html#a6d8647dce4277e848c613bd0cc3df5bb" title="Executes a system command by creating a child process." alt="" coords="149,984,268,1010"/>
+<area shape="poly" id="edge42_Node000001_Node000041" title=" " alt="" coords="102,994,136,994,136,1000,102,1000"/>
+<area shape="rect" id="Node000055" href="$exit_8c.html#af0d4948984577b715a89f18d5864cfa2" title="Builtin function for the exit command." alt="" coords="177,1383,240,1408"/>
+<area shape="poly" id="edge64_Node000001_Node000055" title=" " alt="" coords="62,1009,200,1369,195,1371,57,1011"/>
+<area shape="rect" id="Node000060" href="$ft__strcmp_8c.html#a1f2ff2312e5994560c9537cd9173be94" title="Compares two null&#45;terminated strings lexicographically." alt="" coords="563,1508,645,1534"/>
+<area shape="poly" id="edge94_Node000001_Node000060" title=" " alt="" coords="57,1010,59,1077,70,1183,82,1243,99,1304,122,1364,152,1419,186,1467,220,1500,261,1523,317,1544,347,1552,378,1556,442,1555,501,1547,551,1535,553,1540,502,1552,442,1561,378,1561,346,1557,315,1549,259,1528,217,1504,182,1471,147,1422,117,1366,94,1306,77,1244,65,1184,54,1078,52,1010"/>
+<area shape="rect" id="Node000062" href="$export_8c.html#a2b0f2ba2e9188c7b4f6ca5a44c1d0c8e" title="Builtin function for the export command." alt="" coords="354,512,434,538"/>
+<area shape="poly" id="edge82_Node000001_Node000062" title=" " alt="" coords="57,983,91,904,117,852,147,801,204,723,266,651,367,545,371,549,270,655,208,727,152,804,121,854,96,906,62,985"/>
+<area shape="rect" id="Node000075" href="$pwd_8c.html#a445dbcbb87f52cdbb07a078f21b198c4" title="Builtin function for the pwd (print working directory) command." alt="" coords="361,1154,427,1179"/>
+<area shape="poly" id="edge88_Node000001_Node000075" title=" " alt="" coords="70,1008,105,1040,151,1073,202,1100,255,1122,349,1152,347,1157,253,1127,199,1105,148,1078,101,1044,66,1012"/>
+<area shape="rect" id="Node000077" href="$unset_8c.html#afc37f76bba8f618bcf9eaafa7ee23618" title="Builtin function for the unset command." alt="" coords="357,1104,431,1130"/>
+<area shape="poly" id="edge95_Node000001_Node000077" title=" " alt="" coords="92,1007,345,1097,343,1102,90,1012"/>
+<area shape="rect" id="Node000003" href="$free__functions_8c.html#a451c65e7c59e947c1880d1f75d866e3a" title="Frees all resources associated with a list of pipes and the environment." alt="" coords="551,1206,657,1231"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,671,450,688,474,714,501,773,511,827,510,878,503,927,495,976,492,1027,500,1081,522,1141,545,1171,572,1195,569,1199,541,1175,518,1144,495,1082,487,1027,490,975,498,926,505,878,506,828,496,775,470,717,447,692,419,675"/>
+<area shape="rect" id="Node000008" href="$ft__cd_8c.html#ad77d8c01768899312d5dbc506a30f83d" title="Restores standard input and closes file descriptor if needed." alt="" coords="551,500,657,526"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="403,648,449,594,482,563,519,536,537,527,540,531,521,541,485,567,452,598,407,651"/>
+<area shape="rect" id="Node000010" href="$ft__cd_8c.html#ac060a52395a8362da6298c5c36871f32" title="Processes the arguments passed to the cd command to determine the path." alt="" coords="563,451,645,476"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="402,648,467,555,518,487,548,472,551,477,522,491,472,558,407,651"/>
+<area shape="rect" id="Node000025" href="$utils__fd_8c.html#a184b4852a6ca5544cc056e7a8e20e4ad" title="Handles opening and validating file descriptors for command input/output." alt="" coords="566,752,642,778"/>
+<area shape="poly" id="edge15_Node000002_Node000025" title=" " alt="" coords="422,672,566,744,564,749,420,677"/>
+<area shape="rect" id="Node000029" href="$ft__cd_8c.html#abe3ef0d9243dfb9deb0adcf20cf26db5" title="Changes the current directory and updates PWD and OLDPWD environment variables." alt="" coords="559,299,649,324"/>
+<area shape="poly" id="edge20_Node000002_Node000029" title=" " alt="" coords="403,648,435,605,470,549,494,493,518,437,551,381,583,334,588,337,556,384,522,439,499,495,474,551,439,608,408,651"/>
+<area shape="rect" id="Node000004" href="$free__functions_8c.html#a32c72055f1119062342fcdf42527c05c" title="Frees a list of commands." alt="" coords="786,1304,869,1330"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="625,1229,675,1259,737,1290,774,1303,772,1308,735,1295,672,1264,623,1233"/>
+<area shape="rect" id="Node000005" href="$ft__free__matrix_8c.html#a1ea6d1f3b50d1c23d4f0faddd1a13448" title="Frees a NULL&#45;terminated matrix of strings." alt="" coords="967,928,1081,954"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="657,1203,802,1164,871,1139,917,1115,951,1080,978,1040,998,999,1012,966,1017,968,1003,1002,982,1042,955,1083,920,1119,873,1144,803,1169,659,1209"/>
+<area shape="rect" id="Node000006" href="$free__functions_8c.html#a87de2a27d0e0e99f3de0b477731181e0" title="Frees a list of pipes." alt="" coords="786,1206,869,1231"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="658,1216,772,1216,772,1221,658,1221"/>
+<area shape="rect" id="Node000007" href="$free__functions_8c.html#a4f32f08947270b8aec54f43ddd8b02d4" title="Frees a list of tokens." alt="" coords="782,1255,873,1280"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="658,1227,769,1252,768,1257,657,1233"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="868,1312,894,1305,917,1291,948,1254,972,1212,990,1166,1003,1120,1017,1033,1020,967,1026,967,1022,1033,1008,1121,995,1168,977,1214,952,1257,920,1295,896,1310,870,1317"/>
+<area shape="rect" id="Node000009" href="$utils__pipes_8c.html#aa5bc406fd1d5aadd2018c5c2061d31ba" title="Restores the previously duplicated standard input." alt="" coords="776,651,879,676"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="658,522,689,536,725,560,758,587,808,639,805,642,754,591,722,564,687,541,656,527"/>
+<area shape="rect" id="Node000011" href="$utils__env__pt2_8c.html#afac58c53fe53bc538ba19b53efec42e4" title="Finds the value of an environment variable given its name key." alt="" coords="761,252,894,278"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="611,449,669,363,704,317,734,287,746,280,749,284,738,291,708,320,673,366,616,452"/>
+<area shape="rect" id="Node000014" href="$ft__printf_8c.html#a091532b7f37af84bdecc84dccf4eedb1" title="A simplified printf function that outputs formatted data to a given file descriptor." alt="" coords="791,1079,864,1104"/>
+<area shape="poly" id="edge13_Node000010_Node000014" title=" " alt="" coords="646,464,670,472,690,487,701,505,710,526,721,579,726,641,727,708,727,841,730,897,739,940,753,976,772,1011,810,1067,805,1070,768,1014,749,979,733,942,725,898,721,841,721,708,720,641,715,579,705,528,696,507,686,491,667,477,645,469"/>
+<area shape="rect" id="Node000024" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="788,402,867,427"/>
+<area shape="poly" id="edge14_Node000010_Node000024" title=" " alt="" coords="645,452,774,423,775,428,646,457"/>
+<area shape="rect" id="Node000012" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="987,252,1061,278"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="894,262,973,262,973,268,894,268"/>
+<area shape="rect" id="Node000026" href="$utils__fd_8c.html#ae6ad7aa33393749b9dc5eac6b61cdf74" title="Returns the correct file descriptor based on append flag and file." alt="" coords="766,1520,889,1546"/>
+<area shape="poly" id="edge16_Node000025_Node000026" title=" " alt="" coords="628,776,661,803,677,821,690,841,718,912,731,974,734,1032,729,1087,723,1142,720,1201,724,1267,739,1342,755,1389,775,1434,813,1507,809,1509,770,1437,750,1391,733,1343,718,1268,715,1201,718,1142,724,1086,728,1032,726,975,713,913,686,843,673,824,657,806,624,780"/>
+<area shape="rect" id="Node000027" href="$utils__fd_8c.html#a9cf70d06db18597b04bb642db7abab4a" title="Checks if a file descriptor is valid." alt="" coords="976,1520,1072,1546"/>
+<area shape="poly" id="edge18_Node000025_Node000027" title=" " alt="" coords="643,772,713,793,796,822,872,855,901,872,921,890,935,912,948,941,970,1013,987,1100,1000,1194,1017,1377,1024,1506,1019,1506,1012,1378,995,1195,982,1100,964,1014,943,942,930,915,917,893,898,877,870,860,794,827,711,798,642,778"/>
+<area shape="rect" id="Node000028" href="$utils__pipes_8c.html#a4112bdd2bc0766ff52195f2ab3a53339" title="Handles input redirection from a file." alt="" coords="736,752,919,778"/>
+<area shape="poly" id="edge19_Node000025_Node000028" title=" " alt="" coords="642,762,722,762,722,768,642,768"/>
+<area shape="poly" id="edge17_Node000026_Node000027" title=" " alt="" coords="889,1530,963,1530,963,1536,889,1536"/>
+<area shape="poly" id="edge21_Node000029_Node000011" title=" " alt="" coords="648,300,752,278,753,283,649,305"/>
+<area shape="poly" id="edge24_Node000029_Node000024" title=" " alt="" coords="642,322,689,341,792,393,790,398,687,346,640,327"/>
+<area shape="rect" id="Node000030" href="$ft__cd_8c.html#a1e12354e1572c211f19189669c16b7b7" title="Sets or updates an environment variable in the env_copy array." alt="" coords="786,302,869,327"/>
+<area shape="poly" id="edge22_Node000029_Node000030" title=" " alt="" coords="649,309,773,311,772,316,649,315"/>
+<area shape="poly" id="edge23_Node000030_Node000012" title=" " alt="" coords="868,301,973,275,974,280,870,307"/>
+<area shape="poly" id="edge27_Node000033_Node000003" title=" " alt="" coords="407,374,442,427,460,462,475,500,486,562,491,641,491,825,491,919,495,1007,504,1083,512,1115,522,1141,544,1172,572,1196,568,1200,540,1175,518,1144,507,1116,499,1084,489,1007,486,919,485,825,485,641,481,563,469,502,455,465,437,429,403,377"/>
+<area shape="poly" id="edge32_Node000033_Node000009" title=" " alt="" coords="429,356,483,354,551,358,623,374,658,388,690,407,718,431,743,460,782,524,808,587,823,637,818,638,803,589,777,526,739,463,714,435,686,411,655,393,621,379,550,364,483,359,429,361"/>
+<area shape="poly" id="edge29_Node000033_Node000025" title=" " alt="" coords="405,374,474,500,593,739,588,741,470,502,400,376"/>
+<area shape="rect" id="Node000034" href="$ft__echo_8c.html#a6d94bdec6ee53c40116419689fb51a8d" title="Advances through the token list until reaching the requested argument index." alt="" coords="520,52,688,78"/>
+<area shape="poly" id="edge26_Node000033_Node000034" title=" " alt="" coords="395,349,405,300,427,229,443,191,464,153,489,118,518,87,525,82,528,86,522,91,493,121,468,156,448,193,432,231,410,301,400,350"/>
+<area shape="rect" id="Node000035" href="$ft__echo_8c.html#a51dc5690fc35d1d3b48737d44e3522e5" title="Checks for the presence of the &#45;n option in the echo command." alt="" coords="521,102,687,127"/>
+<area shape="poly" id="edge28_Node000033_Node000035" title=" " alt="" coords="396,349,409,307,433,250,469,189,492,161,518,136,525,131,528,136,522,140,496,164,474,192,438,253,414,309,401,350"/>
+<area shape="rect" id="Node000036" href="$ft__echo_8c.html#a29c6d0836af22558db986ff336c9062b" title="Writes the echo command arguments to the specified file descriptor." alt="" coords="773,27,882,52"/>
+<area shape="poly" id="edge30_Node000033_Node000036" title=" " alt="" coords="393,349,398,290,415,203,431,156,453,111,481,70,518,37,549,21,582,10,616,4,651,3,718,9,775,21,774,26,717,14,651,8,617,10,583,15,551,26,522,42,485,74,457,114,436,158,420,204,403,291,398,350"/>
+<area shape="poly" id="edge31_Node000036_Node000012" title=" " alt="" coords="863,50,892,66,920,87,953,124,979,166,1015,238,1010,241,975,168,948,128,917,91,889,70,860,55"/>
+<area shape="poly" id="edge34_Node000037_Node000003" title=" " alt="" coords="420,929,448,950,474,978,487,1001,494,1022,499,1060,504,1098,511,1118,522,1141,547,1171,574,1195,571,1199,543,1175,518,1144,506,1120,499,1099,494,1061,489,1023,482,1003,470,981,444,954,416,933"/>
+<area shape="poly" id="edge41_Node000037_Node000009" title=" " alt="" coords="398,904,414,870,440,826,475,779,518,739,578,707,643,685,706,671,762,664,762,669,707,677,644,690,580,711,522,743,478,782,444,828,419,873,403,906"/>
+<area shape="poly" id="edge37_Node000037_Node000025" title=" " alt="" coords="403,904,450,852,482,822,519,795,552,778,554,783,521,799,486,826,454,856,407,907"/>
+<area shape="rect" id="Node000038" href="$env_8c.html#a11f0af3bef460228933bef7dcb4a0a5e" title="Handles errors for invalid arguments passed to the env command." alt="" coords="554,952,654,978"/>
+<area shape="poly" id="edge35_Node000037_Node000038" title=" " alt="" coords="426,922,541,948,540,954,425,928"/>
+<area shape="rect" id="Node000039" href="$env_8c.html#ab82a0a51cb0f680a21ea1e0429cde368" title="Prints valid environment variables to the specified file descriptor." alt="" coords="561,903,647,928"/>
+<area shape="poly" id="edge38_Node000037_Node000039" title=" " alt="" coords="425,915,547,914,547,919,426,921"/>
+<area shape="poly" id="edge36_Node000038_Node000014" title=" " alt="" coords="645,975,689,995,750,1032,801,1068,797,1072,747,1036,687,999,643,980"/>
+<area shape="poly" id="edge40_Node000039_Node000014" title=" " alt="" coords="649,921,689,939,728,968,762,1002,812,1066,808,1069,758,1006,724,972,687,943,647,926"/>
+<area shape="rect" id="Node000040" href="$env_8c.html#afa91ce9c7b8e6f5ab601759029cc2c16" title="Checks if an environment string contains a value after &#39;=&#39;." alt="" coords="776,903,879,928"/>
+<area shape="poly" id="edge39_Node000039_Node000040" title=" " alt="" coords="647,913,762,913,762,918,647,918"/>
+<area shape="poly" id="edge61_Node000041_Node000014" title=" " alt="" coords="247,1007,317,1026,446,1049,575,1067,777,1086,776,1091,574,1072,445,1055,315,1032,246,1012"/>
+<area shape="rect" id="Node000042" href="$system__commands_8c.html#a6dfb68d4eb4b73539a6d36f36d23d093" title="Function executed by the child process to run a command." alt="" coords="359,727,429,752"/>
+<area shape="poly" id="edge43_Node000041_Node000042" title=" " alt="" coords="217,983,374,762,378,765,221,986"/>
+<area shape="rect" id="Node000047" href="$system__commands_8c.html#aaaa4228e08342bbace615a9eeea465bd" title="Searches for the executable path of a command." alt="" coords="549,151,659,176"/>
+<area shape="poly" id="edge55_Node000041_Node000047" title=" " alt="" coords="210,983,256,730,287,583,302,530,314,500,332,476,352,460,392,441,433,422,452,407,470,385,483,358,489,332,489,283,488,259,491,235,500,211,518,186,534,174,537,178,522,189,504,213,496,236,493,259,494,283,495,333,488,360,474,388,455,411,435,426,395,446,355,465,336,480,318,502,307,532,293,585,261,731,215,984"/>
+<area shape="rect" id="Node000053" href="$signal__flag_8c.html#a8d44a858d92b832ce42bf419c783f2f9" title="Updates the child process exit status in the env struct." alt="" coords="333,991,455,1016"/>
+<area shape="poly" id="edge62_Node000041_Node000053" title=" " alt="" coords="268,996,319,998,318,1004,268,1002"/>
+<area shape="poly" id="edge51_Node000042_Node000005" title=" " alt="" coords="413,725,499,674,561,645,631,619,705,600,780,594,817,597,853,605,888,618,920,637,951,666,975,700,994,738,1007,777,1021,854,1026,914,1020,914,1016,855,1002,779,989,740,971,702,947,669,917,642,885,623,852,610,817,602,780,600,706,606,632,624,563,650,502,679,415,729"/>
+<area shape="poly" id="edge50_Node000042_Node000025" title=" " alt="" coords="429,741,553,756,552,761,429,746"/>
+<area shape="rect" id="Node000043" href="$free__functions_8c.html#af29ea604c324eb3b9934ef9d6a34aa1d" title="Frees all allocated resources associated with the command list and environment." alt="" coords="569,1459,639,1484"/>
+<area shape="poly" id="edge44_Node000042_Node000043" title=" " alt="" coords="406,751,440,811,459,851,475,893,488,945,496,990,502,1068,506,1146,512,1191,523,1243,559,1357,594,1445,589,1447,554,1359,517,1244,506,1191,500,1146,497,1068,491,991,483,947,469,895,454,853,435,814,401,754"/>
+<area shape="rect" id="Node000044" href="$system__commands_8c.html#aaa2f26386194311298eac807b68a6224" title="Executes an external command with execve, redirecting stdout if needed." alt="" coords="777,702,878,727"/>
+<area shape="poly" id="edge48_Node000042_Node000044" title=" " alt="" coords="429,735,763,715,763,721,429,740"/>
+<area shape="rect" id="Node000045" href="$system__commands_8c.html#ad7151ee21a852e1430f0616b06cf56d4" title="Creates an argument matrix for command execution." alt="" coords="555,550,653,575"/>
+<area shape="poly" id="edge52_Node000042_Node000045" title=" " alt="" coords="419,725,445,708,470,686,485,662,492,639,500,616,518,592,540,578,543,582,522,596,505,618,497,640,490,664,474,689,449,712,422,729"/>
+<area shape="poly" id="edge45_Node000043_Node000004" title=" " alt="" coords="639,1460,663,1450,687,1437,701,1425,711,1413,734,1386,795,1336,799,1340,738,1389,715,1417,705,1429,689,1442,665,1455,641,1465"/>
+<area shape="poly" id="edge47_Node000043_Node000005" title=" " alt="" coords="639,1465,700,1454,775,1432,814,1415,852,1395,887,1370,917,1341,948,1295,973,1245,991,1191,1004,1138,1018,1039,1021,967,1026,968,1023,1040,1010,1139,996,1193,978,1247,953,1298,921,1344,890,1374,855,1399,816,1420,777,1437,701,1459,640,1470"/>
+<area shape="poly" id="edge46_Node000043_Node000007" title=" " alt="" coords="638,1463,664,1454,686,1438,699,1420,706,1402,708,1365,712,1328,719,1309,734,1291,750,1280,768,1272,770,1277,753,1284,738,1295,724,1312,717,1329,714,1366,711,1403,704,1422,690,1441,666,1458,640,1468"/>
+<area shape="poly" id="edge49_Node000044_Node000005" title=" " alt="" coords="879,719,901,727,920,739,958,780,986,828,1006,875,1019,914,1014,915,1001,877,982,830,954,783,917,743,898,732,877,724"/>
+<area shape="poly" id="edge53_Node000045_Node000014" title=" " alt="" coords="615,574,650,644,691,740,706,796,713,841,721,885,738,940,774,1010,811,1066,806,1069,770,1013,734,942,716,887,708,842,701,797,685,742,645,646,610,577"/>
+<area shape="poly" id="edge54_Node000045_Node000024" title=" " alt="" coords="653,550,687,536,722,513,754,486,804,436,808,439,758,490,725,517,689,541,655,555"/>
+<area shape="poly" id="edge56_Node000047_Node000005" title=" " alt="" coords="660,171,815,203,884,221,920,238,937,261,952,292,976,371,995,467,1008,572,1022,775,1025,915,1020,915,1016,775,1002,572,989,468,971,372,947,294,933,264,917,242,882,226,814,208,659,176"/>
+<area shape="poly" id="edge57_Node000047_Node000011" title=" " alt="" coords="661,173,689,185,705,197,714,208,723,220,737,231,767,245,765,250,735,235,720,223,710,212,701,201,687,190,659,178"/>
+<area shape="poly" id="edge59_Node000047_Node000024" title=" " alt="" coords="661,169,676,176,690,186,705,204,714,223,719,259,722,296,727,316,738,337,765,367,795,392,792,396,761,371,734,340,722,318,716,297,714,260,709,224,701,207,686,190,673,180,659,174"/>
+<area shape="rect" id="Node000048" href="$ft__split_8c.html#ae1a89a91dd877cfb2caf85d6f1786f94" title="Splits a string into an array of strings based on a delimiter." alt="" coords="794,151,861,176"/>
+<area shape="poly" id="edge58_Node000047_Node000048" title=" " alt="" coords="660,161,780,161,780,166,660,166"/>
+<area shape="rect" id="Node000052" href="$ft__strjoin__three_8c.html#a516b013da6ff6065d18005f321670a5b" title="Concatenates three strings into a newly allocated string." alt="" coords="767,102,887,127"/>
+<area shape="poly" id="edge60_Node000047_Node000052" title=" " alt="" coords="659,149,755,127,756,133,660,154"/>
+<area shape="poly" id="edge63_Node000053_Node000014" title=" " alt="" coords="456,1007,565,1022,689,1045,779,1072,778,1077,687,1050,564,1027,455,1012"/>
+<area shape="poly" id="edge67_Node000055_Node000003" title=" " alt="" coords="212,1382,225,1352,247,1313,276,1274,315,1243,370,1220,429,1208,486,1205,537,1207,537,1212,486,1210,429,1213,371,1225,317,1247,280,1278,251,1316,230,1354,217,1384"/>
+<area shape="poly" id="edge81_Node000055_Node000014" title=" " alt="" coords="232,1380,270,1361,315,1344,372,1330,422,1326,511,1329,552,1330,594,1324,638,1309,686,1280,705,1261,714,1241,720,1219,734,1193,768,1149,801,1113,805,1117,772,1153,738,1196,725,1221,719,1243,709,1264,690,1284,641,1313,595,1329,553,1335,511,1335,423,1332,373,1336,317,1349,272,1366,234,1385"/>
+<area shape="poly" id="edge65_Node000055_Node000026" title=" " alt="" coords="217,1407,229,1438,250,1476,279,1515,297,1531,317,1544,376,1567,438,1581,502,1587,566,1585,627,1579,683,1569,774,1547,775,1552,684,1575,627,1584,566,1591,502,1592,437,1586,374,1573,315,1549,294,1535,275,1518,246,1479,224,1440,212,1409"/>
+<area shape="poly" id="edge69_Node000055_Node000027" title=" " alt="" coords="215,1408,225,1446,243,1497,274,1549,294,1571,317,1589,360,1611,404,1628,450,1639,498,1646,594,1648,690,1637,780,1618,861,1595,982,1549,984,1554,863,1600,781,1623,690,1643,594,1653,497,1651,449,1644,403,1633,358,1616,315,1594,290,1575,270,1552,239,1499,220,1448,210,1409"/>
+<area shape="poly" id="edge66_Node000055_Node000043" title=" " alt="" coords="241,1399,556,1460,555,1465,240,1404"/>
+<area shape="rect" id="Node000056" href="$ft__atol_8c.html#a25083028f2d84eb80f897cf3a4ca213b" title="Converts a string to an long integer." alt="" coords="363,1508,425,1534"/>
+<area shape="poly" id="edge68_Node000055_Node000056" title=" " alt="" coords="222,1407,261,1450,288,1474,317,1495,351,1509,349,1514,315,1499,284,1478,257,1453,218,1410"/>
+<area shape="rect" id="Node000058" href="$exit_8c.html#a81b8a91253c822b248934172be9eee03" title="Handles errors related to non&#45;numeric or null exit arguments." alt="" coords="343,1358,445,1383"/>
+<area shape="poly" id="edge70_Node000055_Node000058" title=" " alt="" coords="240,1389,329,1376,330,1382,241,1394"/>
+<area shape="rect" id="Node000059" href="$exit_8c.html#a7bda6b30cde0b18718f60d2a30efb2f6" title="Handles the case when exit is called without arguments or with &quot;0&quot;." alt="" coords="316,1459,472,1484"/>
+<area shape="poly" id="edge74_Node000055_Node000059" title=" " alt="" coords="241,1406,350,1451,348,1456,239,1411"/>
+<area shape="rect" id="Node000061" href="$exit_8c.html#a31166fb7eed428449a3e6183d4fa1642" title="Checks if there are too many arguments for the exit command." alt="" coords="331,1256,457,1282"/>
+<area shape="poly" id="edge78_Node000055_Node000061" title=" " alt="" coords="220,1381,260,1341,315,1299,342,1285,344,1289,317,1303,263,1345,224,1384"/>
+<area shape="poly" id="edge72_Node000058_Node000003" title=" " alt="" coords="411,1355,572,1237,575,1242,414,1360"/>
+<area shape="poly" id="edge73_Node000058_Node000014" title=" " alt="" coords="445,1377,500,1382,564,1381,597,1376,629,1367,659,1354,686,1336,702,1321,710,1305,716,1272,719,1235,724,1215,734,1193,766,1148,800,1112,803,1116,770,1152,738,1196,729,1216,724,1236,722,1273,715,1307,706,1324,690,1340,662,1359,631,1372,598,1381,565,1386,500,1388,445,1382"/>
+<area shape="poly" id="edge71_Node000058_Node000043" title=" " alt="" coords="429,1381,473,1400,570,1450,567,1455,471,1405,427,1385"/>
+<area shape="poly" id="edge76_Node000059_Node000014" title=" " alt="" coords="452,1456,594,1422,655,1403,686,1388,704,1365,713,1343,717,1321,717,1298,717,1249,722,1222,734,1193,765,1148,799,1112,803,1115,769,1151,738,1195,727,1224,722,1250,723,1298,722,1321,719,1344,709,1368,690,1392,657,1408,595,1427,454,1461"/>
+<area shape="poly" id="edge75_Node000059_Node000043" title=" " alt="" coords="473,1469,555,1469,555,1474,473,1474"/>
+<area shape="poly" id="edge77_Node000059_Node000060" title=" " alt="" coords="449,1482,550,1506,549,1511,448,1487"/>
+<area shape="poly" id="edge79_Node000061_Node000003" title=" " alt="" coords="447,1254,537,1232,538,1237,448,1259"/>
+<area shape="poly" id="edge80_Node000061_Node000014" title=" " alt="" coords="458,1274,509,1275,568,1272,629,1262,687,1241,734,1192,804,1113,808,1116,738,1195,689,1246,631,1267,569,1278,509,1281,458,1279"/>
+<area shape="poly" id="edge83_Node000062_Node000003" title=" " alt="" coords="409,536,443,579,461,607,475,637,494,712,500,778,497,838,490,894,484,950,484,1008,495,1071,522,1141,545,1172,572,1195,569,1200,541,1175,518,1144,490,1072,478,1008,478,950,484,894,492,837,495,778,489,713,469,639,456,609,439,582,405,539"/>
+<area shape="poly" id="edge87_Node000062_Node000009" title=" " alt="" coords="407,510,453,471,485,451,519,436,567,421,606,414,645,417,689,436,717,455,741,479,779,534,806,590,822,636,817,638,801,592,775,537,737,482,714,459,687,441,644,422,606,419,568,426,521,441,487,455,456,475,410,514"/>
+<area shape="poly" id="edge86_Node000062_Node000025" title=" " alt="" coords="408,536,584,740,580,743,404,540"/>
+<area shape="rect" id="Node000063" href="$export_8c.html#a9dd6b5454cb0970f6577188835ebc291" title="Handles the export command without arguments." alt="" coords="535,200,673,226"/>
+<area shape="poly" id="edge84_Node000062_Node000063" title=" " alt="" coords="412,510,442,485,470,450,483,420,488,392,486,339,485,314,488,288,498,262,518,235,522,231,526,235,522,239,503,264,494,289,491,314,492,339,493,392,488,422,474,453,446,488,416,514"/>
+<area shape="rect" id="Node000066" href="$export_8c.html#a962491ce27455342a86cefa998c352fd" title="Handles the export command with arguments." alt="" coords="529,250,679,275"/>
+<area shape="poly" id="edge85_Node000062_Node000066" title=" " alt="" coords="412,510,442,484,470,450,481,427,486,405,488,364,493,325,502,305,518,284,522,281,526,285,522,288,506,308,498,326,493,365,491,406,486,429,474,453,446,488,416,514"/>
+<area shape="poly" id="edge89_Node000075_Node000003" title=" " alt="" coords="427,1172,539,1200,538,1205,426,1177"/>
+<area shape="poly" id="edge91_Node000075_Node000014" title=" " alt="" coords="427,1164,543,1159,615,1152,687,1140,739,1125,785,1107,787,1112,740,1130,689,1145,616,1157,543,1165,427,1169"/>
+<area shape="poly" id="edge90_Node000075_Node000025" title=" " alt="" coords="426,1161,450,1155,470,1140,494,1104,505,1069,507,1034,503,999,498,963,496,925,501,885,518,841,542,809,570,784,573,788,546,813,522,844,506,886,501,925,503,962,508,998,512,1034,510,1069,499,1106,474,1144,452,1159,428,1167"/>
+<area shape="rect" id="Node000076" href="$pwd_8c.html#a6d8d7124ea802d0543b2934adff70bd7" title="Closes the file descriptor if different from 1 and restores stdin if necessary." alt="" coords="554,854,654,879"/>
+<area shape="poly" id="edge92_Node000075_Node000076" title=" " alt="" coords="426,1161,450,1154,470,1140,490,1110,498,1079,498,1048,493,1017,489,986,489,954,497,922,518,890,540,874,543,879,522,893,502,924,494,955,494,985,499,1016,503,1048,503,1080,495,1112,474,1144,452,1159,428,1166"/>
+<area shape="poly" id="edge93_Node000076_Node000009" title=" " alt="" coords="653,853,671,844,686,832,699,815,706,797,709,761,712,725,720,707,734,688,762,671,764,676,738,692,724,709,717,726,714,762,711,798,704,817,690,836,674,849,655,858"/>
+<area shape="poly" id="edge98_Node000077_Node000003" title=" " alt="" coords="432,1125,473,1140,527,1168,574,1196,571,1200,524,1172,471,1145,430,1130"/>
+<area shape="poly" id="edge100_Node000077_Node000009" title=" " alt="" coords="408,1102,439,1070,470,1028,481,1001,485,976,486,930,487,908,491,886,500,864,518,840,539,824,560,815,602,812,644,809,665,802,686,788,697,776,703,765,709,740,715,714,723,701,734,688,761,673,764,677,738,692,727,704,720,716,715,741,708,766,701,780,690,792,667,807,645,815,602,817,561,820,542,828,522,844,505,866,496,888,492,909,491,930,491,977,486,1002,474,1030,444,1074,412,1106"/>
+<area shape="poly" id="edge99_Node000077_Node000025" title=" " alt="" coords="408,1102,440,1071,470,1028,482,994,487,964,485,908,485,881,488,853,498,825,518,795,534,782,552,773,554,778,537,786,522,799,503,827,493,854,490,881,491,908,492,964,487,996,474,1030,444,1074,412,1106"/>
+<area shape="rect" id="Node000078" href="$unset_8c.html#aabf1b9c17103a2c429513f9b4c84bccd" title="Executes the unset operation on a single argument." alt="" coords="560,1104,648,1130"/>
+<area shape="poly" id="edge96_Node000077_Node000078" title=" " alt="" coords="431,1114,546,1114,546,1120,431,1120"/>
+<area shape="poly" id="edge97_Node000078_Node000014" title=" " alt="" coords="648,1109,777,1095,777,1100,649,1115"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="ft_forpointer" name="ft_forpointer">
+<area shape="rect" id="Node000001" title="Prints a pointer in hexadecimal format prefixed with &quot;0x&quot;." alt="" coords="5,29,108,55"/>
+<area shape="rect" id="Node000002" href="$ft__forpointer_8c.html#aded1bf735c8a10e47396170d27c5b6aa" title="Recursively prints a memory address in hexadecimal format." alt="" coords="156,29,303,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,39,142,39,142,45,108,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="201,31,195,21,198,11,210,5,229,3,253,6,263,15,259,19,250,11,229,8,211,10,202,15,200,20,205,28"/>
+</map>

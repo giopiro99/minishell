@@ -1,0 +1,7 @@
+<map id="assign_redir" name="assign_redir">
+<area shape="rect" id="Node000001" title="Correctly assigns types to tokens related to redirections and here&#45;documents." alt="" coords="5,31,107,56"/>
+<area shape="rect" id="Node000002" href="$utils__token__pt2_8c.html#a80ff8a93c96a15856a12c406efa61cf7" title="Checks if the token represents a redirection." alt="" coords="159,5,229,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,31,144,24,145,30,107,37"/>
+<area shape="rect" id="Node000003" href="$utils__token__pt2_8c.html#a10926033b2c368f9697d5725d8416844" title="Checks if the token represents whitespace or invalid characters (garbage)." alt="" coords="155,55,233,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,50,142,56,141,61,106,55"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="ft_is_only_n" name="ft_is_only_n">
+<area shape="rect" id="Node000001" title="Checks if a string consists only of &#39;n&#39; characters." alt="" coords="1004,31,1103,56"/>
+<area shape="rect" id="Node000002" href="$for__merge__echo_8c.html#a93ec1dc7360b83d8ce076dc54bd68e6a" title="Checks if a token represents a valid &#45;n option for the echo command." alt="" coords="798,5,937,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="990,37,936,30,937,25,991,32"/>
+<area shape="rect" id="Node000008" href="$for__merge__echo_8c.html#a9a9e603a3cf06f996da02d8b076da2c7" title="Finds and merges all consecutive tokens like &#45;n, &#45;nn, etc. after the initial valid &#45;n token." alt="" coords="779,55,956,80"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="991,54,957,59,956,53,990,49"/>
+<area shape="rect" id="Node000003" href="$for__merge__echo_8c.html#a5326da08ceca8e15b2ceca38c9930e08" title="Handles merging multiple &#45;n, &#45;nn, etc. tokens for the echo command." alt="" coords="563,31,731,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="784,30,731,36,730,31,784,25"/>
+<area shape="rect" id="Node000004" href="$tokenize__input_8c.html#a040acaabf04da0b8d7ce5da9c1d210d8" title="Assigns types to tokens and applies command&#45;specific rules." alt="" coords="387,31,515,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="549,46,515,46,515,41,549,41"/>
+<area shape="rect" id="Node000005" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="261,31,339,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="373,46,339,46,339,41,373,41"/>
+<area shape="rect" id="Node000006" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,31,213,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="248,46,214,46,214,41,248,41"/>
+<area shape="rect" id="Node000007" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="765,59,731,55,731,50,765,54"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="ft_merger" name="ft_merger">
+<area shape="rect" id="Node000001" title="Merges the current token&#39;s value with the next token&#39;s value." alt="" coords="5,31,91,56"/>
+<area shape="rect" id="Node000002" href="$ft__strjoin_8c.html#a91e6e3e428bcc9f2291b700e1829b82b" title="Concatenates two strings into a newly allocated string." alt="" coords="139,31,217,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,41,125,41,125,46,91,46"/>
+<area shape="rect" id="Node000003" href="$ft__memcpy_8c.html#a41a6f05af30cf85ff63a08e383826322" title="Copies &#39;n&#39; bytes from memory area &#39;src&#39; to memory area &#39;dest&#39;." alt="" coords="265,5,360,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,33,251,27,252,32,218,39"/>
+<area shape="rect" id="Node000004" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="275,55,350,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="218,48,262,56,261,61,217,53"/>
+</map>

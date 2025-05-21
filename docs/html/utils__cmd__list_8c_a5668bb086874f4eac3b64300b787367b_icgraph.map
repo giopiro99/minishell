@@ -1,0 +1,15 @@
+<map id="create_node" name="create_node">
+<area shape="rect" id="Node000001" title="Creates a new command list node." alt="" coords="897,5,1000,31"/>
+<area shape="rect" id="Node000002" href="$utils__cmd__list_8c.html#a266a0961e603ebf86561da796a4a0cfd" title="Adds a new command node to the list and updates the current node." alt="" coords="748,5,849,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="883,21,850,21,850,15,883,15"/>
+<area shape="rect" id="Node000003" href="$utils__cmd__list_8c.html#ad6de7454925bb78cc9488c934183e8f2" title="Processes a command token and handles any associated redirections." alt="" coords="556,5,700,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="734,21,700,21,700,15,734,15"/>
+<area shape="rect" id="Node000004" href="$create__command__list_8c.html#ad16d74756b107a98677124008c71d23b" title="Creates a command list from tokens." alt="" coords="417,5,508,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="542,21,508,21,508,15,542,15"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,5,369,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="404,21,370,21,370,15,404,15"/>
+<area shape="rect" id="Node000006" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,5,213,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="248,21,214,21,214,15,248,15"/>
+<area shape="rect" id="Node000007" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

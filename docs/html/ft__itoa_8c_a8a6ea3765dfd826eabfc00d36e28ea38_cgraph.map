@@ -1,0 +1,14 @@
+<map id="ft_itoa" name="ft_itoa">
+<area shape="rect" id="Node000001" title="Converts an integer to a null&#45;terminated string." alt="" coords="5,80,68,105"/>
+<area shape="rect" id="Node000002" href="$ft__itoa_8c.html#a163fba91673b8409055003e4be5530f4" title="Fills a string buffer with the digits of an integer." alt="" coords="116,5,196,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,77,115,40,121,36,123,40,117,44,59,82"/>
+<area shape="rect" id="Node000003" href="$ft__itoa_8c.html#ad01d7565914b3df7a4348fbeba72841b" title="Calculates the number of characters needed to represent an integer as a string." alt="" coords="121,55,191,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="67,84,107,75,108,80,69,89"/>
+<area shape="rect" id="Node000004" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="256,80,299,105"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="68,90,242,90,242,95,68,95"/>
+<area shape="rect" id="Node000005" href="$ft__itoa_8c.html#a4d5d7925588cf4c4d9fbd138580fd73e" title="Returns a string representation of the minimum integer value." alt="" coords="121,156,191,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="59,103,125,146,122,151,56,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="192,72,243,83,242,88,191,77"/>
+<area shape="rect" id="Node000006" href="$ft__itoa_8c.html#a8f08154d6a4e5a1ccc9771aced90ed0a" title="Copies a null&#45;terminated string into another buffer." alt="" coords="244,156,311,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="192,166,230,166,230,171,192,171"/>
+</map>

@@ -1,0 +1,55 @@
+<map id="ft_export_with_args" name="ft_export_with_args">
+<area shape="rect" id="Node000001" title="Handles the export command with arguments." alt="" coords="5,304,156,329"/>
+<area shape="rect" id="Node000002" href="$export_8c.html#aa1462300aee0c9091833b58ece6c6506" title="Executes export on a single argument." alt="" coords="204,304,315,329"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,314,190,314,190,319,156,319"/>
+<area shape="rect" id="Node000003" href="$utils__export__unset_8c.html#a816ee6b26fbb9862373621ed0f57245f" title="Adds a new variable to the environment (env&#45;&gt;env_copy)." alt="" coords="387,204,477,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,301,396,234,399,239,284,306"/>
+<area shape="rect" id="Node000004" href="$ft__printf_8c.html#a091532b7f37af84bdecc84dccf4eedb1" title="A simplified printf function that outputs formatted data to a given file descriptor." alt="" coords="570,128,643,153"/>
+<area shape="poly" id="edge26_Node000002_Node000004" title=" " alt="" coords="265,303,300,247,328,215,361,189,410,166,462,151,512,143,556,139,556,144,513,148,463,156,412,171,364,194,332,219,305,250,269,305"/>
+<area shape="rect" id="Node000016" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="730,228,809,253"/>
+<area shape="poly" id="edge27_Node000002_Node000016" title=" " alt="" coords="315,306,716,246,717,251,315,311"/>
+<area shape="rect" id="Node000017" href="$utils__export__unset_8c.html#ae98ae22050772236584199cd8f27783d" title="Searches for a variable to export in the environment." alt="" coords="363,329,501,355"/>
+<area shape="poly" id="edge22_Node000002_Node000017" title=" " alt="" coords="315,322,349,327,349,332,315,327"/>
+<area shape="rect" id="Node000020" href="$ft__isspace_8c.html#ac7978b309e3e11366ba16643e447528c" title="Checks whether a character is a whitespace character." alt="" coords="389,379,475,404"/>
+<area shape="poly" id="edge25_Node000002_Node000020" title=" " alt="" coords="287,327,364,364,383,371,381,376,362,368,284,332"/>
+<area shape="rect" id="Node000021" href="$utils__export__unset_8c.html#a054fceec4fb7c4bdd5f9d5d958d1b535" title="Checks if a string is a valid identifier for environment variables." alt="" coords="363,428,501,453"/>
+<area shape="poly" id="edge28_Node000002_Node000021" title=" " alt="" coords="273,328,310,370,336,394,364,414,375,420,372,425,361,419,332,398,306,374,269,331"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="460,201,548,162,562,156,564,161,550,167,462,206"/>
+<area shape="rect" id="Node000014" href="$ft__realloc_8c.html#a9614b2d66dc188037d9d5144c4f63af5" title="Reallocates a NULL&#45;terminated matrix of strings to a new size." alt="" coords="549,177,664,203"/>
+<area shape="poly" id="edge18_Node000003_Node000014" title=" " alt="" coords="477,207,535,198,536,203,478,212"/>
+<area shape="poly" id="edge21_Node000003_Node000016" title=" " alt="" coords="478,217,716,234,716,240,477,222"/>
+<area shape="rect" id="Node000005" href="$ft__printf_8c.html#a80c1c206dcd33d07c265581878aaa300" title="Processes a single format specifier and prints the corresponding argument." alt="" coords="714,128,825,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="644,138,700,138,700,143,644,143"/>
+<area shape="rect" id="Node000009" href="$ft__putchar__fd_8c.html#a03ef80b25dc4a521379fa92ad97bad21" title="Writes a single character to the specified file descriptor." alt="" coords="895,5,1001,31"/>
+<area shape="poly" id="edge17_Node000004_Node000009" title=" " alt="" coords="641,125,874,39,894,33,896,38,876,45,642,130"/>
+<area shape="rect" id="Node000006" href="$ft__forpointer_8c.html#a8e02c77b80406af72327ebf71f537786" title="Prints a pointer in hexadecimal format prefixed with &quot;0x&quot;." alt="" coords="897,55,999,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="794,125,874,89,892,82,894,87,876,94,797,130"/>
+<area shape="rect" id="Node000008" href="$ft__hexadecimal_8c.html#a39c845e0a4286d3ac1e04c1e64ac734b" title="Prints an unsigned integer in hexadecimal format." alt="" coords="887,128,1009,153"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="825,138,872,138,872,143,825,143"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="779,126,817,84,844,60,873,40,885,34,887,38,876,44,847,65,821,88,783,130"/>
+<area shape="rect" id="Node000010" href="$ft__putnbr__fd_8c.html#a1554101ee350c316340c78e19faddaa8" title="Writes an integer to a given file descriptor." alt="" coords="898,201,998,227"/>
+<area shape="poly" id="edge11_Node000005_Node000010" title=" " alt="" coords="802,151,904,193,902,198,800,156"/>
+<area shape="rect" id="Node000011" href="$ft__putstr__fd_8c.html#a00b0638f31a75c7a30f77f33888bfb73" title="Writes a null&#45;terminated string to the specified file descriptor." alt="" coords="900,251,996,276"/>
+<area shape="poly" id="edge13_Node000005_Node000011" title=" " alt="" coords="811,151,828,163,845,182,853,201,861,218,876,236,889,244,886,248,873,240,856,221,848,203,840,185,825,167,808,156"/>
+<area shape="rect" id="Node000012" href="$ft__unsigned__putnbr_8c.html#af9a70f8607b40cf2a7706f9d3725b549" title="Writes an unsigned integer to the given file descriptor." alt="" coords="875,300,1021,325"/>
+<area shape="poly" id="edge14_Node000005_Node000012" title=" " alt="" coords="813,151,829,163,841,179,848,195,853,226,858,256,864,271,877,285,883,291,880,295,873,289,860,274,853,258,848,227,843,197,836,182,825,167,810,156"/>
+<area shape="rect" id="Node000007" href="$ft__forpointer_8c.html#aded1bf735c8a10e47396170d27c5b6aa" title="Recursively prints a memory address in hexadecimal format." alt="" coords="1069,55,1216,80"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1000,65,1055,65,1055,70,1000,70"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="1111,56,1104,46,1107,36,1121,30,1143,28,1169,32,1181,40,1177,45,1167,36,1143,33,1122,35,1111,40,1109,46,1115,53"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="918,129,912,120,915,110,928,104,948,101,973,105,983,114,979,118,970,110,948,107,929,109,919,113,917,119,923,126"/>
+<area shape="poly" id="edge12_Node000010_Node000010" title=" " alt="" coords="918,203,912,193,915,183,928,177,948,175,973,178,983,187,979,191,970,183,948,180,929,182,919,187,917,192,923,200"/>
+<area shape="rect" id="Node000013" href="$ft__putnbr_8c.html#a2e51f80c9e46e52f4adf94617fb51ada" title="Writes an integer to the standard output (stdout)." alt="" coords="1103,300,1183,325"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="1021,310,1089,310,1089,315,1021,315"/>
+<area shape="poly" id="edge16_Node000013_Node000013" title=" " alt="" coords="1111,301,1104,292,1107,282,1121,276,1143,273,1169,277,1181,286,1177,290,1167,282,1143,279,1122,281,1111,285,1109,291,1115,298"/>
+<area shape="rect" id="Node000015" href="$ft__free__matrix_8c.html#a1ea6d1f3b50d1c23d4f0faddd1a13448" title="Frees a NULL&#45;terminated matrix of strings." alt="" coords="712,177,827,203"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="664,187,698,187,698,193,664,193"/>
+<area shape="poly" id="edge20_Node000014_Node000016" title=" " alt="" coords="649,200,717,222,716,227,648,205"/>
+<area shape="rect" id="Node000018" href="$ft__strncmp_8c.html#a9d2fe792187aa4ed08e5864fb2c4d6dc" title="Compares up to n characters of two strings." alt="" coords="561,329,652,355"/>
+<area shape="poly" id="edge23_Node000017_Node000018" title=" " alt="" coords="502,339,548,339,548,345,502,345"/>
+<area shape="rect" id="Node000019" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="585,379,628,404"/>
+<area shape="poly" id="edge24_Node000017_Node000019" title=" " alt="" coords="478,352,573,379,571,384,477,357"/>
+<area shape="rect" id="Node000022" href="$ft__isalnum_8c.html#a9c2c3821ea43ebdf97de07b123503f8b" title="Checks whether a character is alphanumeric." alt="" coords="561,428,652,453"/>
+<area shape="poly" id="edge29_Node000021_Node000022" title=" " alt="" coords="501,438,548,438,548,443,501,443"/>
+<area shape="rect" id="Node000023" href="$ft__isalpha_8c.html#ac283963beaa3b8c7d09b78851cda297e" title="Checks whether a character is an alphabetic letter." alt="" coords="564,477,649,503"/>
+<area shape="poly" id="edge30_Node000021_Node000023" title=" " alt="" coords="478,451,551,472,549,477,477,456"/>
+</map>

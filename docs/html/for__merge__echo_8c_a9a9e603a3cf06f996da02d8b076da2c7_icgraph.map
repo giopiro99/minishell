@@ -1,0 +1,13 @@
+<map id="ft_merge_subsequent_n" name="ft_merge_subsequent_n">
+<area shape="rect" id="Node000001" title="Finds and merges all consecutive tokens like &#45;n, &#45;nn, etc. after the initial valid &#45;n token." alt="" coords="779,5,956,31"/>
+<area shape="rect" id="Node000002" href="$for__merge__echo_8c.html#a5326da08ceca8e15b2ceca38c9930e08" title="Handles merging multiple &#45;n, &#45;nn, etc. tokens for the echo command." alt="" coords="563,5,731,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="765,21,731,21,731,15,765,15"/>
+<area shape="rect" id="Node000003" href="$tokenize__input_8c.html#a040acaabf04da0b8d7ce5da9c1d210d8" title="Assigns types to tokens and applies command&#45;specific rules." alt="" coords="387,5,515,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="549,21,515,21,515,15,549,15"/>
+<area shape="rect" id="Node000004" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="261,5,339,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="373,21,339,21,339,15,373,15"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,5,213,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="248,21,214,21,214,15,248,15"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

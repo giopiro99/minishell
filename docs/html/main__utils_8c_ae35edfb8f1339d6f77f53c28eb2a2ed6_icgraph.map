@@ -1,0 +1,5 @@
+<map id="ft_main_flow" name="ft_main_flow">
+<area shape="rect" id="Node000001" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,5,213,31"/>
+<area shape="rect" id="Node000002" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

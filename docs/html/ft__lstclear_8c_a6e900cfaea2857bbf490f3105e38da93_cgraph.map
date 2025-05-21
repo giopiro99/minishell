@@ -1,0 +1,5 @@
+<map id="ft_lstclear" name="ft_lstclear">
+<area shape="rect" id="Node000001" title="Deletes and frees all nodes of a linked list." alt="" coords="5,5,92,31"/>
+<area shape="rect" id="Node000002" href="$ft__lstdelone_8c.html#ac2b881501f9ee2f3ed5718f6d9ebee7c" title="Deletes and frees a single node of a linked list." alt="" coords="140,5,239,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,15,126,15,126,21,92,21"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="create_pipe_list" name="create_pipe_list">
+<area shape="rect" id="Node000001" title="Creates a linked list of pipes from the command list." alt="" coords="5,31,131,56"/>
+<area shape="rect" id="Node000002" href="$utils__pipes_8c.html#aec23416027c77c6dfccb9f5f1c09ad90" title="Adds a pipe element to the linked list of pipes." alt="" coords="207,5,288,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,32,193,23,193,28,132,37"/>
+<area shape="rect" id="Node000003" href="$create__pipe__list_8c.html#aa774a62cb541bb9d30d0ba93ee73ff92" title="Creates a pipeline node containing a command." alt="" coords="179,55,316,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,49,166,54,165,59,131,54"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="free_cmd" name="free_cmd">
+<area shape="rect" id="Node000001" title="Frees a list of commands." alt="" coords="5,5,88,31"/>
+<area shape="rect" id="Node000002" href="$ft__free__matrix_8c.html#a1ea6d1f3b50d1c23d4f0faddd1a13448" title="Frees a NULL&#45;terminated matrix of strings." alt="" coords="136,5,251,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,15,122,15,122,21,88,21"/>
+</map>

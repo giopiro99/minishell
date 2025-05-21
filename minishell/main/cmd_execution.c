@@ -6,11 +6,12 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 14:38:37 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 19:02:47 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/21 11:34:53 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
 /**
  * @brief Executes a command within a pipeline.
  *

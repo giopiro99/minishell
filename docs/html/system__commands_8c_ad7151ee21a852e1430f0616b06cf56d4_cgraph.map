@@ -1,0 +1,32 @@
+<map id="ft_mtx_cmd" name="ft_mtx_cmd">
+<area shape="rect" id="Node000001" title="Creates an argument matrix for command execution." alt="" coords="5,85,104,111"/>
+<area shape="rect" id="Node000002" href="$ft__matrix__len_8c.html#a8a061c92b4f7c01468c1907282d5a53d" title="Calculates the length of a NULL&#45;terminated matrix of strings." alt="" coords="152,36,260,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,83,152,63,154,68,95,88"/>
+<area shape="rect" id="Node000003" href="$ft__printf_8c.html#a091532b7f37af84bdecc84dccf4eedb1" title="A simplified printf function that outputs formatted data to a given file descriptor." alt="" coords="169,85,243,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,95,155,95,155,101,104,101"/>
+<area shape="rect" id="Node000013" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="167,135,245,160"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="95,108,154,128,153,133,93,113"/>
+<area shape="rect" id="Node000004" href="$ft__printf_8c.html#a80c1c206dcd33d07c265581878aaa300" title="Processes a single format specifier and prints the corresponding argument." alt="" coords="308,128,419,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,105,303,122,302,127,242,110"/>
+<area shape="rect" id="Node000008" href="$ft__putchar__fd_8c.html#a03ef80b25dc4a521379fa92ad97bad21" title="Writes a single character to the specified file descriptor." alt="" coords="487,5,593,31"/>
+<area shape="poly" id="edge16_Node000003_Node000008" title=" " alt="" coords="242,87,472,31,473,36,243,92"/>
+<area shape="rect" id="Node000005" href="$ft__forpointer_8c.html#a8e02c77b80406af72327ebf71f537786" title="Prints a pointer in hexadecimal format prefixed with &quot;0x&quot;." alt="" coords="489,55,591,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="388,125,466,89,484,82,486,87,468,94,390,130"/>
+<area shape="rect" id="Node000007" href="$ft__hexadecimal_8c.html#a39c845e0a4286d3ac1e04c1e64ac734b" title="Prints an unsigned integer in hexadecimal format." alt="" coords="479,128,601,153"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="419,138,465,138,465,143,419,143"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="373,126,410,84,436,60,465,40,477,34,479,38,468,44,440,65,414,88,377,130"/>
+<area shape="rect" id="Node000009" href="$ft__putnbr__fd_8c.html#a1554101ee350c316340c78e19faddaa8" title="Writes an integer to a given file descriptor." alt="" coords="490,201,590,227"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="396,151,496,193,494,198,394,156"/>
+<area shape="rect" id="Node000010" href="$ft__putstr__fd_8c.html#a00b0638f31a75c7a30f77f33888bfb73" title="Writes a null&#45;terminated string to the specified file descriptor." alt="" coords="492,251,588,276"/>
+<area shape="poly" id="edge12_Node000004_Node000010" title=" " alt="" coords="377,152,415,193,440,216,468,236,482,243,480,248,465,240,437,220,411,197,373,156"/>
+<area shape="rect" id="Node000011" href="$ft__unsigned__putnbr_8c.html#af9a70f8607b40cf2a7706f9d3725b549" title="Writes an unsigned integer to the given file descriptor." alt="" coords="467,300,613,325"/>
+<area shape="poly" id="edge13_Node000004_Node000011" title=" " alt="" coords="372,152,407,216,434,254,468,287,476,292,473,296,465,291,430,257,402,219,368,155"/>
+<area shape="rect" id="Node000006" href="$ft__forpointer_8c.html#aded1bf735c8a10e47396170d27c5b6aa" title="Recursively prints a memory address in hexadecimal format." alt="" coords="661,55,808,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="592,65,647,65,647,70,592,70"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="703,56,696,46,699,36,713,30,735,28,761,32,773,40,769,45,759,36,735,33,714,35,703,40,701,46,707,53"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="511,129,505,120,508,110,520,104,540,101,564,105,574,114,571,118,562,110,540,107,521,109,512,113,510,119,515,126"/>
+<area shape="poly" id="edge11_Node000009_Node000009" title=" " alt="" coords="511,203,505,193,508,183,520,177,540,175,564,178,574,187,571,191,562,183,540,180,521,182,512,187,510,192,515,200"/>
+<area shape="rect" id="Node000012" href="$ft__putnbr_8c.html#a2e51f80c9e46e52f4adf94617fb51ada" title="Writes an integer to the standard output (stdout)." alt="" coords="695,300,775,325"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="613,310,681,310,681,315,613,315"/>
+<area shape="poly" id="edge15_Node000012_Node000012" title=" " alt="" coords="703,301,696,292,699,282,713,276,735,273,761,277,773,286,769,290,759,282,735,279,714,281,703,285,701,291,707,298"/>
+</map>

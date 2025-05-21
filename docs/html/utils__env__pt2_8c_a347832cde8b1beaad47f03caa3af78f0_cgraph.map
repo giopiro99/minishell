@@ -1,0 +1,13 @@
+<map id="get_var_name" name="get_var_name">
+<area shape="rect" id="Node000001" title="Extracts the variable name from a &quot;KEY=VALUE&quot; string." alt="" coords="5,80,120,105"/>
+<area shape="rect" id="Node000002" href="$ft__substr_8c.html#a78c402cbf3d55b1374693c3b7d34f71d" title="Extracts a substring from a given string." alt="" coords="168,80,247,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,90,154,90,154,95,120,95"/>
+<area shape="rect" id="Node000003" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="297,5,375,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,77,300,35,303,40,232,82"/>
+<area shape="rect" id="Node000004" href="$ft__strlcpy_8c.html#aa053827b3a2ea3d0118783d6fb59d178" title="Copies up to size &#45; 1 characters from the string src to dst, null&#45;terminating the result." alt="" coords="295,55,377,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="246,82,281,75,282,81,247,88"/>
+<area shape="rect" id="Node000005" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="299,104,373,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="247,97,285,105,284,110,246,103"/>
+<area shape="rect" id="Node000006" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="315,153,357,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="232,103,304,145,302,150,229,108"/>
+</map>

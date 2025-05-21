@@ -1,0 +1,18 @@
+<map id="get_exit_status" name="get_exit_status">
+<area shape="rect" id="Node000001" title="Updates the child process exit status in the env struct." alt="" coords="732,31,855,56"/>
+<area shape="rect" id="Node000002" href="$pipes_8c.html#a7a3b0de1a88a243da741f748881e14f0" title="Executes a list of commands connected via pipes." alt="" coords="571,5,679,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="718,35,679,29,679,23,718,29"/>
+<area shape="rect" id="Node000007" href="$system__commands_8c.html#a6d8647dce4277e848c613bd0cc3df5bb" title="Executes a system command by creating a child process." alt="" coords="565,55,684,80"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="719,57,685,62,684,56,718,51"/>
+<area shape="rect" id="Node000003" href="$main__utils_8c.html#ad0183732909ae6e7c52e7b086c2e5642" title="Manages the execution flow of commands with pipes." alt="" coords="417,5,517,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="557,21,518,21,518,15,557,15"/>
+<area shape="rect" id="Node000004" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,31,369,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="404,31,370,37,369,32,403,26"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,31,213,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="248,46,214,46,214,41,248,41"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="rect" id="Node000008" href="$cmd__execution_8c.html#a5ce7231f800cbacea6350cc1a32a59bd" title="Executes a list of non&#45;pipelined commands." alt="" coords="419,55,515,80"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="552,70,515,70,515,65,552,65"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="405,60,369,54,370,49,406,55"/>
+</map>

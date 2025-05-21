@@ -1,0 +1,23 @@
+<map id="libft/list_functions/ft_lstclear.c" name="libft/list_functions/ft_lstclear.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="353,5,492,45"/>
+<area shape="rect" id="Node000002" href="$libft_8h.html" title=" " alt="" coords="387,93,458,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,46,425,79,420,79,420,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,80,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,116,94,169,93,164,387,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="105,167,175,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="388,119,189,168,188,163,386,114"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="199,167,270,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="393,121,279,164,277,159,392,116"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="295,167,361,192"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="409,121,356,160,353,156,406,117"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="386,167,459,192"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="425,119,425,153,420,153,420,119"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="483,167,546,192"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="439,117,491,156,487,160,436,121"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="570,167,729,192"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="459,116,600,160,599,165,457,121"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="753,167,828,192"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="459,111,740,164,739,169,458,116"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="853,167,923,192"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="458,109,619,129,839,164,839,169,618,134,458,114"/>
+</map>

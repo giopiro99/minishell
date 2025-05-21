@@ -1,0 +1,14 @@
+<map id="ft_add_node" name="ft_add_node">
+<area shape="rect" id="Node000001" title="Adds a new command node to the list and updates the current node." alt="" coords="5,32,107,57"/>
+<area shape="rect" id="Node000002" href="$utils__cmd__list_8c.html#a8f03e9f309a1fd0b2f003f070e82b1bb" title="Adds a t_cmd node to the command list." alt="" coords="155,7,273,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,34,141,28,141,34,107,39"/>
+<area shape="rect" id="Node000005" href="$utils__cmd__list_8c.html#a5668bb086874f4eac3b64300b787367b" title="Creates a new command list node." alt="" coords="163,56,265,81"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="107,50,150,56,149,62,107,55"/>
+<area shape="rect" id="Node000003" href="$utils__token_8c.html#ab94cb586647a70372e436ef3214797ad" title="Creates a new token node." alt="" coords="321,5,413,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,16,307,16,307,21,274,21"/>
+<area shape="rect" id="Node000004" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="461,31,540,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="414,24,448,31,447,36,413,29"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="265,62,447,45,447,51,266,67"/>
+<area shape="rect" id="Node000006" href="$ft__bzero_8c.html#a5937ab0d08e31d0e3e4a16ec71e293a1" title="Sets the first &#39;n&#39; bytes of the memory area pointed to by &#39;s&#39; to zero." alt="" coords="330,107,405,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="254,79,317,100,316,105,253,84"/>
+</map>

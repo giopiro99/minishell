@@ -1,0 +1,28 @@
+<map id="error_ex" name="error_ex">
+<area shape="rect" id="Node000001" title="Prints an error message to standard error." alt="" coords="5,103,81,128"/>
+<area shape="rect" id="Node000002" href="$ft__printf_8c.html#a091532b7f37af84bdecc84dccf4eedb1" title="A simplified printf function that outputs formatted data to a given file descriptor." alt="" coords="129,103,203,128"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,113,116,113,116,118,82,118"/>
+<area shape="rect" id="Node000003" href="$ft__printf_8c.html#a80c1c206dcd33d07c265581878aaa300" title="Processes a single format specifier and prints the corresponding argument." alt="" coords="251,128,361,153"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="203,119,237,126,236,131,202,124"/>
+<area shape="rect" id="Node000007" href="$ft__putchar__fd_8c.html#a03ef80b25dc4a521379fa92ad97bad21" title="Writes a single character to the specified file descriptor." alt="" coords="429,5,536,31"/>
+<area shape="poly" id="edge15_Node000002_Node000007" title=" " alt="" coords="202,102,426,32,428,37,204,107"/>
+<area shape="rect" id="Node000004" href="$ft__forpointer_8c.html#a8e02c77b80406af72327ebf71f537786" title="Prints a pointer in hexadecimal format prefixed with &quot;0x&quot;." alt="" coords="431,55,534,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="331,125,408,89,427,82,429,87,410,94,333,130"/>
+<area shape="rect" id="Node000006" href="$ft__hexadecimal_8c.html#a39c845e0a4286d3ac1e04c1e64ac734b" title="Prints an unsigned integer in hexadecimal format." alt="" coords="421,128,544,153"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="361,138,408,138,408,143,361,143"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="315,126,353,84,379,60,408,40,419,34,422,38,411,44,382,65,357,88,319,130"/>
+<area shape="rect" id="Node000008" href="$ft__putnbr__fd_8c.html#a1554101ee350c316340c78e19faddaa8" title="Writes an integer to a given file descriptor." alt="" coords="433,201,533,227"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="339,151,439,193,437,198,337,156"/>
+<area shape="rect" id="Node000009" href="$ft__putstr__fd_8c.html#a00b0638f31a75c7a30f77f33888bfb73" title="Writes a null&#45;terminated string to the specified file descriptor." alt="" coords="435,251,531,276"/>
+<area shape="poly" id="edge11_Node000003_Node000009" title=" " alt="" coords="320,152,358,193,383,216,411,236,425,243,422,248,408,240,380,220,354,197,316,156"/>
+<area shape="rect" id="Node000010" href="$ft__unsigned__putnbr_8c.html#af9a70f8607b40cf2a7706f9d3725b549" title="Writes an unsigned integer to the given file descriptor." alt="" coords="409,300,556,325"/>
+<area shape="poly" id="edge12_Node000003_Node000010" title=" " alt="" coords="315,152,349,216,377,254,411,287,419,292,416,296,408,291,373,257,345,219,310,155"/>
+<area shape="rect" id="Node000005" href="$ft__forpointer_8c.html#aded1bf735c8a10e47396170d27c5b6aa" title="Recursively prints a memory address in hexadecimal format." alt="" coords="604,55,751,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="534,65,590,65,590,70,534,70"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="645,56,638,46,642,36,655,30,677,28,704,32,715,40,712,45,702,36,677,33,657,35,646,40,644,46,649,53"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="453,129,447,120,450,110,463,104,483,101,507,105,517,114,514,118,505,110,483,107,464,109,454,113,452,119,458,126"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="453,203,447,193,450,183,463,177,483,175,507,178,517,187,514,191,505,183,483,180,464,182,454,187,452,192,458,200"/>
+<area shape="rect" id="Node000011" href="$ft__putnbr_8c.html#a2e51f80c9e46e52f4adf94617fb51ada" title="Writes an integer to the standard output (stdout)." alt="" coords="637,300,717,325"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="556,310,623,310,623,315,556,315"/>
+<area shape="poly" id="edge14_Node000011_Node000011" title=" " alt="" coords="645,301,638,292,642,282,655,276,677,273,704,277,715,286,712,290,702,282,677,279,657,281,646,285,644,291,649,298"/>
+</map>

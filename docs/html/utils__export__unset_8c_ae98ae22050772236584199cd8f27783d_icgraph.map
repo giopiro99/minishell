@@ -1,0 +1,28 @@
+<map id="ft_find_export_var" name="ft_find_export_var">
+<area shape="rect" id="Node000001" title="Searches for the index of an environment variable already present in env&#45;&gt;env_copy." alt="" coords="1723,31,1861,56"/>
+<area shape="rect" id="Node000002" href="$export_8c.html#aa1462300aee0c9091833b58ece6c6506" title="Executes export on a single argument." alt="" coords="1564,31,1675,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1709,46,1675,46,1675,41,1709,41"/>
+<area shape="rect" id="Node000003" href="$export_8c.html#a962491ce27455342a86cefa998c352fd" title="Handles the export command with arguments." alt="" coords="1365,31,1516,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1550,46,1516,46,1516,41,1550,41"/>
+<area shape="rect" id="Node000004" href="$export_8c.html#a2b0f2ba2e9188c7b4f6ca5a44c1d0c8e" title="Builtin function for the export command." alt="" coords="1237,31,1317,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1352,46,1318,46,1318,41,1352,41"/>
+<area shape="rect" id="Node000005" href="$cmd__execution_8c.html#a5ce7231f800cbacea6350cc1a32a59bd" title="Executes a list of non&#45;pipelined commands." alt="" coords="901,5,997,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1223,42,997,24,998,19,1223,37"/>
+<area shape="rect" id="Node000009" href="$cmd__execution_8c.html#a50e59fa2e4621831a415d4038f697c56" title="Executes a command within a pipeline." alt="" coords="1059,56,1189,81"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="1224,55,1190,60,1189,55,1223,49"/>
+<area shape="rect" id="Node000006" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,31,369,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="888,23,370,44,370,39,887,18"/>
+<area shape="rect" id="Node000007" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,31,213,56"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="248,46,214,46,214,41,248,41"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="rect" id="Node000010" href="$pipes_8c.html#a36a2d91a0566ad253efe3833b05e69d1" title="Routine executed by the child process for each command in the pipe." alt="" coords="888,56,1011,81"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1045,71,1011,71,1011,66,1045,66"/>
+<area shape="rect" id="Node000011" href="$pipes_8c.html#aa17e847997e7266a0a111ab3572756bb" title="Manages pipe creation and fork to execute the current command." alt="" coords="721,56,840,81"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="874,71,840,71,840,66,874,66"/>
+<area shape="rect" id="Node000012" href="$pipes_8c.html#a7a3b0de1a88a243da741f748881e14f0" title="Executes a list of commands connected via pipes." alt="" coords="565,56,673,81"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="708,71,674,71,674,66,708,66"/>
+<area shape="rect" id="Node000013" href="$main__utils_8c.html#ad0183732909ae6e7c52e7b086c2e5642" title="Manages the execution flow of commands with pipes." alt="" coords="417,56,517,81"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="551,71,518,71,518,66,551,66"/>
+<area shape="poly" id="edge13_Node000013_Node000006" title=" " alt="" coords="403,61,369,55,370,50,404,55"/>
+</map>

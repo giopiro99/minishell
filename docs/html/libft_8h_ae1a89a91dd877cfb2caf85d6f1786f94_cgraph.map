@@ -1,0 +1,9 @@
+<map id="ft_split" name="ft_split">
+<area shape="rect" id="Node000001" title="Splits a string into an array of strings based on a delimiter." alt="" coords="5,55,72,80"/>
+<area shape="rect" id="Node000002" href="$ft__split_8c.html#aa7bb0a2499cd7e833a5b655f1ba32e7e" title="Copies a substring (word) from the input string." alt="" coords="137,5,207,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,53,123,33,125,38,73,58"/>
+<area shape="rect" id="Node000003" href="$ft__split_8c.html#a894f4b1af0e002219975b3835f6306b6" title="Counts the number of words in a string separated by a delimiter." alt="" coords="120,55,224,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="72,65,106,65,106,70,72,70"/>
+<area shape="rect" id="Node000004" href="$ft__split_8c.html#a7927713e5f2fed5cee8ec1ac2bcadb2c" title="Frees an array of strings up to a given index." alt="" coords="141,104,203,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="73,77,129,98,127,103,71,82"/>
+</map>

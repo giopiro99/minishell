@@ -1,0 +1,125 @@
+<map id="tokenize" name="tokenize">
+<area shape="rect" id="Node000001" title="Tokenizes the entire user input string." alt="" coords="5,827,83,852"/>
+<area shape="rect" id="Node000002" href="$tokenize__input_8c.html#a040acaabf04da0b8d7ce5da9c1d210d8" title="Assigns types to tokens and applies command&#45;specific rules." alt="" coords="305,301,433,327"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,825,350,337,355,340,56,828"/>
+<area shape="rect" id="Node000017" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="1381,637,1456,663"/>
+<area shape="poly" id="edge73_Node000001_Node000017" title=" " alt="" coords="65,850,115,881,188,919,230,936,275,950,321,960,367,963,1023,963,1071,961,1110,953,1144,940,1173,922,1229,873,1295,808,1311,790,1321,774,1343,735,1395,672,1399,675,1348,738,1326,776,1316,793,1299,812,1233,877,1176,926,1146,944,1112,958,1071,966,1023,969,367,969,320,965,274,955,229,941,186,924,112,886,62,854"/>
+<area shape="rect" id="Node000027" href="$tokenize__input_8c.html#a4ec55df7b6b0c546095f50475f610fb1" title="Extracts and builds a single token from the user input." alt="" coords="131,751,240,776"/>
+<area shape="poly" id="edge31_Node000001_Node000027" title=" " alt="" coords="68,824,148,780,150,785,70,829"/>
+<area shape="rect" id="Node000030" href="$ft__isspace_8c.html#ac7978b309e3e11366ba16643e447528c" title="Checks whether a character is a whitespace character." alt="" coords="543,852,630,877"/>
+<area shape="poly" id="edge72_Node000001_Node000030" title=" " alt="" coords="83,843,176,858,288,870,369,873,449,870,529,866,530,871,449,875,369,878,288,875,176,863,83,849"/>
+<area shape="rect" id="Node000003" href="$assign__token__type_8c.html#a51e5006d1819ae97939773490b75ffaa" title="Assigns correct types to the tokens in the list (COMMAND, ARGUMENT, FILE_, DELIMITER,..." alt="" coords="511,55,662,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,299,563,89,567,92,383,303"/>
+<area shape="rect" id="Node000009" href="$for__merge__echo_8c.html#a5326da08ceca8e15b2ceca38c9930e08" title="Handles merging multiple &#45;n, &#45;nn, etc. tokens for the echo command." alt="" coords="503,252,671,277"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="425,299,516,278,517,283,426,304"/>
+<area shape="rect" id="Node000020" href="$for__merge__export_8c.html#a94cce59efbc71ee79944cf7e061d8104" title="Checks if the current command is export and, if so, merges the following ARGUMENT tokens." alt="" coords="497,351,676,376"/>
+<area shape="poly" id="edge21_Node000002_Node000020" title=" " alt="" coords="426,324,517,345,516,350,425,329"/>
+<area shape="rect" id="Node000024" href="$assign__token__type_8c.html#a4e34d5621dc56a530a077b6fd2770a66" title="Marks and manages SPACES tokens in relation to ARGUMENT, COMMAND, QUOTE, ENV_VAR, and PIPE tokens." alt="" coords="515,301,658,327"/>
+<area shape="poly" id="edge28_Node000002_Node000024" title=" " alt="" coords="433,311,501,311,501,317,433,317"/>
+<area shape="rect" id="Node000004" href="$assign__token__type_8c.html#a49da08d963b46b3158a79a9fc120a759" title="Assigns COMMAND or ARGUMENT type to a token." alt="" coords="763,55,862,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="662,65,750,65,750,70,662,70"/>
+<area shape="rect" id="Node000005" href="$assign__token__type_8c.html#a3a4c4ac34c8fb944f7cdc8889dd7d356" title="Handles the type assignment for PIPE tokens." alt="" coords="763,5,862,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="662,57,768,32,770,37,663,62"/>
+<area shape="rect" id="Node000006" href="$assign__token__type_8c.html#afe8f8f4301ccbcd33344e893f665c442" title="Correctly assigns types to tokens related to redirections and here&#45;documents." alt="" coords="762,104,863,129"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="646,77,749,100,748,105,645,83"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="764,24,631,53,630,48,762,19"/>
+<area shape="rect" id="Node000007" href="$utils__token__pt2_8c.html#a80ff8a93c96a15856a12c406efa61cf7" title="Checks if the token represents a redirection." alt="" coords="987,55,1057,80"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="863,102,972,76,974,81,864,107"/>
+<area shape="rect" id="Node000008" href="$utils__token__pt2_8c.html#a10926033b2c368f9697d5725d8416844" title="Checks if the token represents whitespace or invalid characters (garbage)." alt="" coords="983,104,1061,129"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="864,114,969,114,969,119,864,119"/>
+<area shape="rect" id="Node000010" href="$for__merge__echo_8c.html#a93ec1dc7360b83d8ce076dc54bd68e6a" title="Checks if a token represents a valid &#45;n option for the echo command." alt="" coords="743,203,882,228"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="645,249,740,228,741,234,646,255"/>
+<area shape="rect" id="Node000013" href="$for__merge__echo_8c.html#a9a9e603a3cf06f996da02d8b076da2c7" title="Finds and merges all consecutive tokens like &#45;n, &#45;nn, etc. after the initial valid &#45;n token." alt="" coords="724,252,901,277"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="671,262,710,262,710,267,671,267"/>
+<area shape="rect" id="Node000019" href="$ft__strcmp_8c.html#a1f2ff2312e5994560c9537cd9173be94" title="Compares two null&#45;terminated strings lexicographically." alt="" coords="771,351,854,376"/>
+<area shape="poly" id="edge20_Node000009_Node000019" title=" " alt="" coords="649,275,677,288,693,300,702,313,711,325,725,337,759,351,757,356,723,342,707,329,698,316,689,304,675,292,647,280"/>
+<area shape="rect" id="Node000011" href="$for__merge__echo_8c.html#a474f909992d6b44cb96736e899e0b1c4" title="Checks if a string consists only of &#39;n&#39; characters." alt="" coords="973,203,1071,228"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="882,213,959,213,959,218,882,218"/>
+<area shape="rect" id="Node000012" href="$ft__strncmp_8c.html#a9d2fe792187aa4ed08e5864fb2c4d6dc" title="Compares up to n characters of two strings." alt="" coords="977,153,1067,179"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="867,200,962,177,964,182,868,205"/>
+<area shape="poly" id="edge14_Node000013_Node000011" title=" " alt="" coords="867,249,959,227,960,233,868,255"/>
+<area shape="rect" id="Node000014" href="$for__merge__echo_8c.html#a1e7a6d749fc26b1a0848360c666ea945" title="Merges two tokens by concatenating their values." alt="" coords="949,252,1095,277"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="902,262,936,262,936,267,902,267"/>
+<area shape="rect" id="Node000015" href="$ft__strjoin_8c.html#a91e6e3e428bcc9f2291b700e1829b82b" title="Concatenates two strings into a newly allocated string." alt="" coords="1181,403,1259,428"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="1070,275,1096,288,1122,311,1145,338,1198,391,1194,395,1141,341,1118,315,1093,292,1068,280"/>
+<area shape="rect" id="Node000018" href="$utils__token_8c.html#af9e2ea59c99233265f752bf7fb34a4a5" title="Removes a specific token node from the linked list." alt="" coords="1143,301,1297,327"/>
+<area shape="poly" id="edge19_Node000014_Node000018" title=" " alt="" coords="1074,275,1156,295,1155,301,1073,280"/>
+<area shape="rect" id="Node000016" href="$ft__memcpy_8c.html#a41a6f05af30cf85ff63a08e383826322" title="Copies &#39;n&#39; bytes from memory area &#39;src&#39; to memory area &#39;dest&#39;." alt="" coords="1371,403,1466,428"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1260,413,1358,413,1358,418,1260,418"/>
+<area shape="poly" id="edge18_Node000015_Node000017" title=" " alt="" coords="1249,426,1275,442,1299,464,1317,490,1326,513,1334,536,1348,563,1397,625,1393,629,1343,566,1329,538,1321,515,1312,492,1295,468,1272,447,1246,430"/>
+<area shape="poly" id="edge27_Node000020_Node000019" title=" " alt="" coords="676,361,757,361,757,366,676,366"/>
+<area shape="rect" id="Node000021" href="$for__merge__export_8c.html#ae1468c1b7b66228b739b08940a389e42" title="Merges consecutive ARGUMENT tokens into a single token, used for the export command." alt="" coords="729,400,897,425"/>
+<area shape="poly" id="edge22_Node000020_Node000021" title=" " alt="" coords="646,373,741,394,740,400,645,379"/>
+<area shape="poly" id="edge26_Node000021_Node000018" title=" " alt="" coords="865,397,1152,327,1153,333,867,403"/>
+<area shape="rect" id="Node000022" href="$for__merge__export_8c.html#a8badee2557e8867921cbb0dc2873317b" title="Merges the current token&#39;s value with the next token&#39;s value." alt="" coords="979,403,1065,428"/>
+<area shape="poly" id="edge23_Node000021_Node000022" title=" " alt="" coords="897,411,966,412,966,417,897,416"/>
+<area shape="rect" id="Node000023" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="983,452,1061,477"/>
+<area shape="poly" id="edge25_Node000021_Node000023" title=" " alt="" coords="865,423,970,449,969,454,864,428"/>
+<area shape="poly" id="edge24_Node000022_Node000015" title=" " alt="" coords="1065,413,1167,413,1167,418,1065,418"/>
+<area shape="rect" id="Node000025" href="$utils__token__pt2_8c.html#a3604e297db5e07dd328d7bea99faca19" title="Assigns the token type for space tokens based on surrounding context." alt="" coords="747,301,879,327"/>
+<area shape="poly" id="edge29_Node000024_Node000025" title=" " alt="" coords="658,311,733,311,733,317,658,317"/>
+<area shape="rect" id="Node000026" href="$utils__token__pt2_8c.html#a4b9fd6f04c0b37820d575167acc78f59" title="Checks if a string is a valid sequence of &#39;&#45;n&#39; for the echo command." alt="" coords="963,301,1081,327"/>
+<area shape="poly" id="edge30_Node000025_Node000026" title=" " alt="" coords="879,311,949,311,949,317,879,317"/>
+<area shape="rect" id="Node000028" href="$utils__token_8c.html#a44faf9bdbfed1c7003733fff20cd6930" title="Adds a token to the end of the linked list of tokens." alt="" coords="542,751,631,776"/>
+<area shape="poly" id="edge32_Node000027_Node000028" title=" " alt="" coords="240,761,528,761,528,766,240,766"/>
+<area shape="rect" id="Node000029" href="$utils__token_8c.html#ab94cb586647a70372e436ef3214797ad" title="Creates a new token node." alt="" coords="767,675,859,700"/>
+<area shape="poly" id="edge71_Node000027_Node000029" title=" " alt="" coords="197,748,235,716,260,699,287,686,350,669,414,658,480,652,544,652,662,660,754,673,753,678,661,665,544,657,480,658,415,663,351,674,289,691,262,704,238,720,201,752"/>
+<area shape="poly" id="edge35_Node000027_Node000030" title=" " alt="" coords="201,774,238,807,262,824,289,837,351,855,416,864,477,867,529,866,529,872,477,872,415,869,350,860,287,842,260,828,235,811,197,778"/>
+<area shape="rect" id="Node000031" href="$handle__tokens_8c.html#aa2c36964d13c3cd524d41408f386eed9" title="Handles tokens enclosed in quotes and adds them to the list." alt="" coords="310,548,427,573"/>
+<area shape="poly" id="edge36_Node000027_Node000031" title=" " alt="" coords="195,749,286,642,343,582,346,585,290,645,199,752"/>
+<area shape="rect" id="Node000049" href="$handle__tokens_8c.html#a0d1a76ff74d96055e21dbd045c471793" title="Handles shell special characters (|, &lt;, &gt;, &lt;&lt;, &gt;&gt;)." alt="" coords="288,700,449,725"/>
+<area shape="poly" id="edge62_Node000027_Node000049" title=" " alt="" coords="232,748,308,727,310,732,233,753"/>
+<area shape="rect" id="Node000050" href="$handle__tokens_8c.html#a4435ee7ff5bdf5ceb09137c12fd49ccd" title="Handles creation of a normal token (words, commands, arguments)." alt="" coords="316,801,421,827"/>
+<area shape="poly" id="edge66_Node000027_Node000050" title=" " alt="" coords="233,774,310,795,308,800,232,779"/>
+<area shape="poly" id="edge33_Node000028_Node000029" title=" " alt="" coords="625,748,760,702,762,707,626,753"/>
+<area shape="poly" id="edge34_Node000029_Node000023" title=" " alt="" coords="841,672,870,655,900,633,933,597,963,558,1005,488,1010,491,967,561,937,601,903,637,873,660,843,677"/>
+<area shape="poly" id="edge37_Node000031_Node000028" title=" " alt="" coords="385,571,564,740,560,743,382,575"/>
+<area shape="poly" id="edge61_Node000031_Node000029" title=" " alt="" coords="421,571,677,641,762,668,760,673,675,646,419,576"/>
+<area shape="rect" id="Node000032" href="$write__errors_8c.html#a0c76a459d59d98c5e92eb1333d6d9858" title="Prints an error message to standard error." alt="" coords="549,400,625,425"/>
+<area shape="poly" id="edge38_Node000031_Node000032" title=" " alt="" coords="378,546,425,493,458,462,496,436,534,420,536,425,499,440,462,466,428,497,382,550"/>
+<area shape="rect" id="Node000043" href="$free__functions_8c.html#a4f32f08947270b8aec54f43ddd8b02d4" title="Frees a list of tokens." alt="" coords="541,449,632,475"/>
+<area shape="poly" id="edge54_Node000031_Node000043" title=" " alt="" coords="387,546,436,516,496,485,527,474,529,479,498,490,438,520,390,550"/>
+<area shape="rect" id="Node000044" href="$handle__tokens_8c.html#ae7f7697d03ed4a73a1e374155380e209" title="Processes a quoted string and copies it into the buffer." alt="" coords="533,499,640,524"/>
+<area shape="poly" id="edge55_Node000031_Node000044" title=" " alt="" coords="425,545,519,524,521,529,426,551"/>
+<area shape="rect" id="Node000046" href="$utils__token_8c.html#a611ee3ce2706d68aa376e8222614c6eb" title="Determines the token type based on the value, quote flag, and command flag." alt="" coords="525,548,648,573"/>
+<area shape="poly" id="edge57_Node000031_Node000046" title=" " alt="" coords="428,558,512,558,512,563,428,563"/>
+<area shape="rect" id="Node000033" href="$ft__printf_8c.html#a091532b7f37af84bdecc84dccf4eedb1" title="A simplified printf function that outputs formatted data to a given file descriptor." alt="" coords="776,449,849,475"/>
+<area shape="poly" id="edge39_Node000032_Node000033" title=" " alt="" coords="625,418,763,449,762,454,624,423"/>
+<area shape="rect" id="Node000034" href="$ft__printf_8c.html#a80c1c206dcd33d07c265581878aaa300" title="Processes a single format specifier and prints the corresponding argument." alt="" coords="967,600,1077,625"/>
+<area shape="poly" id="edge40_Node000033_Node000034" title=" " alt="" coords="850,465,877,473,903,485,945,527,1002,588,998,592,942,530,900,490,875,478,849,470"/>
+<area shape="rect" id="Node000038" href="$ft__putchar__fd_8c.html#a03ef80b25dc4a521379fa92ad97bad21" title="Writes a single character to the specified file descriptor." alt="" coords="1167,477,1273,503"/>
+<area shape="poly" id="edge53_Node000033_Node000038" title=" " alt="" coords="850,469,897,479,950,487,1057,493,1153,491,1153,496,1057,498,949,493,896,485,849,474"/>
+<area shape="rect" id="Node000035" href="$ft__forpointer_8c.html#a8e02c77b80406af72327ebf71f537786" title="Prints a pointer in hexadecimal format prefixed with &quot;0x&quot;." alt="" coords="1169,772,1271,797"/>
+<area shape="poly" id="edge41_Node000034_Node000035" title=" " alt="" coords="1032,624,1074,688,1106,726,1144,758,1157,766,1155,771,1141,763,1102,730,1070,691,1028,627"/>
+<area shape="rect" id="Node000037" href="$ft__hexadecimal_8c.html#a39c845e0a4286d3ac1e04c1e64ac734b" title="Prints an unsigned integer in hexadecimal format." alt="" coords="1159,600,1281,625"/>
+<area shape="poly" id="edge44_Node000034_Node000037" title=" " alt="" coords="1078,610,1145,610,1145,615,1078,615"/>
+<area shape="poly" id="edge46_Node000034_Node000038" title=" " alt="" coords="1034,598,1079,557,1109,533,1141,513,1158,505,1160,510,1144,518,1112,538,1083,561,1038,601"/>
+<area shape="rect" id="Node000039" href="$ft__putnbr__fd_8c.html#a1554101ee350c316340c78e19faddaa8" title="Writes an integer to a given file descriptor." alt="" coords="1170,673,1270,699"/>
+<area shape="poly" id="edge47_Node000034_Node000039" title=" " alt="" coords="1058,623,1172,666,1171,671,1056,628"/>
+<area shape="rect" id="Node000040" href="$ft__putstr__fd_8c.html#a00b0638f31a75c7a30f77f33888bfb73" title="Writes a null&#45;terminated string to the specified file descriptor." alt="" coords="1172,723,1268,748"/>
+<area shape="poly" id="edge49_Node000034_Node000040" title=" " alt="" coords="1037,623,1082,665,1112,689,1144,709,1160,717,1158,721,1141,714,1109,693,1078,669,1034,627"/>
+<area shape="rect" id="Node000041" href="$ft__unsigned__putnbr_8c.html#af9a70f8607b40cf2a7706f9d3725b549" title="Writes an unsigned integer to the given file descriptor." alt="" coords="1147,527,1293,552"/>
+<area shape="poly" id="edge50_Node000034_Node000041" title=" " alt="" coords="1053,597,1142,562,1165,554,1167,559,1144,567,1055,602"/>
+<area shape="rect" id="Node000036" href="$ft__forpointer_8c.html#aded1bf735c8a10e47396170d27c5b6aa" title="Recursively prints a memory address in hexadecimal format." alt="" coords="1345,772,1492,797"/>
+<area shape="poly" id="edge42_Node000035_Node000036" title=" " alt="" coords="1272,782,1331,782,1331,787,1272,787"/>
+<area shape="poly" id="edge43_Node000036_Node000036" title=" " alt="" coords="1386,773,1379,764,1383,754,1396,748,1419,745,1446,749,1457,758,1454,762,1444,754,1419,751,1398,753,1387,757,1384,763,1390,770"/>
+<area shape="poly" id="edge45_Node000037_Node000037" title=" " alt="" coords="1187,601,1181,592,1184,582,1198,576,1220,573,1247,577,1258,586,1255,590,1245,582,1220,579,1199,581,1188,585,1186,591,1192,598"/>
+<area shape="poly" id="edge48_Node000039_Node000039" title=" " alt="" coords="1187,675,1181,665,1184,655,1198,649,1220,647,1247,650,1258,659,1255,663,1245,655,1220,652,1199,654,1188,659,1186,664,1192,672"/>
+<area shape="rect" id="Node000042" href="$ft__putnbr_8c.html#a2e51f80c9e46e52f4adf94617fb51ada" title="Writes an integer to the standard output (stdout)." alt="" coords="1379,527,1459,552"/>
+<area shape="poly" id="edge51_Node000041_Node000042" title=" " alt="" coords="1294,537,1364,537,1364,542,1294,542"/>
+<area shape="poly" id="edge52_Node000042_Node000042" title=" " alt="" coords="1386,528,1379,518,1383,508,1396,502,1419,500,1446,504,1457,512,1454,517,1444,508,1419,505,1398,507,1387,512,1384,518,1390,525"/>
+<area shape="rect" id="Node000045" href="$handle__tokens_8c.html#ab9034fcc1e006dc98dfc000f28f1aab8" title="Sets the quote type and corresponding flag." alt="" coords="768,499,857,524"/>
+<area shape="poly" id="edge56_Node000044_Node000045" title=" " alt="" coords="640,509,754,509,754,514,640,514"/>
+<area shape="poly" id="edge60_Node000046_Node000019" title=" " alt="" coords="647,551,674,535,688,517,695,500,697,463,700,425,707,406,722,387,738,375,757,368,759,373,741,380,726,391,712,408,705,426,703,463,700,501,693,520,678,539,649,555"/>
+<area shape="rect" id="Node000047" href="$utils__token_8c.html#a51f971c32b38d16d3acd01a9f26a94c9" title="Checks if the string contains the exit status variable &quot;$?&quot;." alt="" coords="751,597,874,623"/>
+<area shape="poly" id="edge58_Node000046_Node000047" title=" " alt="" coords="646,571,741,592,740,597,645,576"/>
+<area shape="rect" id="Node000048" href="$utils__env_8c.html#a43ecaeb2991db8347a59f45f96e8a21f" title="Checks if the string contains the character &#39;$&#39;, indicating an environment variable." alt="" coords="752,548,873,573"/>
+<area shape="poly" id="edge59_Node000046_Node000048" title=" " alt="" coords="648,558,738,558,738,563,648,563"/>
+<area shape="poly" id="edge63_Node000049_Node000028" title=" " alt="" coords="425,723,529,747,528,753,424,728"/>
+<area shape="poly" id="edge65_Node000049_Node000029" title=" " alt="" coords="449,705,753,688,753,693,450,711"/>
+<area shape="poly" id="edge64_Node000049_Node000046" title=" " alt="" coords="386,698,554,579,557,584,390,702"/>
+<area shape="poly" id="edge67_Node000050_Node000028" title=" " alt="" coords="421,799,528,774,529,779,422,804"/>
+<area shape="poly" id="edge70_Node000050_Node000029" title=" " alt="" coords="422,816,476,817,540,814,609,805,675,786,708,770,739,750,788,708,792,712,742,754,711,775,677,791,610,810,541,819,476,822,422,821"/>
+<area shape="poly" id="edge68_Node000050_Node000030" title=" " alt="" coords="422,824,531,849,529,854,421,829"/>
+<area shape="poly" id="edge69_Node000050_Node000046" title=" " alt="" coords="383,799,447,736,515,653,567,583,571,586,519,657,451,740,387,803"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ft_memset" name="ft_memset">
+<area shape="rect" id="Node000001" title="Fills a block of memory with a specific byte value." alt="" coords="129,5,221,31"/>
+<area shape="rect" id="Node000002" href="$ft__calloc_8c.html#a55cb9602200ccf92a7f43e58c6ee2679" title="Allocates memory for an array and initializes it to zero." alt="" coords="5,5,81,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,21,82,21,82,15,116,15"/>
+</map>

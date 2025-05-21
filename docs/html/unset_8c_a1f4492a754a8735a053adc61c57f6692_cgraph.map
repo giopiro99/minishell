@@ -1,0 +1,17 @@
+<map id="ft_find_unset_var" name="ft_find_unset_var">
+<area shape="rect" id="Node000001" title="Finds the index of a variable in the environment." alt="" coords="5,56,139,81"/>
+<area shape="rect" id="Node000002" href="$ft__strcmp_8c.html#a1f2ff2312e5994560c9537cd9173be94" title="Compares two null&#45;terminated strings lexicographically." alt="" coords="203,31,285,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,56,188,49,189,54,139,62"/>
+<area shape="rect" id="Node000003" href="$utils__env__pt2_8c.html#a347832cde8b1beaad47f03caa3af78f0" title="Extracts the variable name from a &quot;KEY=VALUE&quot; string." alt="" coords="187,80,301,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,75,173,80,172,85,138,81"/>
+<area shape="rect" id="Node000004" href="$ft__substr_8c.html#a78c402cbf3d55b1374693c3b7d34f71d" title="Extracts a substring from a given string." alt="" coords="349,80,428,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,90,336,90,336,95,301,95"/>
+<area shape="rect" id="Node000005" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="478,5,557,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="411,77,481,35,484,40,413,82"/>
+<area shape="rect" id="Node000006" href="$ft__strlcpy_8c.html#aa053827b3a2ea3d0118783d6fb59d178" title="Copies up to size &#45; 1 characters from the string src to dst, null&#45;terminating the result." alt="" coords="476,55,559,80"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="428,82,462,75,463,81,429,88"/>
+<area shape="rect" id="Node000007" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="480,104,555,129"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="429,97,467,105,466,110,428,103"/>
+<area shape="rect" id="Node000008" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="496,153,539,179"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="413,103,486,145,483,150,411,108"/>
+</map>

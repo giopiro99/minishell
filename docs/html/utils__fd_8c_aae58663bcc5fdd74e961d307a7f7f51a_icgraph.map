@@ -1,0 +1,27 @@
+<map id="ft_found_heredoc" name="ft_found_heredoc">
+<area shape="rect" id="Node000001" title="Checks if there is at least one HEREDOC token in the token list." alt="" coords="1640,56,1775,81"/>
+<area shape="rect" id="Node000002" href="$redir__utils_8c.html#acd7b4a57306a2984ae26bceaa9d97888" title="Checks for following heredocs in tokens and removes the temporary file." alt="" coords="1301,5,1422,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1626,58,1592,53,1422,29,1422,23,1592,47,1627,53"/>
+<area shape="rect" id="Node000003" href="$handle__redirections_8c.html#a2834314002a1f4ef4af82f95159b0a34" title="Handles input redirection from file or heredoc." alt="" coords="1092,56,1251,81"/>
+<area shape="poly" id="edge13_Node000001_Node000003" title=" " alt="" coords="1626,71,1251,71,1251,66,1626,66"/>
+<area shape="rect" id="Node000011" href="$handle__heredoc_8c.html#ac5ba13b1edbd22e4a7e0a50fc91f80db" title="Executes a single read&#45;write cycle of the here&#45;document." alt="" coords="1472,107,1592,132"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1650,88,1578,109,1576,104,1648,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1300,37,1221,58,1219,53,1299,32"/>
+<area shape="rect" id="Node000004" href="$handle__redirections_8c.html#aa4509a43f47ed881eb2d81fb81458466" title="Handles redirections without an associated command." alt="" coords="893,49,1044,89"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1078,71,1044,71,1044,66,1078,66"/>
+<area shape="rect" id="Node000005" href="$handle__redirections_8c.html#ab2c37fefb1291d3f8d0dc91e8c096334" title="Handles redirection associated with a command." alt="" coords="703,56,845,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="879,71,846,71,846,66,879,66"/>
+<area shape="rect" id="Node000006" href="$create__command__list_8c.html#ae2006bf82a70d4753ffdca65847316ca" title="Executes a redirection for the current command." alt="" coords="556,56,655,81"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="689,71,655,71,655,66,689,66"/>
+<area shape="rect" id="Node000007" href="$create__command__list_8c.html#ad16d74756b107a98677124008c71d23b" title="Creates a command list from tokens." alt="" coords="417,56,508,81"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="542,71,508,71,508,66,542,66"/>
+<area shape="rect" id="Node000008" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,56,369,81"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="404,71,370,71,370,66,404,66"/>
+<area shape="rect" id="Node000009" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,56,213,81"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="248,71,214,71,214,66,248,66"/>
+<area shape="rect" id="Node000010" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,56,60,81"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="94,71,60,71,60,66,94,66"/>
+<area shape="rect" id="Node000012" href="$handle__heredoc_8c.html#a922eae1c49290306f7cf811bf65d9ed1" title="Handles the entire input process for a here&#45;document." alt="" coords="1299,107,1424,132"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1458,122,1425,122,1425,117,1458,117"/>
+<area shape="poly" id="edge12_Node000012_Node000003" title=" " alt="" coords="1299,106,1219,84,1221,79,1300,100"/>
+</map>

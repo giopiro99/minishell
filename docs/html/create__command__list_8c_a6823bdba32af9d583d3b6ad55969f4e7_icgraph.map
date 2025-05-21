@@ -1,0 +1,13 @@
+<map id="ft_estatus_to_str" name="ft_estatus_to_str">
+<area shape="rect" id="Node000001" title="Expands the exit status variable $? in a string." alt="" coords="685,5,816,31"/>
+<area shape="rect" id="Node000002" href="$create__command__list_8c.html#a9fb2e7501277f2f93e5c7042fec32429" title="Adds an argument to the command’s argument list." alt="" coords="556,5,637,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="671,21,638,21,638,15,671,15"/>
+<area shape="rect" id="Node000003" href="$create__command__list_8c.html#ad16d74756b107a98677124008c71d23b" title="Creates a command list from tokens." alt="" coords="417,5,508,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="543,21,508,21,508,15,543,15"/>
+<area shape="rect" id="Node000004" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,5,369,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="404,21,370,21,370,15,404,15"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,5,213,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="248,21,214,21,214,15,248,15"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

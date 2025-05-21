@@ -1,0 +1,5 @@
+<map id="ft_strlcat" name="ft_strlcat">
+<area shape="rect" id="Node000001" title="Concatenates &#39;src&#39; to the end of &#39;dst&#39; with size limit." alt="" coords="5,5,84,31"/>
+<area shape="rect" id="Node000002" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="132,5,175,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,15,119,15,119,21,84,21"/>
+</map>

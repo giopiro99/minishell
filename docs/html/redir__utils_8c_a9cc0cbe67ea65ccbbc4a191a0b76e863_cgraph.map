@@ -1,0 +1,8 @@
+<map id="ft_get_file_name" name="ft_get_file_name">
+<area shape="rect" id="Node000001" title="Gets the filename from a token based on redirection type and assigns it to the command." alt="" coords="5,31,136,56"/>
+<area shape="rect" id="Node000002" href="$redir__utils_8c.html#ad4b61aab1ceefdbef3527f934f78618d" title="Assigns the output file name and append flag based on redirection type." alt="" coords="184,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,32,170,27,171,33,136,37"/>
+<area shape="rect" id="Node000003" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="383,31,461,56"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="136,41,369,41,369,46,136,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,27,370,33,369,38,335,32"/>
+</map>

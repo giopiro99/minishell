@@ -1,0 +1,7 @@
+<map id="ft_strjoin" name="ft_strjoin">
+<area shape="rect" id="Node000001" title="Concatenates two strings into a newly allocated string." alt="" coords="5,31,84,56"/>
+<area shape="rect" id="Node000002" href="$ft__memcpy_8c.html#a41a6f05af30cf85ff63a08e383826322" title="Copies &#39;n&#39; bytes from memory area &#39;src&#39; to memory area &#39;dest&#39;." alt="" coords="132,5,227,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,33,118,27,119,32,85,39"/>
+<area shape="rect" id="Node000003" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="142,55,217,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="85,48,129,56,128,61,84,53"/>
+</map>

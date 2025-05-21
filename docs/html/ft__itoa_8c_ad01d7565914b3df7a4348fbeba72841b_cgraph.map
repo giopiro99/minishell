@@ -1,0 +1,5 @@
+<map id="get_len" name="get_len">
+<area shape="rect" id="Node000001" title="Calculates the number of characters needed to represent an integer as a string." alt="" coords="5,5,76,31"/>
+<area shape="rect" id="Node000002" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="124,5,167,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,15,110,15,110,21,77,21"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="ft_echo" name="ft_echo">
+<area shape="rect" id="Node000001" title="Implements the builtin echo command." alt="" coords="5,220,75,245"/>
+<area shape="rect" id="Node000002" href="$ft__echo_8c.html#a6d94bdec6ee53c40116419689fb51a8d" title="Advances through the token list until reaching the requested argument index." alt="" coords="123,83,291,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,219,72,169,94,141,121,117,130,112,133,116,124,121,98,145,77,172,49,221"/>
+<area shape="rect" id="Node000003" href="$free__functions_8c.html#a451c65e7c59e947c1880d1f75d866e3a" title="Frees all resources associated with a list of pipes and the environment." alt="" coords="153,132,260,157"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="59,218,121,180,161,160,163,165,124,184,62,222"/>
+<area shape="rect" id="Node000008" href="$ft__echo_8c.html#a51dc5690fc35d1d3b48737d44e3522e5" title="Checks for the presence of the &#45;n option in the echo command." alt="" coords="124,195,289,220"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="75,225,110,219,111,225,75,230"/>
+<area shape="rect" id="Node000009" href="$utils__fd_8c.html#a184b4852a6ca5544cc056e7a8e20e4ad" title="Handles opening and validating file descriptors for command input/output." alt="" coords="169,244,245,269"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="75,235,155,247,155,252,75,240"/>
+<area shape="rect" id="Node000013" href="$ft__echo_8c.html#a29c6d0836af22558db986ff336c9062b" title="Writes the echo command arguments to the specified file descriptor." alt="" coords="152,293,261,319"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="61,243,90,262,124,280,142,287,140,292,122,284,87,266,58,248"/>
+<area shape="rect" id="Node000015" href="$utils__pipes_8c.html#aa5bc406fd1d5aadd2018c5c2061d31ba" title="Restores the previously duplicated standard input." alt="" coords="155,343,258,368"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="51,244,79,286,100,309,124,329,144,339,141,344,121,334,96,313,75,290,46,247"/>
+<area shape="rect" id="Node000004" href="$free__functions_8c.html#a32c72055f1119062342fcdf42527c05c" title="Frees a list of commands." alt="" coords="389,5,471,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,132,289,117,305,101,312,84,321,66,337,48,374,28,377,33,340,52,325,69,317,86,309,104,292,121,262,137"/>
+<area shape="rect" id="Node000005" href="$ft__free__matrix_8c.html#a1ea6d1f3b50d1c23d4f0faddd1a13448" title="Frees a NULL&#45;terminated matrix of strings." alt="" coords="569,31,684,56"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="254,129,290,117,313,104,338,92,394,75,452,62,555,47,556,52,453,68,395,80,340,96,316,109,292,122,256,134"/>
+<area shape="rect" id="Node000006" href="$free__functions_8c.html#a87de2a27d0e0e99f3de0b477731181e0" title="Frees a list of pipes." alt="" coords="389,107,471,132"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="260,136,375,123,375,128,261,141"/>
+<area shape="rect" id="Node000007" href="$free__functions_8c.html#a4f32f08947270b8aec54f43ddd8b02d4" title="Frees a list of tokens." alt="" coords="385,156,475,181"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="261,148,371,160,371,165,260,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="472,21,556,32,555,37,471,26"/>
+<area shape="rect" id="Node000010" href="$utils__fd_8c.html#ae6ad7aa33393749b9dc5eac6b61cdf74" title="Returns the correct file descriptor based on append flag and file." alt="" coords="369,205,491,231"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="244,248,355,228,355,234,245,253"/>
+<area shape="rect" id="Node000011" href="$utils__fd_8c.html#a9cf70d06db18597b04bb642db7abab4a" title="Checks if a file descriptor is valid." alt="" coords="579,231,675,256"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="245,253,565,243,565,248,245,258"/>
+<area shape="rect" id="Node000012" href="$utils__pipes_8c.html#a4112bdd2bc0766ff52195f2ab3a53339" title="Handles input redirection from a file." alt="" coords="339,307,521,332"/>
+<area shape="poly" id="edge13_Node000009_Node000012" title=" " alt="" coords="246,265,372,300,370,306,244,270"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="492,223,566,233,565,238,491,229"/>
+<area shape="rect" id="Node000014" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="393,356,467,381"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="251,316,339,342,380,353,378,358,338,347,250,321"/>
+</map>

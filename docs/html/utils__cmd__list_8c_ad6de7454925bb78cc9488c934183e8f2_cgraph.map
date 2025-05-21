@@ -1,0 +1,22 @@
+<map id="process_command" name="process_command">
+<area shape="rect" id="Node000001" title="Processes a command token." alt="" coords="5,119,149,144"/>
+<area shape="rect" id="Node000002" href="$utils__cmd__list_8c.html#a266a0961e603ebf86561da796a4a0cfd" title="Creates and adds a new command node to the list." alt="" coords="197,93,299,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,118,183,113,184,118,150,123"/>
+<area shape="rect" id="Node000008" href="$redir__utils_8c.html#a9cc0cbe67ea65ccbbc4a191a0b76e863" title="Gets the filename from a token based on redirection type and assigns it to the command." alt="" coords="347,157,477,183"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="150,137,333,158,333,164,149,142"/>
+<area shape="rect" id="Node000003" href="$utils__cmd__list_8c.html#a8f03e9f309a1fd0b2f003f070e82b1bb" title="Adds a t_cmd node to the command list." alt="" coords="353,19,471,44"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="276,91,370,47,372,52,278,96"/>
+<area shape="rect" id="Node000006" href="$utils__cmd__list_8c.html#a5668bb086874f4eac3b64300b787367b" title="Creates a new command list node." alt="" coords="361,93,463,119"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="299,103,347,103,347,109,299,109"/>
+<area shape="rect" id="Node000004" href="$utils__token_8c.html#ab94cb586647a70372e436ef3214797ad" title="Creates a new token node." alt="" coords="555,5,647,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="471,24,540,20,540,25,472,30"/>
+<area shape="rect" id="Node000005" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="724,107,803,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="638,28,677,48,711,71,740,95,736,99,708,75,675,52,636,33"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="463,95,562,87,619,87,676,91,715,100,714,105,676,97,619,92,562,92,464,101"/>
+<area shape="rect" id="Node000007" href="$ft__bzero_8c.html#a5937ab0d08e31d0e3e4a16ec71e293a1" title="Sets the first &#39;n&#39; bytes of the memory area pointed to by &#39;s&#39; to zero." alt="" coords="563,107,638,132"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="464,107,550,113,550,118,463,112"/>
+<area shape="poly" id="edge11_Node000008_Node000005" title=" " alt="" coords="477,165,571,157,675,142,711,133,713,138,677,147,572,162,478,170"/>
+<area shape="rect" id="Node000009" href="$redir__utils_8c.html#ad4b61aab1ceefdbef3527f934f78618d" title="Assigns the output file name and append flag based on redirection type." alt="" coords="525,208,676,233"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="461,180,540,202,539,207,460,185"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="636,205,675,186,708,163,736,140,740,144,711,168,677,191,638,210"/>
+</map>

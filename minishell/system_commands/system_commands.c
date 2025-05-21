@@ -6,11 +6,39 @@
 /*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 11:05:25 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 19:11:01 by gpirozzi         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:29:34 by gpirozzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "system_commands.h"
+
+#include <stdbool.h>
+
+/**
+ * @brief Checks if a command is composed only of '.' and '/'.
+ *
+ * This helps to detect invalid commands like ".", "./", "././", etc.,
+ * which are not executable files but directories or incomplete paths.
+ *
+ * @param str The command string to check
+ * @return true If the command is made only of '.' and '/'
+ * @return false Otherwise
+ */
+bool	ft_is_only_dot_slash(const char *str)
+{
+	int	i;
+
+	if (!str)
+		return (true);
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] != '.' && str[i] != '/')
+			return (false);
+		i++;
+	}
+	return (true);
+}
 
 /**
  * @brief Searches for the executable path of a command.
@@ -31,9 +59,9 @@ char	*ft_path_finder(t_env *env, t_cmd *cmd)
 	int		i;
 
 	i = 0;
-	if (cmd->cmd[0] == '.' || cmd->cmd[0] == '/' || (cmd->cmd[0] == '.' && cmd->cmd[1] == '/'))
+	if (cmd->cmd[0] == '.' || cmd->cmd[0] == '/')
 	{
-		if ((cmd->cmd[0] == '.' && !cmd->cmd[1]) || (cmd->cmd[0] == '.' && cmd->cmd[1] == '/' && !cmd->cmd[2]))
+		if (ft_is_only_dot_slash(cmd->cmd))
 			return (NULL);
 		if (access(cmd->cmd, X_OK) == 0)
 			return (ft_strdup(cmd->cmd));

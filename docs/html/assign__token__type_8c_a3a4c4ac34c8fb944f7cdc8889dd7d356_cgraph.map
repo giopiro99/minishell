@@ -1,0 +1,14 @@
+<map id="assign_pipe" name="assign_pipe">
+<area shape="rect" id="Node000001" title="Handles the type assignment for PIPE tokens." alt="" coords="5,31,104,56"/>
+<area shape="rect" id="Node000002" href="$assign__token__type_8c.html#a51e5006d1819ae97939773490b75ffaa" title="Assigns correct types to the tokens in the list (COMMAND, ARGUMENT, FILE_, DELIMITER,..." alt="" coords="152,31,303,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,49,138,50,138,55,104,54"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="152,37,118,37,118,32,152,32"/>
+<area shape="rect" id="Node000003" href="$assign__token__type_8c.html#a49da08d963b46b3158a79a9fc120a759" title="Assigns COMMAND or ARGUMENT type to a token." alt="" coords="352,5,451,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,30,338,24,339,30,303,35"/>
+<area shape="rect" id="Node000004" href="$assign__token__type_8c.html#afe8f8f4301ccbcd33344e893f665c442" title="Correctly assigns types to tokens related to redirections and here&#45;documents." alt="" coords="351,55,452,80"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="303,51,338,56,337,61,302,56"/>
+<area shape="rect" id="Node000005" href="$utils__token__pt2_8c.html#a80ff8a93c96a15856a12c406efa61cf7" title="Checks if the token represents a redirection." alt="" coords="504,29,575,55"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="452,55,490,48,491,54,453,61"/>
+<area shape="rect" id="Node000006" href="$utils__token__pt2_8c.html#a10926033b2c368f9697d5725d8416844" title="Checks if the token represents whitespace or invalid characters (garbage)." alt="" coords="500,79,579,104"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="453,74,487,80,486,85,452,79"/>
+</map>

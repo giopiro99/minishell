@@ -1,0 +1,28 @@
+<map id="is_space" name="is_space">
+<area shape="rect" id="Node000001" title="Checks if the token represents whitespace or invalid characters (garbage)." alt="" coords="972,55,1051,80"/>
+<area shape="rect" id="Node000002" href="$assign__token__type_8c.html#afe8f8f4301ccbcd33344e893f665c442" title="Correctly assigns types to tokens related to redirections and here&#45;documents." alt="" coords="807,5,909,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="958,53,898,33,899,28,960,48"/>
+<area shape="rect" id="Node000009" href="$check__sintax__utils_8c.html#ad8979b4383535e8fa301630e112254bf" title="Checks the syntax related to a command." alt="" coords="792,55,924,80"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="959,70,924,70,924,65,959,65"/>
+<area shape="rect" id="Node000011" href="$check__sintax_8c.html#a8ed15b7dba2bb1e02a43dae2f00459af" title="Checks the syntax of the entire token list." alt="" coords="428,104,535,129"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="959,86,924,94,816,108,708,116,535,120,535,115,708,110,816,103,924,89,958,81"/>
+<area shape="rect" id="Node000003" href="$assign__token__type_8c.html#a51e5006d1819ae97939773490b75ffaa" title="Assigns correct types to the tokens in the list (COMMAND, ARGUMENT, FILE_, DELIMITER,..." alt="" coords="593,5,744,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="794,21,744,21,744,15,794,15"/>
+<area shape="rect" id="Node000004" href="$assign__token__type_8c.html#a3a4c4ac34c8fb944f7cdc8889dd7d356" title="Handles the type assignment for PIPE tokens." alt="" coords="432,5,531,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="580,30,531,29,531,23,580,24"/>
+<area shape="rect" id="Node000005" href="$tokenize__input_8c.html#a040acaabf04da0b8d7ce5da9c1d210d8" title="Assigns types to tokens and applies command&#45;specific rules." alt="" coords="417,55,545,80"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="608,37,531,57,530,52,606,32"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="544,7,593,6,593,12,544,12"/>
+<area shape="rect" id="Node000006" href="$tokenize__input_8c.html#a4e40c3f57ab2488a2b49f37846785b2e" title="Tokenizes the entire user input string." alt="" coords="277,55,354,80"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="404,70,354,70,354,65,404,65"/>
+<area shape="rect" id="Node000007" href="$main__utils_8c.html#ae35edfb8f1339d6f77f53c28eb2a2ed6" title="Handles a complete cycle of input → parsing → execution." alt="" coords="108,80,213,105"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="263,78,214,87,213,81,262,73"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#ab3862b46d6a8d13c2d884a297e6b05b5" title="Main function of the minishell." alt="" coords="5,80,60,105"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="94,95,60,95,60,90,94,90"/>
+<area shape="rect" id="Node000010" href="$check__sintax_8c.html#a3dadca8fc2261c0e335299829d01f84b" title="Checks for syntax errors on a single token." alt="" coords="607,55,730,80"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="779,70,730,70,730,65,779,65"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="608,86,531,106,530,101,606,81"/>
+<area shape="rect" id="Node000012" href="$main__utils_8c.html#a7e8f478480ab6ab34d6f5eadaf6acdb9" title="Handles parsing and execution of tokens." alt="" coords="261,104,369,129"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="414,119,369,119,369,114,414,114"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="248,109,213,103,214,98,248,104"/>
+</map>

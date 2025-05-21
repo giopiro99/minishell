@@ -1,0 +1,5 @@
+<map id="ft_too_close" name="ft_too_close">
+<area shape="rect" id="Node000001" title="Closes the file descriptor if different from 1 and restores stdin if necessary." alt="" coords="5,5,105,31"/>
+<area shape="rect" id="Node000002" href="$utils__pipes_8c.html#aa5bc406fd1d5aadd2018c5c2061d31ba" title="Restores the previously duplicated standard input." alt="" coords="153,5,256,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,15,140,15,140,21,106,21"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ft_strmapi" name="ft_strmapi">
+<area shape="rect" id="Node000001" title="Creates a new string by applying a function to each character of the input string." alt="" coords="5,31,93,56"/>
+<area shape="rect" id="Node000002" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="141,5,216,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,32,127,25,128,31,94,37"/>
+<area shape="rect" id="Node000003" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="157,55,200,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,49,145,58,144,64,93,54"/>
+</map>

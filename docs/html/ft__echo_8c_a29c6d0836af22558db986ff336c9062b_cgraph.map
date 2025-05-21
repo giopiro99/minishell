@@ -1,0 +1,5 @@
+<map id="ft_write_echo" name="ft_write_echo">
+<area shape="rect" id="Node000001" title="Writes the echo command arguments to the specified file descriptor." alt="" coords="5,5,115,31"/>
+<area shape="rect" id="Node000002" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="163,5,237,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,15,149,15,149,21,115,21"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="pipes/pipes.h" name="pipes/pipes.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="373,5,481,31"/>
+<area shape="rect" id="Node000002" href="$minishell_8h.html" title=" " alt="" coords="184,79,315,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="386,38,279,81,277,76,384,33"/>
+<area shape="rect" id="Node000006" href="$create__pipe__list_8c.html" title=" " alt="" coords="339,79,514,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="429,44,429,79,424,79,424,44"/>
+<area shape="rect" id="Node000007" href="$pipes_8c.html" title=" " alt="" coords="539,79,645,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="467,34,566,76,564,81,465,38"/>
+<area shape="rect" id="Node000003" href="$cmd__execution_8c.html" title=" " alt="" coords="5,152,173,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,112,117,154,114,149,210,107"/>
+<area shape="rect" id="Node000004" href="$main_8c.html" title=" " alt="" coords="198,152,301,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="252,118,252,152,247,152,247,118"/>
+<area shape="rect" id="Node000005" href="$main__utils_8c.html" title=" " alt="" coords="325,152,464,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="286,108,372,149,370,154,284,112"/>
+</map>

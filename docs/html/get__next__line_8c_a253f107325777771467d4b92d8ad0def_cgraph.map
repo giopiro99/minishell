@@ -1,0 +1,14 @@
+<map id="ft_getrest" name="ft_getrest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,89,56"/>
+<area shape="rect" id="Node000002" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="268,5,343,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,37,254,20,254,26,90,42"/>
+<area shape="rect" id="Node000003" href="$ft__substr_8c.html#a78c402cbf3d55b1374693c3b7d34f71d" title="Extracts a substring from a given string." alt="" coords="137,56,216,81"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="90,49,125,56,124,61,89,54"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="209,53,259,33,261,38,211,58"/>
+<area shape="rect" id="Node000004" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="266,55,345,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="216,66,253,65,253,71,216,71"/>
+<area shape="rect" id="Node000005" href="$ft__strlcpy_8c.html#aa053827b3a2ea3d0118783d6fb59d178" title="Copies up to size &#45; 1 characters from the string src to dst, null&#45;terminating the result." alt="" coords="264,104,347,129"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="213,79,259,97,257,102,211,84"/>
+<area shape="rect" id="Node000006" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="284,153,327,179"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="193,79,266,140,273,145,270,150,262,144,190,83"/>
+</map>

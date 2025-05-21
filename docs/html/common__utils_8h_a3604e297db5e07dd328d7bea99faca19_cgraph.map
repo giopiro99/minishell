@@ -1,0 +1,5 @@
+<map id="ft_assign_spaces" name="ft_assign_spaces">
+<area shape="rect" id="Node000001" title="Assigns the token type for space tokens based on surrounding context." alt="" coords="5,5,137,31"/>
+<area shape="rect" id="Node000002" href="$utils__token__pt2_8c.html#a4b9fd6f04c0b37820d575167acc78f59" title="Checks if a string is a valid sequence of &#39;&#45;n&#39; for the echo command." alt="" coords="185,5,303,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,15,172,15,172,21,137,21"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ft_realloc_mtx" name="ft_realloc_mtx">
+<area shape="rect" id="Node000001" title="Reallocates a NULL&#45;terminated matrix of strings to a new size." alt="" coords="5,31,120,56"/>
+<area shape="rect" id="Node000002" href="$ft__free__matrix_8c.html#a1ea6d1f3b50d1c23d4f0faddd1a13448" title="Frees a NULL&#45;terminated matrix of strings." alt="" coords="168,5,283,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,32,154,26,154,32,121,37"/>
+<area shape="rect" id="Node000003" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="186,55,265,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,49,173,57,172,62,120,54"/>
+</map>

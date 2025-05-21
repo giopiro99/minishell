@@ -1,0 +1,7 @@
+<map id="ft_get_env_value" name="ft_get_env_value">
+<area shape="rect" id="Node000001" title="Finds the value of an environment variable given its name key." alt="" coords="5,31,139,56"/>
+<area shape="rect" id="Node000002" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="195,5,269,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,30,181,23,181,29,139,35"/>
+<area shape="rect" id="Node000003" href="$ft__strncmp_8c.html#a9d2fe792187aa4ed08e5864fb2c4d6dc" title="Compares up to n characters of two strings." alt="" coords="187,55,277,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,51,173,56,173,61,138,56"/>
+</map>

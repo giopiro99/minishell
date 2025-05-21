@@ -1,0 +1,13 @@
+<map id="ft_lstmap" name="ft_lstmap">
+<area shape="rect" id="Node000001" title="Creates a new list by applying a function to each element of an existing list." alt="" coords="5,55,88,80"/>
+<area shape="rect" id="Node000002" href="$ft__lstadd__back_8c.html#a4c10e88fffc3c9467eb16e6debd227a4" title="Adds a new node at the end of a linked list." alt="" coords="136,5,252,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,52,141,33,143,38,86,57"/>
+<area shape="rect" id="Node000004" href="$ft__lstclear_8c.html#a6e900cfaea2857bbf490f3105e38da93" title="Deletes and frees all nodes of a linked list." alt="" coords="151,55,237,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="88,65,137,65,137,70,88,70"/>
+<area shape="rect" id="Node000006" href="$ft__lstnew_8c.html#a8fe4ea6f56f5a2a75ee13d97416b60ed" title="Creates a new list node with specified content." alt="" coords="153,104,235,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="86,78,143,97,141,102,84,83"/>
+<area shape="rect" id="Node000003" href="$ft__lstlast_8c.html#aed5f9b5ecc45235a7b7cf9d4b24e43dc" title="Returns the last node of a linked list." alt="" coords="310,5,389,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="252,15,296,15,296,21,252,21"/>
+<area shape="rect" id="Node000005" href="$ft__lstdelone_8c.html#ac2b881501f9ee2f3ed5718f6d9ebee7c" title="Deletes and frees a single node of a linked list." alt="" coords="300,55,399,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="237,65,286,65,286,70,237,70"/>
+</map>

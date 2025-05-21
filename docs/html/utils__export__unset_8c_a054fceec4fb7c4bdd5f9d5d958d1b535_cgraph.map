@@ -1,0 +1,7 @@
+<map id="is_valid_identifier" name="is_valid_identifier">
+<area shape="rect" id="Node000001" title="Checks if a string is a valid identifier for an environment variable." alt="" coords="5,31,143,56"/>
+<area shape="rect" id="Node000002" href="$ft__isalnum_8c.html#a9c2c3821ea43ebdf97de07b123503f8b" title="Checks whether a character is alphanumeric." alt="" coords="191,5,281,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,30,177,24,178,30,143,35"/>
+<area shape="rect" id="Node000003" href="$ft__isalpha_8c.html#ac283963beaa3b8c7d09b78851cda297e" title="Checks whether a character is an alphabetic letter." alt="" coords="193,55,279,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,51,180,56,179,62,143,56"/>
+</map>

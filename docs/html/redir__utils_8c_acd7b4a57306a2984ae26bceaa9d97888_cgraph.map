@@ -1,0 +1,5 @@
+<map id="ft_end_heredoc" name="ft_end_heredoc">
+<area shape="rect" id="Node000001" title="Checks for following heredocs in tokens and removes the temporary file." alt="" coords="5,5,127,31"/>
+<area shape="rect" id="Node000002" href="$utils__fd_8c.html#aae58663bcc5fdd74e961d307a7f7f51a" title="Checks if there is at least one HEREDOC token in the token list." alt="" coords="175,5,309,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,15,161,15,161,21,127,21"/>
+</map>

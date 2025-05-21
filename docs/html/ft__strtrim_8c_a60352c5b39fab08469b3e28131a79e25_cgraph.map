@@ -1,0 +1,10 @@
+<map id="ft_strtrim" name="ft_strtrim">
+<area shape="rect" id="Node000001" title="Trims characters from the start and end of a string." alt="" coords="5,22,88,48"/>
+<area shape="rect" id="Node000002" href="$ft__strlcat_8c.html#a3ab017dd491d7327d1b4acbf1398b91e" title="Returns the length of a null&#45;terminated string." alt="" coords="264,22,307,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,20,136,7,176,3,217,7,252,18,250,23,215,12,176,8,136,12,84,25"/>
+<area shape="rect" id="Node000003" href="$ft__strtrim_8c.html#ae29783e854ce412e51113eeae09415e2" title=" " alt="" coords="136,22,216,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,32,122,32,122,38,88,38"/>
+<area shape="rect" id="Node000004" href="$ft__strtrim_8c.html#a71d563401eb940329d5dd4c7c3fbdd35" title=" " alt="" coords="136,72,216,97"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="82,45,130,64,128,69,80,50"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="204,69,250,48,253,53,206,74"/>
+</map>

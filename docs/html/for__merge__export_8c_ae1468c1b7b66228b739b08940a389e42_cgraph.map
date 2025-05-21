@@ -1,0 +1,15 @@
+<map id="ft_merge_word_export" name="ft_merge_word_export">
+<area shape="rect" id="Node000001" title="Merges consecutive ARGUMENT tokens into a single token, used for the export command." alt="" coords="5,80,173,105"/>
+<area shape="rect" id="Node000002" href="$for__merge__export_8c.html#a8badee2557e8867921cbb0dc2873317b" title="Merges the current token&#39;s value with the next token&#39;s value." alt="" coords="256,31,341,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,77,242,54,243,59,145,83"/>
+<area shape="rect" id="Node000006" href="$ft__strdup_8c.html#aebe73f27c70c56ac5053f860ef5436c9" title="Duplicates a null&#45;terminated string by allocating memory." alt="" coords="259,80,338,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="174,90,246,90,246,95,174,95"/>
+<area shape="rect" id="Node000007" href="$utils__token_8c.html#af9e2ea59c99233265f752bf7fb34a4a5" title="Removes a specific token node from the linked list." alt="" coords="221,129,376,155"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="145,103,232,124,230,129,143,108"/>
+<area shape="rect" id="Node000003" href="$ft__strjoin_8c.html#a91e6e3e428bcc9f2291b700e1829b82b" title="Concatenates two strings into a newly allocated string." alt="" coords="424,31,503,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,41,410,41,410,46,342,46"/>
+<area shape="rect" id="Node000004" href="$ft__memcpy_8c.html#a41a6f05af30cf85ff63a08e383826322" title="Copies &#39;n&#39; bytes from memory area &#39;src&#39; to memory area &#39;dest&#39;." alt="" coords="551,5,645,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="502,33,537,27,538,32,503,39"/>
+<area shape="rect" id="Node000005" href="$ft__strlen_8c.html#a828402378653640f545a4be2e00e92f9" title="Calculates the length of a null&#45;terminated string." alt="" coords="561,55,635,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="503,48,547,56,546,61,502,53"/>
+</map>
